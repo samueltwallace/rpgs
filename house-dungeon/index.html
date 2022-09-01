@@ -1,6 +1,6 @@
 **House on the Hill**
 
-
+<center>v. 0.1</center>
 
 ![The HOUSE](./haunted_house.jpg)
 
@@ -11,6 +11,16 @@ This adventure is system agnostic: it has no stats associated to each combat-abl
 
 You will have to do some work to fit this to your system. Threat levels are only a bare-bones scale of difficulty.
 
+All of the maps in this adventure are converted from ASCII diagrams. You need a legend for some of the text symbols I use.
+
+
+| Symbol | Feature           |
+|:-------|:------------------|
+| $      | Secret Door       |
+| #      | Trap/Hazard       |
+| o      | Point of Interest |
+
+I often refer to places on the map by relative directions (top left, right, etc.). These are relative to the map *as drawn*: top left means top left in the map, right wall is on the right side of the map, etc.
 
 
 # Overview
@@ -28,7 +38,7 @@ There are other smaller encounters throughout the house: grave goblins have been
 ## House Background
 
 
-The house is a lavish mansion set on a hill, the family home of the prosperous **Larvus family.** A merchant family of the local area, they rose to wealth long ago, and after several generations, dark things came into play. The last patriarch of the family fathered a bastard with a maid, but this child was not normal.
+The house is a small mansion set on a hill, the family home of the prosperous **Larvus family.** A merchant family of the local area, they rose to wealth long ago, and after several generations, dark things came into play. The last patriarch of the family fathered a bastard with a maid, but this child was not normal.
 
 
 ***********************************************************
@@ -118,7 +128,7 @@ The grounds are patrolled by **Wolves** (threat level 1). They do not enter the 
 In the grave plot, **Grave Goblins** (threat level 1) are munching on the bones of past Larvuses. They have keen noses and are attracted to meat that is spoiled or worse. They are defensive of their new meal, but don't venture far from it.
 
 
-The Greenhouse contains 3 rows of overgrown carnivorous plants. The plants that can do so snap at anyone that gets too close, or ensnare with their overflowing roots. They individually have a threat level of 1. 
+The Greenhouse contains 3 rows of overgrown carnivorous plants. The plants that can do so snap at anyone that gets too close, or ensnare with their overflowing roots. They individually have a threat level of 2. 
 
 ## Ground Floor
 
@@ -126,8 +136,8 @@ The Greenhouse contains 3 rows of overgrown carnivorous plants. The plants that 
 
 ******************************************************
 *                                     .-------.
-*                                    /         \
-*             +------------------+--'           +
+*                       /            /         \
+*             +--------+ --------+--'           +
 *             |                  +      5      /
 *             |                 /             /
 *             |                  |           +
@@ -146,8 +156,8 @@ The Greenhouse contains 3 rows of overgrown carnivorous plants. The plants that 
 
 1. **Foyer**: This small room has dusty coat racks, old paintings, and peeling wallpaper. A staircase in the top right corner leads upstairs. A pile of debris sits just inside the door, under a collapsed ceiling.
 2. **Dining Room**: A large table with plates of long-rotted food dominates this room. 
-3. **Living Room**: Paintings of past Larvuses decorate the walls (they have nameplates). There is a large fireplace and several formerly-expensive chairs as well.
-4. **Kitchen**: Big wooden tables, shelves, and kitchen utensils are pushed against the wall. There is an initially open trapdoor to the basement.
+3. **Living Room**: Paintings of past Larvuses decorate the walls (with nameplates). There is a large fireplace and several formerly-expensive chairs as well.
+4. **Kitchen**: Big wooden tables, shelves, and kitchen utensils are pushed against the wall. There is an initially open trapdoor to the basement. The backdoor in this room has been broken in.
 5. **Library and Study**: This study has shelves along the wall. The books talk and can communicate sensibly, though they can only hear voices. They only seem to be interested in the topic they are about. Roll on the following table to see what a randomly drawn book is about.
 
 | Roll (1d6) | Book Subject          |
@@ -181,7 +191,7 @@ The Greenhouse contains 3 rows of overgrown carnivorous plants. The plants that 
 *                                '-------+ ------'
 **********************************************************
 
-The rooms have the remains of Horace, Lily, and Jacob, and older relatives. The lower crypt is where **Wendell** (threat level 5) is living. He is a deformed humanoid with superhuman strength and speed. He hates light, but is very lonely. He came back to the manor to see what was left of his old family. 
+The rooms have the remains of Horace, Lily, and Jacob, and older relatives. The lower crypt is where **Wendell** (threat level 5) is living. He is a deformed humanoid with superhuman strength and speed. He hates light, but is very lonely. He came back to the manor to see what was left of his old family. Now he sits in the mausoleum bemoaning his own fate.
 
 
 # First Floor
@@ -202,11 +212,11 @@ The first floor features ghost encounters with the dead Larvus family. These gho
 * | | | |     |                |            |
 * +-+-+-+     +                |            |
 * |            \               |  /         |
-* |    3      |      .-+-+-+---+-+ ---------+
-* |           |      + | | |                |
+* |    3      +--$---.-+-+-+---+-+ ---------+
+* |           | o  7 + | | |                |
 * |           +------'-+-+-+      1         |
 * |           +            +                |
-* |          /      2     /                 | 
+* |          /  ### 2###  /                 | 
 * '------------------------+----------------'
 *****************************************************
 [First Floor of the Larvus Manor]
@@ -217,6 +227,7 @@ The first floor features ghost encounters with the dead Larvus family. These gho
 4. **Children's Bedroom**: 4 small beds and more toys are in this room. One of the beds is across the room from the others; it was Wendell's.
 5. **Master Bedroom**: A moldy four-poster bed is in the center of the room. An empty vanity stands next to a dresser against the wall.
 6. **Balcony**: The greenhouse can be seen from the balcony.
+7. **Safe**: A safe built into the wall contains important documents and jewelry. The passcode is lost to time.
 
 ## Ghost Encounters
 
@@ -233,9 +244,9 @@ Ghostly encounters are triggered as the party moves through the house. They must
 # Top Floor
 
 ******************************************************
-*                                     .-------.
-*                                    /         \
-*             +----------------------           +
+*                                      .-------.
+*                                     /         \
+*             +----------------------+           +
 *             |                                 /
 *             |                                /
 *             |                               +
@@ -253,8 +264,49 @@ Ghostly encounters are triggered as the party moves through the house. They must
 [Top Floor of the Larvus Manor]
 
 
-1. **Servant's Quarters**: Two small beds
+1. **Servant's Quarters**: A few small beds with footlockers are arranged around the room. 
+2. **Statue Gallery**: A dozen or so statues, busts, and mannequins are posing around the room. The statues and mannequins are animated, but can only move when not in line of sight. They cannnot move outside of the room. The animated objects have threat level 3; they can take damage.
 
+
+
+# Basement
+
+
+
+****************************************
+* +-+-+-----------+
+* | | |           |
+* +-+-+           |
+* |               .----------------.
+* |                                |
+* |      1       '-----.           |
+* |              |     |           +--.
+* |              |     |    2      $  |
+* |              |     |           |  |
+* |              |     |o          |  |
+* +--------------+     +-----------+  |
+*                                  |  |
+*    +_____________________________'  |
+*    |#           #     3           # |
+*    |  +_____________________________+
+*    |  |
+*    +  +   +   +   +   +   +
+*   /    \ / \ / \ / \ / \ / \ 
+*  +      +   +   +   +   +   \ 
+*   \                          \
+*    +          4               +----+
+*   /                               /
+*  +   +   +   +   +   +   +       /
+*   \ / \ / \ / \ / \ / \ / \     /
+*    +   +   +   +   +   +   +---+
+*                                             
+****************************************
+
+
+1. **Cellar Pantry**: Shelves of preserved food line the earthen walls. A small archway leads in the wine cellar. Stairs in the upper left lead back up to the kitchen.
+2. **Wine Cellar**: There are wine racks along the right wall of this room. Many wine bottles are smashed on the ground; the racks are mostly empty. Behind the center racks is a thin wooden sheet blocking a tunnel (the "$" on the map). Under the "o" is where Cora's jewelry is buried in a small bag.
+3. **Earthen Tunnel**: There are several **tripwire traps** (# on the map) that will trigger a ceiling collapse.
+4. **Cave**: **The Cult of the Black Eye** is digging in this room, looking for Wendell, who they refer to as "The Son." They can magically sense his presence, and have been following the signal like a compass. Remains of recent rituals are visible on the floor (dried blood, ritual circles in the dirt). The cultists have a threat level of 3.
 
 
 
@@ -270,9 +322,10 @@ Ghostly encounters are triggered as the party moves through the house. They must
  - *The Haunting of Hill House* by Shirley Jackson
  - *The Dunwich Horror* by H.P. Lovecraft
  - [Anchorhead Game](www.anchorhead-game.com)
+ - The weeping angels of Doctor Who
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
+<link rel="stylesheet" href="./house-dungeon.css">
 
 
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
