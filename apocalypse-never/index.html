@@ -12,7 +12,7 @@ Roll 1d8 for starting hitpoints and add your constitution bonus.
 
 Everyone starts with 3 days rations and a torch. Then roll as directed in Section [Equipment].
 
-When a new campaign starts, choose an XP method: gold, stunts, or relics. For gold, 1000 gold recovered gives 1 XP. For stunts, XP is awarded at the end of a session, 1 for showing up, 2 for a clever use of tools, and 3 for defying the odds. For relics, every relic sold after adventuring gives 1 XP. The XP table is shown below:
+When a new campaign starts, choose an XP method: gold, stunts, or artifacts (these methods give XP per PC). For gold, 1000 gold recovered gives 1 XP. For stunts, XP is awarded at the end of a session, 1 for showing up, 2 for a clever use of tools, and 3 for defying the odds. For artifacts, every artifact sold after adventuring gives 1 XP. The XP table is shown below:
 
 
 | Advance to Level | at XP |
@@ -30,15 +30,20 @@ You have a number of inventory slots equal to your Constitution defense. Use the
 
 You have a number of skill slots equal to your Intelligence bonus. You may fill one by memorizing a spell, training a combat or tactical skill, or training with an extra powerful weapon.
 
+You also can have the condition *deprived*. This may happen by not eating or sleeping properly. If you are deprived, you cannot regain any HP until you are not deprived.
+
 You also start with a skill. Choose one of the following:
 
-1. +1 to any skill
+1. +1 to any ability bonus and defence
 2. A spell
 3. Specialty:
    - Natural: excels in foraging, tracking, and navigating
    - Dextrous: excels in tinkering, picking locks & pockets
    - Nimble: Climbing, leaping, balancing, agility stunts
    - Stealthy: moving silently, staying out of sight, covering your tracks
+
+You can find a printable character sheet [here](./char-sheet.html).
+
    
 # Magic
 
@@ -64,7 +69,7 @@ Spells can only be cast once, and regenerate after a restful night of sleep.
 
 # Combat
 
-Combat is largely by Knave rules. Roll initiative every turn; on a 1-3 PC's go, on a 4-6, monsters go.
+Combat is largely by Knave rules. Roll initiative every round; on a 1-3 PC's go first, on a 4-6, monsters go first.
 
 Roll a d20, adding strength bonus for melee weapons and wisdom for ranged weapons, and compare to defender's Armor Defense. If the attack roll with bonuses is less than the Defense, the attack misses; when greater or equal to the Defense, roll damage. 
 
@@ -76,9 +81,29 @@ When attacking and a 1 or 20 is rolled, special effects take place. Consult the 
 | NPC | automatic miss    | -1 armor quality or scar (player choice) |
 
 
-For a scar, use the table in Cairn [here](https://cairnrpg.com/cairn-srd/#scars-1).
+For a scar, use Section [Scars]
 
 If an item reaches 0 quality, it is destroyed forever.
+
+## Scars
+
+Compare damage taken on the critical hit to the following table.
+
+|    |                                                                                                                                                                                                                        |
+|:---|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | Lasting Scar: Roll 1d6: 1: Neck, 2: Hands, 3: Eye, 4: Chest, 5: Legs, 6: Ear. Roll (Level)d8. If the total is higher than your max HP, take the new result.                                                      |
+| 2  | Rattling Blow: You’re disoriented and shaken. Describe how you refocus. Roll (Level)d8. If the total is higher than your max HP, take the new result.                                                                  |
+| 3  | Walloped: You’re sent flying and land flat on your face, winded. You are deprived until you rest for a few hours. Then, roll 1d6. Add that amount to your max HP.                                                      |
+| 4  | Broken Limb: Roll 1d6: 1-2: Leg, 3-4: Arm, 5: Rib, 6: Skull. Once mended, roll (Level)d8. If the total is higher than your max HP, take the new result.                                                          |
+| 5  | Diseased: You’re afflicted with a gross, uncomfortable infection. When you get over it, roll (Level)d8. If the total is higher than your max HP, take the new result.                                                  |
+| 6  | Reorienting Head Wound: Roll 1d6: 1-2: STR, 3-4: DEX, 5-6: Charisma. Roll 3d6. If the total is higher than your current ability score, take the new result.                                                      |
+| 7  | Hamstrung: You can barely move until you get serious help and rest. After recovery, roll 1d6. If the total is higher than your max DEX, take the new result.                                                           |
+| 8  | Deafened: You cannot hear anything until you find extraordinary aid. Regardless, make a Charisma save. If you pass, increase your max Charisma by 1d4.                                                                 |
+| 9  | Re-brained: Some hidden part of your psyche is knocked loose. Roll 1d6. If the total is higher than your max Charisma, take the new result.                                                                            |
+| 10 | Sundered: An appendage is torn off, crippled or useless. The Warden will tell you which. Then, make a Charisma save. If you pass, increase your max Charisma by 1d6.                                                   |
+| 11 | Mortal Wound: You are deprived and out of action. You die in one hour unless healed. Upon recovery, roll (Level)d8. Take the new result as your max HP.                                                                |
+| 12 | Doomed: Death seemed ever so close, but somehow you survived. If your next save against a scar is a fail, you die horribly. If you pass, roll (Level)d8. If the total is higher than your max HP, take the new result. |
+
 
 # Equipment
 
@@ -139,60 +164,53 @@ For the specific form of your weapon, roll from Knave, Liminal Horror, or Vaarn 
 
 ## Items
 
-Roll 2d4, then roll for gear on the tables corresponding to your individual die rolls.
+Roll 2d6, then roll for gear on the tables corresponding to your individual die rolls.
 
 
 ### Table 1
 
-|                       |          |                             |          |
-|:----------------------|:---------|:----------------------------|:---------|
-| **Item**              | **Cost** | **Item**                    | **Cost** |
-| Air Bladder           | 5        | Lockpicks                   | 25       |
-| Barding (horse armor) | 150      | Manacles                    | 10       |
-| Bellows               | 10       | Metal File                  | 5        |
-| Bedroll               | 5        | Mirror                      | 5        |
-| Book                  | 50       | Net                         | 10       |
-| Bucket                | 5        | Oil (1 flask)               | 2        |
-| Caltrops              | 10       | Oilskin Bag                 | 5        |
-| Chain (10ft)          | 10       | Perfume (oz)                | 15       |
-| Chalk                 | 1        | Pick                        | 10       |
-| Chisel                | 5        | Pipe                        | 3        |
-| Cook Pots             | 10       | Pulley                      | 10       |
-| Crowbar               | 10       | Pole (10ft)                 | 5        |
-| Dowsing rod           | 10       | Quill & Ink                 | 10       |
-| Drill (Manual)        | 10       | Rations (three day’s worth) | 10       |
-| Face Paint            | 10       | Rope (25ft)                 | 5        |
-| Fire Oil              | 10       | Rope ladder (25ft)          | 25       |
-| Fishing Rod           | 10       | Saw                         | 5        |
-| Glass Marbles         | 5        | Sack                        | 5        |
-| Glue                  | 5        | Saddle and bridle           | 25       |
-| Grease                | 10       | Sewing kit                  | 15       |
-| Grappling Hook        | 25       | Shovel                      | 5        |
-| Hammer                | 5        | Soap                        | 1        |
-| Holy Symbol           | 25       | Spike                       | 1        |
-| Holy Water (vial)     | 25       | Spiked Boots                | 5        |
-| Horn                  | 10       | Spyglass                    | 40       |
-| Hourglass             | 50       | Stakes (3) and mallet       | 3        |
-| Incense               | 10       | Tar                         | 10       |
-| Ladder (bulky, 10ft)  | 10       | Tent (fits 2 people, bulky) | 20       |
-| Lantern & Oil         | 10       | Tinder box (flint & steel)  | 3        |
-| Lock - (key included) | 30       | Torch                       | 1        |
-| Large Trap            | 20       | Waterskin                   | 1        |
-| Large Sponge          | 5        | Whistle                     | 5        |
-| Lens                  | 10       | Wolfsbane                   | 10       |
+
+|      |                        |      |                |      |             |      |             |
+| ---- | ---------------------- | ---- | -------------- | ---- | ----------- | ---- | ----------- |
+| 1    | Air Bladder            | 6    | Fire Oil       | 11   | Manacles    | 16   | Rope (25ft) |
+| 2    | Antitoxin              | 7    | Grappling Hook | 12   | Pick        | 17   | Spirit Ward |
+| 3    | Cart (+4 slots, bulky) | 8    | Large Sack     | 13   | Pole (10ft) | 18   | Spyglass    |
+| 4    | Chain (10ft)           | 9    | Large Trap     | 14   | Pulley      | 19   | Tinderbox   |
+| 5    | Dowsing Rod            | 10   | Lockpicks      | 15   | Repellent   | 20   | Wolfsbane   |
 
 ### Table 2
+
+|      |          |      |                |      |            |      |         |
+| ---- | -------- | ---- | -------------- | ---- | ---------- | ---- | ------- |
+| 1    | Bellows  | 6    | Cook Pots      | 11   | Grease     | 16   | Net     |
+| 2    | Bucket   | 7    | Crowbar        | 12   | Hammer     | 17   | Saw     |
+| 3    | Caltrops | 8    | Drill (Manual) | 13   | Hour Glass | 18   | Sealant |
+| 4    | Chalk    | 9    | Fishing Rod    | 14   | Metal File | 19   | Shovel  |
+| 5    | Chisel   | 10   | Glue           | 15   | Nails      | 20   | Tongs   |
+
+### Table 3
+
+|      |             |      |            |      |             |      |         |
+| ---- | ----------- | ---- | ---------- | ---- | ----------- | ---- | ------- |
+| 1    | Bottle      | 6    | Horn       | 11   | Mirror      | 16   | Soap    |
+| 2    | Card Deck   | 7    | Incense    | 12   | Perfume     | 17   | Sponge  |
+| 3    | Dice Set    | 8    | Instrument | 13   | Quill & Ink | 18   | Tar Pot |
+| 4    | Face Paint  | 9    | Lens       | 14   | Salt Pack   | 19   | Twine   |
+| 5    | Fake Jewels | 10   | Marbles    | 15   | Small Bell  | 20   | Whistle |
+
+
+### Table 4
 
 
 |   |                      |    |                                  |    |                        |    |                  |
 |---|----------------------|----|----------------------------------|----|------------------------|----|------------------|
-| 1 | Night Vision Googles | 6  | Handcuffs                        | 11 | Flashbang              | 16 | Spray paint      |
+| 1 | Night Vision Goggles | 6  | Handcuffs                        | 11 | Flashbang              | 16 | Spray paint      |
 | 2 | Zip Ties             | 7  | Grappling Hook & rope            | 12 | Directional Microphone | 17 | Laptop & Printer |
 | 3 | Binoculars           | 8  | Body bag                         | 13 | Glass cutting tools    | 18 | Kevlar rope      |
 | 4 | Chain & Lock         | 9  | Tactical Flashlight              | 14 | A box with no seam     | 19 | Good Camera      |
 | 5 | Ancient Tome         | 10 | An ivory necklace (+1 Charisma) | 15 | Lockpicks              | 20 | Bolt Cutters     |
 
-### Table 3
+### Table 5
 
 |    | Item                  |
 |:---|:----------------------|
@@ -217,7 +235,7 @@ Roll 2d4, then roll for gear on the tables corresponding to your individual die 
 | 19 | Ball Bearings (LOTS)  |
 | 20 | Glowstone             |
 
-### Table 4
+### Table 6
 
 |    | Item                                                                   |
 |:---|:-----------------------------------------------------------------------|
@@ -245,7 +263,6 @@ Roll 2d4, then roll for gear on the tables corresponding to your individual die 
 ### Additional Equipment
 
 Lists can be found [on Liminal Horror site](https://goblinarchives.github.io/LiminalHorror/Liminal%20Horror%20System/Equipment%20List/), [Vaarn site](https://vaarn.github.io/#/equipment), and [Cairn site](https://cairnrpg.com/resources/more-equipment/).
-
 
 
 
