@@ -21,7 +21,7 @@ This setting and gameplay style will be played OSR/NSR style. That means:
 
 If you want more explanation, [link](https://lithyscaphe.blogspot.com/p/principia-apocrypha.html), [link](https://cairnrpg.com/cairn-srd/#principles-for-players), and [link](https://www.youtube.com/watch?v=wRVJNkOObIU). 
 
-The rules are meant to be light, and your success at an action depends on your ability to describe it. Expect dilemmas and hard choices, not checks and hard rolls.
+The rules are meant to be light, and your success at an action depends on your ability to describe it. Expect dilemmas and hard choices, not checks and hard rolls. This should feel more like improv than a movie.
 
 I hope this doesn't sound like I want to kill you. I don't. But I want a dangerous world with consequences so that you can be pushed to do things more interesting than "I swing my sword." 
 
@@ -47,13 +47,13 @@ When a new campaign starts, choose an XP method: gold, stunts, or artifacts (the
 | 5                | 84    |
 
 
-When leveling up, roll your new level's number of d8's for new HP (if you roll below your current HP, increase HP by 1). You may also increase the ability bonuses and corresponding defenses of three different abilities by 1.
+When leveling up, roll your new level's number of d8's for new HP and add your constitution modifier (if you roll below your current HP, increase HP by 1). You may also increase the ability bonuses and corresponding defenses of three different abilities by 1.
 
 You have a number of inventory slots equal to your Constitution defense. Use them sensibly and wisely.
 
 You have a number of skill slots equal to your Intelligence bonus. You may fill one by memorizing a spell, training a combat or tactical skill, or a cybernetics implant.
 
-You also can have the condition *deprived*. This may happen by not eating or sleeping properly. If you are deprived, you cannot regain any HP until you are not deprived.
+You also can have the condition *deprived*. This may happen by not eating or sleeping properly. If you are deprived, you cannot regain any HP until you have a good night of sleep or a meal, as needed.
 
 You also start with a skill. Choose one of the following:
 
@@ -66,7 +66,7 @@ You also start with a skill. Choose one of the following:
    - Stealthy: moving silently, staying out of sight, covering your tracks
 4. Choice of [Cybernetics](https://vaarn.github.io/#/cybernetics)
 
-You can find a printable character sheet [here](./char-sheet.html).
+Record your character attributes in a manner of your choice.
 
 # Saving Throws
 
@@ -77,7 +77,7 @@ To roll a save, roll 1d20 plus the relevant ability bonus. If the result is grea
    
 # Magic
 
-Spells are held in skill slots. If you choose not to generate a spell a particular day, to fill that skill slot with a spell. However, if you gain the ability to cast two spells, you may forego generation of one spell without losing both.
+Spells are held in skill slots. If you choose not to generate a spell a particular day, you lose the ability to generate spells. However, if you gain the ability to cast two spells, you may forego generation of one spell without losing both.
 
 If you choose a spell, use [Liminal Horror](https://goblinarchives.github.io/LiminalHorror/Liminal%20Horror%20System/Magic/) to generate it.
 
@@ -103,13 +103,13 @@ Spells can only be cast once, and regenerate after a restful night of sleep.
 
 Combat is mostly freeform. There is no fixed initiative order, no standard actions, just your descriptions. If there is a competition between who does what first, roll a Dexterity Save.
 
-Roll a d20, adding strength bonus for melee weapons and wisdom for ranged weapons, and compare to defender's Armor Defense. If the attack roll with bonuses is less than the Defense, the attack misses; when greater or equal to the Defense, roll damage. 
+Roll 2d6 and add strength bonus for melee weapons, wisdom for ranged weapons, add the weapon's attack bonus, and subtract the defender's armor bonus (bottoming out at zero). This is the damage dealt. 
 
-When attacking and a 1 or 20 is rolled, special effects take place. Consult the Following table:
+When attacking and doubles are rolled, special effects take place. Consult the Following table:
 
-|     | 1                 | 20                                     |
+|     | Doubles on a Miss | Doubles on a Hit                       |
 |:---:|:-----------------:|:--------------------------------------:|
-| PC  | -1 weapon quality | roll extra damage die                  |
+| PC  | -1 weapon quality | double the roll                        |
 | NPC | automatic miss    | -1 armor quality or scar (if no armor) |
 
 
@@ -148,7 +148,7 @@ Compare damage taken on the critical hit to the following table.
 
 Armor items have *ratings.* (r). Use the following formulae:
 
-Armor Rating = 10 + r
+Armor bonus = r
 
 Inventory slots = r
 
@@ -158,13 +158,13 @@ Roll 2d6:
 
 
 
-| Roll | Rating | Armor Item |
-|:-----|--------|:-----------|
-| 1    | 0      | No Armor   |
-| 2-5  | 1      | Robes      |
-| 6-7  | 2      | Gambeson   |
-| 8-11 | 3      | Brigandine |
-| 12   | 4      | Chain      |
+| Roll | Rating | Armor Item                |
+|:-----|--------|:--------------------------|
+| 2    | 0      | No Armor                  |
+| 3-5  | 1      | Robes/Hoodie              |
+| 6-7  | 2      | Gambeson/Sturdy Coat      |
+| 8-11 | 3      | Brigandine/leather jacket |
+| 12   | 4      | Chain/Kevlar Vest         |
 
 
 Helmet and Shields provide additional armor bonuses (added on top of armor). 
@@ -186,10 +186,10 @@ Choose whether your weapon is ranged or melee.
 
 | Inventory Slots | Damage       |
 |:----------------|--------------|
-| 0               | d4 (Unarmed) |
-| 1               | d6           |
-| 2               | d8           |
-| 3               | d10          |
+| 0               | +0 (unarmed) |
+| 1               | +1           |
+| 2               | +2           |
+| 3               | +3           |
 
 For the specific form of your weapon, roll from Knave, Liminal Horror, or Vaarn equipment lists (or choose).
 
@@ -234,12 +234,12 @@ Roll 2d6, then roll for gear on the tables corresponding to your individual die 
 ### Table 4
 
 
-|   |                      |    |                                  |    |                        |    |                  |
-|---|----------------------|----|----------------------------------|----|------------------------|----|------------------|
-| 1 | Night Vision Goggles | 6  | Handcuffs                        | 11 | Flashbang              | 16 | Spray paint      |
-| 2 | Zip Ties             | 7  | Grappling Hook & rope            | 12 | Directional Microphone | 17 | Laptop & Printer |
-| 3 | Binoculars           | 8  | Body bag                         | 13 | Glass cutting tools    | 18 | Kevlar rope      |
-| 4 | Chain & Lock         | 9  | Tactical Flashlight              | 14 | A box with no seam     | 19 | Good Camera      |
+|   |                      |    |                                 |    |                        |    |                  |
+|---|----------------------|----|---------------------------------|----|------------------------|----|------------------|
+| 1 | Night Vision Goggles | 6  | Handcuffs                       | 11 | Flashbang              | 16 | Spray paint      |
+| 2 | Zip Ties             | 7  | Grappling Hook & rope           | 12 | Directional Microphone | 17 | Laptop & Printer |
+| 3 | Binoculars           | 8  | Body bag                        | 13 | Glass cutting tools    | 18 | Kevlar rope      |
+| 4 | Chain & Lock         | 9  | Tactical Flashlight             | 14 | A box with no seam     | 19 | Good Camera      |
 | 5 | Ancient Tome         | 10 | An ivory necklace (+1 Charisma) | 15 | Lockpicks              | 20 | Bolt Cutters     |
 
 ### Table 5
