@@ -1,0 +1,12 @@
+html {
+    background-image: url("./starry-sky.jpg");
+}
+
+body#md {
+    background-color:lightgray;
+}
+
+table.table {
+    max-width:680px;
+    font-size:10pt;
+}
