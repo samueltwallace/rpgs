@@ -1,4 +1,4 @@
-PWD /home/samueltwallace/repos/rpgs/samrp
+PWD /home/samueltwallace/repos/rpgs/msarpg
 INPUT /nix/store/pm3fjkvy35n1zg4sm4c7179v5dmg8rv2-texlive-combined-full-2021-final/share/texmf-var/web2c/luahbtex/lualatex.fmt
 INPUT ./msarpg-landscape.tex
 OUTPUT msarpg-landscape.log
@@ -216,4 +216,7 @@ INPUT ./fantastic_cave.jpg
 INPUT ./zombie.jpg
 INPUT ./zombie.jpg
 INPUT ./zombie.jpg
+INPUT ./station.png
+INPUT ./station.png
+INPUT ./station.png
 INPUT ./msarpg-landscape.aux

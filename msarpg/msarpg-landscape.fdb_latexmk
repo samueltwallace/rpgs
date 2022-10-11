@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1665459841 "msarpg-landscape.tex" "msarpg-landscape.pdf" "msarpg-landscape" 1665459843
+["lualatex"] 1665517158 "msarpg-landscape.tex" "msarpg-landscape.pdf" "msarpg-landscape" 1665517160
   "/etc/fonts/conf.d/00-nixos-cache.conf" 1 851 53d1dd4205c6e926acae3bd29ac4ee8b ""
   "/etc/fonts/conf.d/10-hinting-slight.conf" 1 620 5da52d777c5af2cb4b7445b81ead6c3d ""
   "/etc/fonts/conf.d/10-nixos-rendering.conf" 1 661 17217f35278132cda59a07af212c7e8a ""
@@ -33,6 +33,7 @@
   "/nix/store/pm3fjkvy35n1zg4sm4c7179v5dmg8rv2-texlive-combined-full-2021-final/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1 4410454 031539fe8920a459326817bfa7bf110c ""
   "/nix/store/pm3fjkvy35n1zg4sm4c7179v5dmg8rv2-texlive-combined-full-2021-final/share/texmf-var/web2c/luahbtex/lualatex.fmt" 1 4560378 843e7d81615812b47bf47137f2f08756 ""
   "/nix/store/pm3fjkvy35n1zg4sm4c7179v5dmg8rv2-texlive-combined-full-2021-final/share/texmf/fonts/opentype/arkandis/accanthis/AccanthisADFStdNo3-Bold.otf" 1 52400 79392cb071f1c50f7f3afc7c2312800a ""
+  "/nix/store/pm3fjkvy35n1zg4sm4c7179v5dmg8rv2-texlive-combined-full-2021-final/share/texmf/fonts/opentype/arkandis/accanthis/AccanthisADFStdNo3-Italic.otf" 1 53096 61daf2518152f189ce5a1c1bb4836c32 ""
   "/nix/store/pm3fjkvy35n1zg4sm4c7179v5dmg8rv2-texlive-combined-full-2021-final/share/texmf/fonts/opentype/arkandis/accanthis/AccanthisADFStdNo3-Regular.otf" 1 52204 616fd0b9ed883a6d9cf3d16b89c1770c ""
   "/nix/store/pm3fjkvy35n1zg4sm4c7179v5dmg8rv2-texlive-combined-full-2021-final/share/texmf/fonts/tfm/public/cm/cmex10.tfm" 1 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/nix/store/pm3fjkvy35n1zg4sm4c7179v5dmg8rv2-texlive-combined-full-2021-final/share/texmf/fonts/tfm/public/cm/cmmi10.tfm" 1 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -140,8 +141,9 @@
   "/nix/store/pm3fjkvy35n1zg4sm4c7179v5dmg8rv2-texlive-combined-full-2021-final/share/texmf/tex/luatex/luaotfload/luaotfload-unicode.lua" 1 7589 65c7651d19fe06ec17196c22c533f768 ""
   "/nix/store/pm3fjkvy35n1zg4sm4c7179v5dmg8rv2-texlive-combined-full-2021-final/share/texmf/tex/luatex/luaotfload/luaotfload.lua" 1 13565 30cc2d8cecf79afb1abb4d5c12eb919a ""
   "fantastic_cave.jpg" 1665451929 3031171 22eff76ba0f7284547ff41e0d7aaa357 ""
-  "msarpg-landscape.aux" 1665459843 32 ab05033ccbb38b00a31b200ccedf8001 "lualatex"
-  "msarpg-landscape.tex" 1665459831 11235 bbb863d97d362aac39d967b561b2d1b1 ""
+  "msarpg-landscape.aux" 1665517160 32 ab05033ccbb38b00a31b200ccedf8001 "lualatex"
+  "msarpg-landscape.tex" 1665517156 12334 37b6a933b2a84e961232a1931f036369 ""
+  "station.png" 1665515073 92997 f8c0e4d92a4cc2cb3a2b86f8bf7382d9 ""
   "zombie.jpg" 1665459654 855648 1e9da00482b94ffda98942490f3b25ee ""
   (generated)
   "/home/samueltwallace/.texlive2021/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua"
