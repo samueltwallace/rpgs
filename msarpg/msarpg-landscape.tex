@@ -1,11 +1,11 @@
-\documentclass[a4,landscape]{book}
+\documentclass[landscape]{book}
 
 \usepackage[margin=1in]{geometry}
 
 \usepackage{multirow}
 
 \usepackage{multicol}
-
+\usepackage{hyperref}
 \usepackage{microtype}
 
 \usepackage{accanthis}
@@ -33,7 +33,7 @@
 
 Sam Wallace
 
-\section*{Introduction\hrule}
+\section*{Introduction}
 Minimalist setting-agnostic RPG (\textbf{MSAPRG}) is a role--playing game and adventure inspiration pack.
 The game rules are setting agnostic, but this document includes several concepts for situations to get you started playing.
 The rules are minimalist, in that there are rules that encompass broad categories of situations, but no rules for the specific actions a player might take.
@@ -44,15 +44,16 @@ The situation should get you through 3-4 hours of gameplay; beyond that, follow 
 
 This game should be played more like a freeform game of improvisation than scripted like a movie; you should have fun by collaboratively storytelling and working together to create a dramatic story. \\
 
-My inspiration for this ruleset comes from the amazing work of Highland Paranormal Society (\emph{Tunnel Goons}), Jason Tocci (\emph{24xx} games), and Ben Milton (\emph{Maze Rats}). 
-\section*{Rules\hrule}
+My inspiration for this ruleset comes from the amazing work of Highland Paranormal Society (\emph{Tunnel Goons}), Jason Tocci (\emph{24xx} games), and Ben Milton (\emph{Maze Rats}). This work is licensed \href{https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode}{\textbf{CC BY--NC--SA}}.
+\section*{Rules}
 Every player gets a character, except the Referee who runs the rest of the world.
 Player characters have 3 traits, Strength (\textbf{STR}), Dexterity (\textbf{DEX}), and Acumen (\textbf{ACU}).
 Each of these get a bonus associated to them, ranging from +0 to +3 (no higher is allowed).
 To determine your bonuses, roll two six-sided dice (2d6), then assign bonuses that total to the lower of the two rolls. 
-Player characters also have inventory slots, generate similarly by taking the lower roll of a 2d6 roll. \\
+Player characters also have inventory slots, used only for particularly bulky items, generated similarly by taking the lower roll of a 2d6 roll. \\
 
-Players may also start with, or gain throughout play, items, powers, or proficiencies as seems fit to their character and the setting. \\
+Players may also start with, or gain throughout play, items, powers, or proficiencies as seems fit to their character and the setting. These should be adjudicated during play and should make sense to the game. \\
+
 
 Player characters will encounter dangerous or risky situations throughout play, or need to resolve contested actions.
 Players will roll to determine the result.
@@ -62,12 +63,12 @@ Make a decision roll by rolling 2d6, totaling the results, and adding any any ap
 If the result is 10 or greater, thing work out in the player characters' favor.
 If 10 seems to hard for the task, instead pose an alternative cost (e.g. time, resources).
 If 10 seems to easy, make it impossible for the character with their current resources or plan.\\
-\fbox{\parbox[b][10\baselineskip][c]{0.9\columnwidth}{Examples to roll decisions:
+Examples to roll decisions:
 \begin{itemize}
 \item Act before someone else in combat (DEX)
 \item Endure extreme environmental hazard (STR)
 \item Translate an alien language (ACU)
-\end{itemize}}}
+\end{itemize}
 
 Track health and damage with \textbf{hitpoints}.
 Each player \textbf{starts with 2d6 hitpoints} and an \textbf{armor value of 6} (which could be boosted by items).
@@ -103,7 +104,7 @@ Make obstacles difficult via hard choices and dilemmas, not more rolls. \\
 
 Have a strong character concept.
 Be collaborative with the other players and the referees in the goals you want to achieve; play off of each other to create an interesting group.
-Take the Referee's information on good faith and play into what they set up for you.
+Take the Referee's information on good faith and balance playing into what they set up for you, as well as your own goals.
 Be clear about your intentions and work with others to achieve any common goals. \\
 
 \subsection*{Other Advice and Design Intent}
@@ -114,7 +115,7 @@ Be clear about your intentions and work with others to achieve any common goals.
 \item Use dice--rolling to abstract important actions as little as possible.
 \end{itemize}
 
-\section*{Adventure Hooks\hrule}
+\section*{Adventure Hooks}
 
 These adventure hooks are to get you started on a session.
 You may continue as your group enjoys, or simply stop when the story runs out.
@@ -133,7 +134,7 @@ This format
 
 I present some examples of hooks here.\footnote{All of the art in the adventure hooks is public domain.}
 Feel free to use them only as inspiration, taking little if nothing else.
-They also give an indication of setting via tables of suggested items and possible encounters.
+There are also tables of suggested items and possible encounters.
 
 \subsection*{What If...}
 
@@ -141,10 +142,10 @@ They also give an indication of setting via tables of suggested items and possib
 
 We were forensic engineers investigating a mine collapse deep underground, but the isolation may drive us crazy?
 Is there something down there, or is it just our imaginations?
-How long can we stay down there and how deep can we go before the paranoia destroys the group? \\
+How long can we delve and how deep can we go before the paranoia destroys the group? \\
 
 \begin{center}
-  \begin{tabular}{|c|l|}
+  \begin{tabular}{|c|p{0.8\columnwidth}|}
     \hline \multicolumn{2}{|c|}{Items for Forensic Engineers:} \\
     \hline 1 & Air Quality Sensor \\
     2 & Geological Sampling kit \\
@@ -195,7 +196,7 @@ Do we trust that the place we are heading to is truly safe?
 % What do people say about the cause of society started?
 % What threats other than the zombies present themselves as the survivors travel?
 \begin{center}
-  \begin{tabular}[ht]{|c|l|}
+  \begin{tabular}[ht]{|c|p{0.8\columnwidth}|}
     \hline \multicolumn{2}{|c|}{Items for Survivors:} \\
     \hline 1 & Sawed--off Shotgun \\
     2 & Bowie Knife \\
@@ -237,9 +238,9 @@ Do we trust that the place we are heading to is truly safe?
 
 We were a space cleanup crew, ransacking a derelict space freighter, and we heard something huge move near the reactor chamber?
 Do we finish the job, or abandon whatever is down there?
-What other jobs are assigned or do we take, and where in the galaxy does that lead to?
+What other jobs are assigned or do we take, and why do the jobs never end up as simple as they seem?
 \begin{center}
-  \begin{tabular}{|c|l|}
+  \begin{tabular}{|c|p{0.8\columnwidth}|}
     \hline \multicolumn{2}{|c|}{Custodial Gear:} \\
     \hline 1 & Magnetic Levitator \\
     2 & Heat--resistant Gloves \\
@@ -262,9 +263,124 @@ What other jobs are assigned or do we take, and where in the galaxy does that le
     \hline 1 & Clean up after a planet--wide parade \\
     2 & Restore recently cleared out drug den \\
     3 & Sanitize closed--down alien zoo \\
-    4 & 
+    4 & Dredge canal on backwater planet \\
+    5 & Trawl the orbiting junk of a planet \\
+    6 & Haul off dead Dyson sphere solar cells \\
+    7 & Transport spent nuclear fuel \\
+    8 & Tidy up event venue after high--society party \\
+    9 & Irradiate intergalactic shipment of goods \\
+    10 & Collect out--of--use space stations \\
+    11 & Retrieve lander on distant moon \\
+    12 & Dig up radioactive meteorite debris off of planet surface \\ \hline
   \end{tabular}
 \end{center}
+
+Characters don't just work all the time, what do they get up to on their days off?
+What friends, family, and other contacts do they have?
+How did they end up in such a dangerous job, did they come from nothing or fall from a more elevated position?
+What are the characters' relationships, just coworkers or occasional drinking buddies as well?
+
+%% \columnbreak
+%% \subsection*{What If...}
+%% 
+%% We were a circle of witches and sorcerors, held in a maximum--security anti--magic facility, trying to figure out who double--crossed us, but our execution looms on the horizon?
+%% What crime were we arrested for, and who could the traitor be?
+%% What contacts do we have on the inside, and how can they help us?
+%% 
+%% \begin{center}
+%%   \begin{tabular}{|c|p{0.8\columnwidth}|}
+%%     \hline \multicolumn{2}{|c|}{Smuggled Goods:} \\
+%%     \hline 1 & Tarot deck \\
+%%     2 & Enchanted Shiv \\
+%%     3 & Toilet Wine \\
+%%     4 & 
+%%   \end{tabular}
+%% \end{center}
+%%
+\columnbreak
+\subsection*{Other Hooks}
+
+\begin{itemize}
+\item We were a circle of witches and sorcerors, held in a maximum--security anti--magic facility, trying to figure out who double--crossed us, but our execution looms on the horizon?
+\item What if we were nomadic peoples in primitive times trying to cross the Bering land bridge, but winter was almost upon us?
+\item What if we were heads of a thieves' guild in ancient Alexandria setting up heists, but the city has enforced a strict curfew?
+\item What if we were hackers fighting against corporate overlords in a dystopian future, but facial recognition has made going outside difficult?
+\item What if we were cowboys in a weird west hunting down a bandit, but the sky has turned black in the middle of the day?
+\item What if we were a mercenary company in a post--post--apocalyptic society, taking on jobs of plundering ruins, but twisted monstrosities guard them?
+\end{itemize}
+
+\appendix
+
+\section*{Misc. Thoughts}
+
+\begin{itemize}
+\item When narrating action and deciding outcomes, use a microscope. Zoom in and out of details to draw attention and highlight the important bits.
+\item Pay close attention to how cooperatively you are with group. Don't put up obstacles to make their life pointlessly difficult.
+\item Be firm and consistent in how actions resolve. Think through what logically would happen and don't pull any punches to the players.
+\item Take on a ``Yes, but...'' attitude: any feasible action can be successful, but it may come at a difficult choice or cost.
+\item Look to increase the tension of a session: put pressure on the players to make them act, but don't make these impossible obstacles.
+\end{itemize}
+
+\section*{Supplementary Material}
+
+Use tables, items, or just general setting from any of the following:
+
+\begin{itemize}
+\item \emph{Maze Rats}
+\item \emph{Trilemma Adventures}
+\item \emph{Traveller}
+\item \emph{Worlds Without Number}
+\item \emph{24xx} games
+\item \emph{Liminal Horror}
+\item Any RPG material or fiction that captures your imagination
+\end{itemize}
+
+\section*{Personal Appendix N}
+
+Here is some media that I like that might inspire you.\\
+
+Fantasy:
+\begin{itemize}
+\item \emph{Malazan} series (Ericksen)
+\item \emph{Wheel of Time} series (Jordan)
+\item \emph{A Song of Ice and Fire} or \emph{Game of Thrones} (Martin)
+\item \emph{The Black Company} (Cook)
+\item \emph{Hunter x Hunter}
+\item \emph{Bas--Lag} Trilogy (Mi\'eville)
+\item \emph{Fullmetal Alchemist}
+\end{itemize}
+
+Science Fiction:
+\begin{itemize}
+\item \emph{Dune} series (Herbert)
+\item \emph{Cowboy Bebop}
+\item \emph{Foundation} series (Asimov)
+\item \emph{Hyperion} (Simmons)
+\item \emph{Dark Matter}
+\item \emph{The Matrix} franchise
+\item \emph{Neon Genesis Evangelion}
+\end{itemize}
+
+Cosmic Horror or Investigative:
+\begin{itemize}
+\item Stories of Laird Barron
+\item Stories of Thomas Ligotti
+\item \emph{Between Two Fires} (Buehlman)
+\item \emph{The Fisherman} (Langan)
+\item Stories of Stephen King
+\item \emph{Death Note}
+\end{itemize}
+
+Myths and Folklore:
+\begin{itemize}
+\item \emph{The Odyssey} (Homer)
+\item \emph{Prose Edda} (Sturluson)
+\item \emph{T\a'in B\'o C\'uailgne}
+\item Arthurian Legends
+\item Biblical stories
+\end{itemize}
+
+\includegraphics[width=\columnwidth]{./arthur}
 
 \end{multicols*}
 \end{document}
