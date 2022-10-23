@@ -1,0 +1,51 @@
+\documentclass[landscape]{book}
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{multirow}
+
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{microtype}
+
+\usepackage{accanthis}
+
+\usepackage{graphicx}
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\chead{MSA+: Further Mechanics for MSARPG}
+
+
+
+%\subtitle{A Small RPG and Some Adventure Ideas}
+
+
+\begin{document}
+\begin{multicols*}{4}
+  \chapter{MSA+}
+
+  Sam Wallace
+
+  \section*{Introduction}
+  This is a collection of further mechanics for \href{https://quajzen.itch.io/msarpg}{MSARPG}. These allow handling of risky situations in more interesting ways. All of these mechanics are optional, and should be used only when it is felt that it would improve the storytelling of the game.
+
+  \section*{Passive Resource Use}
+  Some resources are quantifiable and can simply be tracked with a quantity (e.g. money, arrows, sword sharpness). Some resources are not easily quantifiable, consumed erratically, or their output is unclear (e.g. gasoline in a vehicle, light from a torch, food \& water). Instead of making non--quantifiable resources quantifiable in an arbitrary way, we introduce a randomized consumption mechanic. \\
+
+  When a new non--quantifiable resource is obtained, give an initial \emph{supply} to it. This is a number 1-6 that indicates the general amount. When a significant amount of a resource is used, you make a supply roll and the quantity of resource may deplete by quantity 1. When the quantity reaches 0, the resource is completely depleted.
+
+  The initial quantity of a resource is 6 times its initial supply. Then, when some resource is consumed, roll a number of d6's equal to the initial supply. If you roll below or equal to the current quantity, the resource quantity decreases by 1. You will always roll d6's equal to the initial supply.
+
+  If a player has some non--quantifiable resource and more is obtained, you may combine their supply. Combine by taking the existing quantity of resource, dividing by 6 and rounding up, and adding to the new resource's supply. You may not go over supply 6 through combining.
+
+  \section*{Active Resource Use}
+  If you need to allocate a large amount of resources to an endeavour (e.g. practicing a craft, allocating a kingdom's resources) you may spend a large amount of resources to achieve a goal. Risk a quantity of resources less than (or equal to) the current quantity of resources. Roll that many d6's. Count up the sum of the dice, and count how many dice rolled 4-6 and 1-3 (it may be helpful to separate the rolled dice into two piles of 1-3 and 4-6).
+
+  If the sum exceeds a 10, you get what you want. If not, you don't get it. Make resource consumption rolls for as many dice rolled. The Referee may impose a disadvantage, setback, or problem with the outcome of the endeavour at a scale proportional to the number of 4-6 roll results (or more simply, that many disadvantages). 
+
+
+  
+\end{multicols*}
+\end{document}
