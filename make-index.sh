@@ -5,7 +5,7 @@ const title = $'**Sam\'s RPG Workshop**\n\n'
 
 const author = $'Samuel Wallace\n\n'
 
-const files = "$(find . -type f -name '*.md.html' -printf ' - %A+ [%h](%h%f)\n' | sort -r)"
+const files = "$(find ./posts/ -type f -name '*.md.html' -printf ' - %A+ [%f](%h/%f)\n' | sort -r)"
 
 const footer = '''
 
