@@ -19,4 +19,4 @@ const footer = '''
 const full = title ++ footer
 
 
-echo $full > "./posts/$@.md.html"
+echo $full > "./posts/$[join($@)].md.html"
