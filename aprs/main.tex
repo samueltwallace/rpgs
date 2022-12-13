@@ -59,19 +59,19 @@ ADVICE FOR USAGE
 
 INITIAL USAGE
 \begin{quote}
-  The astronaut should enter a short self-description, including any relevant details for the program to record. The computer should be programmed with basics of you biography, though original words convey more. Be mindful of the memory limitations (256 words). The computer will then process this information during a runtime of approximately one year, upon which the dominant loop of question and answer begins. 
+  The astronaut should enter a short self-description, including the purpose of the astronaut's mission. The computer should be programmed with basics of you biography, though original words convey more. Be mindful of the memory limitations (256 words). The computer will then process this information during a runtime of approximately one year, upon which the dominant loop of question and answer begins. 
 \end{quote}
 
 TECHNICAL DETAILS AND DEBUGGING
 \begin{quote}
   Each year, a new session is started in the log. Previous sessions are kept and never deleted. \\
 
-  At the start of each session, two random numbers 1-4 are generated. Then four questions are generated that maximize the probability of evoking deep contemplation and reflection are generated. Questions are then presented to the astronaut, requiring responses before displaying the next question. \\
+  At the start of each session, two random numbers 1-4 are generated. Then four questions are generated that maximize the probability of evoking deep contemplation and reflection. Questions are then presented to the astronaut, requiring responses before displaying the next question. \\
 
   A list of sample questions can be found in the section EXAMPLES.
 \end{quote}
 
-EXAMPLES
+EXAMPLE OUTPUT
 \begin{quote}
   Question 1:
   \begin{quote}
@@ -106,10 +106,95 @@ AUTHOR
 
 LICENSE AND ATTRIBUTIONS
 \begin{quote}
-  This program is licensed CC-BY-NC-SA, and was written while inspired by Thousand Year-Old Vampire and generative modular synth music.
+  This program is licensed CC-BY-NC-SA, and was written while inspired by Tim Hutching's games and generative modular synth music.
 \end{quote}
 
+\newpage
+OPLS(1) \hfill User Manuals \hfill OPLS(1) \\
 
+NAME
+\begin{quote}
+  opls - OmniPedia Lookup System
+\end{quote}
+
+USAGE
+\begin{quote}
+  opls [-h]
+\end{quote}
+
+DESCRIPTION
+\begin{quote}
+  opls is a text-based browser for OmniPedia, a digital encyclopedia that comes with installation of this program. OmniPedia contains entries on physical sciences, medicine, history, society and culture, and many other topics. It is included in deep space exploration systems to provide information to deliver to extraterrestrial cultures, should they be found, and to provide astronauts with a connection to home.
+\end{quote}
+
+OPTIONS
+\begin{quote}
+  [-h] \qquad Display this message.
+\end{quote}
+
+FILES
+\begin{quote}
+  /usr/share/omnipedia.cmp
+  \begin{quote}
+    Full compressed file of OmniPedia
+  \end{quote}
+  $\sim$/.config/opls.conf
+  \begin{quote}
+    Configuration file for opls commands
+  \end{quote}
+\end{quote}
+
+BUGS
+\begin{quote}
+  Due to a programming error, the OmniPedia file is editable. Users may add new entries and edit existing ones. 
+\end{quote}
+
+COMMANDS
+\begin{quote}
+  Keyboard commands are configured per-user in the user's configuration file. The list of available commands are listed below. \\
+
+  scroll \emph{LINES}
+  \begin{quote}
+    Scroll the number of lines specified.
+  \end{quote}
+
+  insert \emph{OBJECT}
+  \begin{quote}
+    Insert one of the following: bookmark, emphasis, text.
+  \end{quote}
+
+  quote \emph{TEXT}
+  \begin{quote}
+    Copy a section of text.
+  \end{quote}
+
+  quote\textbackslash insert \emph{TEXT}
+  \begin{quote}
+    Insert copied text into the file at this point.
+  \end{quote}
+
+  search \emph{ENTRY}
+  \begin{quote}
+    search for specified entry.
+  \end{quote}
+
+  search\textbackslash insert \emph{ENTRY}
+  \begin{quote}
+    Create the specified entry.
+  \end{quote}
+\end{quote}
+
+AUTHOR
+\begin{quote}
+  This program was written by Sam Wallace, available at quajzen.itch.io.
+\end{quote}
+
+LICENSE AND ATTRIBUTIONS
+\begin{quote}
+  This program is licensed CC-BY-NC-SA, and was written while inspired by Tim Hutching's games and generative modular synth music.
+\end{quote}
+
+\newpage
 
 
 
