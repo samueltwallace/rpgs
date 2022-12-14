@@ -6,7 +6,7 @@ const title = '**' ++ "TBD" ++ '**' ++ $'\n\n\n\n\n'
 
 
 const footer = '''
-
+(insert ../header.md.html here)
 
 
 
