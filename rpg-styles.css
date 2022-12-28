@@ -4,8 +4,12 @@
     font-size: 30px;
 }
 
+html {
+    background-image: url("media/landscape.jpg");
+    background-attachment: fixed;
+}
 
-body {
+body#md {
 
     background-color: ghostwhite;
 
