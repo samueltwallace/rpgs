@@ -9,7 +9,7 @@ proc maketitle(@paths) {
 		     var line = " - $lastupdated [" ++ firstline ++ '](' ++ file ++ $')\n'
 		     setvar bigline = bigline ++ line
 		 }
-    echo $bigline
+    echo $bigline | sort -r
 }
 
 
