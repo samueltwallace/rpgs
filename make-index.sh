@@ -1,6 +1,19 @@
 #!/usr/bin/oil
 
-const files =  "$(find ./posts/ -type f -name '*.md.html' -printf ' - %A+ [%f](%h/%f)\n' | sort -r)"
+
+proc maketitle(@paths) {
+    var bigline = ''
+    for file in (paths) {
+		     var firstline = "$(head -n 1 $file)"
+		     var lastupdated = "$(stat -c '%x' $file)"
+		     var line = " - $lastupdated [" ++ firstline ++ '](' ++ file ++ $')\n'
+		     setvar bigline = bigline ++ line
+		 }
+    echo $bigline
+}
+
+
+const files =  "$(maketitle posts/**.md.html)"
 
 const changes = "$(git log -n10 --format='%n%nAuthor: %an Updated: %ar%n%n%s%n%n Modified:%n' --name-only -- 'posts/*.md.html')"
 
