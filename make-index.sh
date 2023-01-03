@@ -5,7 +5,8 @@ proc maketitle(@paths) {
     var bigline = ''
     for file in (paths) {
 		     var firstline = "$(head -n 1 $file)"
-		     var lastupdated = "$(stat -c '%x' $file)"
+		     # var lastupdated = "$(stat -c '%x' $file)"
+		     var lastupdated = "$(git log --date=human --format='%cs' -- $file | head -n 1)"
 		     var line = " - $lastupdated [" ++ firstline ++ '](' ++ file ++ $')\n'
 		     setvar bigline = bigline ++ line
 		 }
