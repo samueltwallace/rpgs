@@ -1,4 +1,4 @@
-#!/usr/bin/oil
+#!/usr/bin/env oil
 
 
 proc maketitle(@paths) {
