@@ -16,7 +16,7 @@ proc maketitle(@paths) {
 
 const files =  "$(maketitle posts/**.md.html)"
 
-const changes = "$(git log -n10 --format='%n%nAuthor: %an Updated: %ar%n%n%s%n%n Modified:%n' --name-only -- 'posts/*.md.html')"
+const changes = "$(git log -n10 --format='%n%nAuthor: %an Updated: %as%n%n%s%n%n Modified:%n' --name-only -- 'posts/*.md.html')"
 
 const footer = '''
 
