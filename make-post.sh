@@ -1,4 +1,4 @@
-#!/usr/bin/oil
+#!/usr/bin/env oil
 
 
 const title = '**' ++ "TBD" ++ '**' ++ $'\n\n\n\n\n'
