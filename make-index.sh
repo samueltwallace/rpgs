@@ -1,6 +1,22 @@
-#!/usr/bin/oil
+#!/usr/bin/env oil
 
-const files =  "$(find ./posts/ -type f -name '*.md.html' -printf ' - %A+ [%f](%h/%f)\n' | sort -r)"
+
+proc maketitle(@paths) {
+    var bigline = ''
+    for file in (paths) {
+		     var firstline = "$(head -n 1 $file)"
+		     # var lastupdated = "$(stat -c '%x' $file)"
+		     var lastupdated = "$(git log --date=human --format='%cs' -- $file | head -n 1)"
+		     var line = " - $lastupdated [" ++ firstline ++ '](' ++ file ++ $')\n'
+		     setvar bigline = bigline ++ line
+		 }
+    echo $bigline | sort -r
+}
+
+
+const files =  "$(maketitle posts/**.md.html)"
+
+const changes = "$(git log -n10 --format='%n%nAuthor: %an Updated: %as%n%n%s%n%n Modified:%n' --name-only -- 'posts/*.md.html')"
 
 const footer = '''
 
@@ -9,6 +25,6 @@ const footer = '''
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
 '''
 
-const full = $'# Posts\n' ++ files ++ footer
+const full = $'# Posts by Recently Updated\n' ++ files ++ $'\n\n# Article Change Log\n' ++ changes ++ footer
 
 echo $full > ./dir.md.html
