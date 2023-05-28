@@ -9,6 +9,8 @@
 
 \usepackage{graphicx}
 
+\usepackage{hyperref}
+
 \usepackage[margin=2cm]{geometry}
 
 \usepackage{multicol}
@@ -18,6 +20,7 @@
 \usepackage{microtype}
 
 \begin{document}
+\large
 \maketitle
 \vfill
 \includegraphics[width=\textwidth]{cover}
@@ -30,7 +33,7 @@
   
 \section{Introduction}
 
-This is a setting zine and toolkit for a far-north biome. This zine contains some basic overview of the setting and a playable adventure site.
+This is a setting zine and toolkit for a far-north biome. This zine contains some basic overview of the setting elements and an example map.
 
 \subsection*{What are the Northern Reaches?}
 
@@ -46,7 +49,7 @@ The Reaches provide many natural resources for trade: lumber, ore, fish, and fur
 
 \subsection*{Where are the Northern Reaches?}
 
-You may use this setting as a stand-alone location, or incorporate it into a larger campaign world you have or will establish.
+You may use this setting as a stand-alone location, or incorporate it into a larger campaign world you have established or will establish.
 Use this setting in a cold polar region.
 
 \subsection*{What Kind of World is the Northern Reaches In?}
@@ -95,11 +98,12 @@ Anything else should be left to situation--specific rulings by the Referee.
 Consider using the following mechanics for heat, travel, and weather. \\
 
 Track Heat Points in the same way as health (hit dice or hits).
-If a character is underprepared for the weather, they lose 1 per hour, or 2 if the weather is harsh.
-If indoors, loss is reduced to 1 per 4 hours.
+To calculate heat point loss, subtract the exposure modifier from your heat capacity every hour.
+Roll that many HD and lose that total amount of heat points.
 Being near a source of heat restores all lost heat points.
-If all heat points are lost, lose health points at the same rate as heat points.
+If all heat points are lost, lose health points at the same rate as heat points. \\
 
+These rules are expanded in Section \ref{sec:weather-outdoor}.
 
 \section{Basic Geographies of the Setting}
 
@@ -108,6 +112,8 @@ In the northern reaches of the world, there are four predominant geographical re
 {\centering
 \includegraphics[width=\columnwidth]{geography-mountains}
 }
+
+
 \subsection*{Moutain Ranges}
 
 Moutain ranges host a variety of life adjusted to the terrain and elevation. Small animals live amongst the many cracks and crevices, attracting bigger preadators. Verdant fields may span valleys between peaks, and caves in the mountains may stretch much deeper than at first glance. \\
@@ -170,19 +176,40 @@ There are no known standing structures beyond the northern seas. Only the coldes
 
 \section{Weather and Cold}
 
+{\centering \includegraphics[width=\columnwidth]{arctic-sledders}
+}
+
 Retaining heat is of the utmost importance in all of the Reaches.
 Some relevant system considerations have been mentioned already, and will be expanded here. \\
 
-{\centering
-\includegraphics[width=\columnwidth]{arctic-sledders}
-}
+\subsection*{Weather Generation and Outdoor Survival}
+\label{sec:weather-outdoor}
 
-\subsection*{Weather Generation}
+Weather is generated randomly for each period of 2 days. Roll d66 and consult Table \ref{tbl:weather}: \\
 
-Weather is generated randomly for each period of 2 days. Roll d66 and consult the following table:
+Players may consult locals for weather forecasts.
+These forecasts have a chance of being wrong, consult Table \ref{tbl:weather}.
+Weather for the next 4 days could be forecast, and should be rolled and played as per the roll, whether or not the forecast is accurate.
+Player characters can forecast 1 day at a Commoner level within the first months of arriving, and better later on, depending on the adventuring done. \\
 
-\begin{table*}[h]
-  \centering
+Warm clothing is essential for survival in most regions.
+It increases heat capacity, which in turn allows more survival time without shelter.
+There are four regimes of exposure, which require different levels of preparedness.
+Consult Table \ref{tab:outdoor-survival} for heat capacity. \\
+
+If critically overexposed, you may apply conditions to the relevant characters.
+For example, frostbite on exposed limbs. \\
+
+Travel is slow or potentially impossible based on weather conditions.
+To calculate travel time, use the current terrain type, recent conditions, and transportation type to modify the base rate of 2 miles/hour.
+You may impose additional travel modifiers situationally: Snow shoes may be necessary for heavily snowed areas, or horse travel may be impossible in mountainous regions.
+
+\end{multicols}
+
+
+
+\begin{table}[hb]
+  \centering \large
   \begin{tabular}{| c || c || c ||}
     \hline
     & Precipitation/Condition & Temperature/Air Quality \\ \hline
@@ -191,12 +218,105 @@ Weather is generated randomly for each period of 2 days. Roll d66 and consult th
     3 & Lightly Snowfall & Humid \\
     4 & Heavy Snow & Biting Wind \\
     5 & Freezing Rain & Gale \\
-    6 & Blizzard & Crisp  \\ \hline
-  \end{tabular} \label{tbl:weather}
-  \caption{Weather Generation Table}
-  \label{tbl:weather}
-\end{table*}  
+    6 & Blizzard & Crisp and Dry  \\ \hline
+  \end{tabular} \\
 
+  \begin{tabular}{|c||c|}
+    \hline Personage & Correct Forecast Chance (\%) \\ \hline
+    Commoner  & 25 \% \\
+    Explorer/Outdoorsman/Sailor & 50 \% \\
+    Navigator & 75 \% \\ \hline
+  \end{tabular}
+  \caption{Weather Generation and Forecast Table}
+  \label{tbl:weather}  
+\end{table}  
+
+
+\begin{table}[h]
+  \centering \large
+  \begin{tabular}{|c||c|}
+    \hline Outdoor Conditions & Exposure Modifier \\ \hline
+    Cold & +1 \\
+    Frigid & +2 \\
+    Light Precipitation & +1 \\
+    Heavy Precipitation & +2 \\ \hline
+  \end{tabular} \\
+
+  \begin{tabular}{|c||c|}
+    \hline Clothing Type & Heat Capacity \\ \hline
+    Warm Coat & 2 HD \\
+    Insulated Inner Layer & 4 HD \\
+    Hats, Gloves, Socks, Boots, etc. & 2 HD \\
+    Heavy Parka & 8 HD \\ \hline
+  \end{tabular} \\
+
+  \begin{tabular}{|c||c||c|}
+    \hline Terrain Type & Recent Weather & Transportation Type \\ \hline
+    Road: +1 mi/hr & Clear: +0 & Walking: -1 mi/hr \\
+    Mountain Path/Game Trail: +0 mi/hr & Light Snow: -1 mi/hr & Sled Dog: +3 mi/hr \\
+    Overland/Wilderness: -1 mi/hr & Heavy Precipitation: -2 mi/hr & Horse: +2 mi/hr \\ \hline
+  \end{tabular}
+  \caption{Outdoor Survival Table}
+  \label{tab:outdoor-survival}
+\end{table}
+
+\begin{multicols}{2}
+  \section{Factions and Peoples}
+  \subsection*{Nomadic Raiders}
+
+  Nomads who live by plundering and pillaging, occupying the shores before the empire moved in.
+  Rather than being a unified force, this faction is highly decentralized, and can often clash internally.
+  The various raiding groups are generally held together by a strong leader and a symbol.
+
+  \begin{itemize}
+  \item Haldr, the leader of the Eagles: this group prides itself on a wide view of its goals and aims. They are very strategic in their raids, and are excellent planners. If any group is the most well-known raiders of the empire, it is the Eagles.
+  \item Arlir, the leader of the Bears: the most ferocious fighter in combat. They fight for glory and the sport of combat. They are especially brutal, channelling their idea of a bear's rage.
+  \item Skete, leader of the Wolves: the most dogged in their pursuit. If a particular valuable is heard of, they will stop at nothing to track down and pursue its holder. Not as well--known.
+  \end{itemize}
+
+  Raiders are known to shun some magic, yet may hold practitioners of such in secret. These magics are predominantly divination and rituals for victory.
+
+  \subsection*{The Orelian Church}
+
+  The church of the empire is known for its dogmatic stance.
+  In the Reaches, it fights to keep membership strong in order to tithe the locals and to convert any pre-existing native tribes.
+  The church has a wide variety of assets to pull from.
+  They have plenty of money, and their well-established position in the empire gives almost undue influence to the leaders of the small towns in the Reaches. \\
+
+  \subsection*{Ice Wizards}
+
+  Scattered throughout the Reaches are the tops of free-standing towers peeking out from snow.
+  Wizards live in these, completely self-sufficient.
+  Most keep themselves warm and alive through ritual magic bonfires, by which they can grow food for themselves.
+  Many have greenhouses within their towers, with many skylights.
+  This maintains a delicate balance of heat, light, and nutrients for at most two people.
+  Other self-sustainment mechanisms are possible, such as captive dragons. \\
+
+  These Ice Wizards have rumors describing them in most settlements, see Table \ref{tab:rumors}.
 
 \end{multicols}
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|}
+    \hline Rumors of Raiders \\ \hline
+    
+  \end{tabular}
+  \begin{tabular}{|p{0.25\textwidth}|}
+    \hline Rumors of Ice Wizards \\ \hline
+    Ice wizards will grant a spell to anyone providing food. \\ \hline
+    They retreated into isolation because they were exiled for practicing black magic. \\ \hline
+    Wizards keep vast libraries within their towers, you could find any piece of knowledge you seek. \\ \hline
+    Ice wizards never leave their towers unless they are forced out. \\ \hline
+    If you come across a stream of water under the snow, it might be coming from the warmth of a wizard tower. \\ \hline
+    If you smell earth and soil in the permafrost, you can be sure you are near a wizard tower. \\ \hline
+   \end{tabular}
+  \caption{Faction Rumors}
+  \label{tab:rumors}
+\end{table}
+
+
+
+
+
 \end{document}
