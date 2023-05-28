@@ -2,7 +2,7 @@
 
 \title{Northern Reaches}
 
-\author{Quajzen}
+\author{quajzen}
 
 \date{Last updated \today}
 \usepackage{accanthis}
@@ -23,14 +23,14 @@
 \includegraphics[width=\textwidth]{cover}
 \newpage
 \tableofcontents
-
+\listoftables
 \newpage
 
 \begin{multicols}{2}
   
 \section{Introduction}
 
-This is a setting zine and toolkit for a far-north permafrosted environment. This zine contains some basic overview of the setting and a playable adventure site.
+This is a setting zine and toolkit for a far-north biome. This zine contains some basic overview of the setting and a playable adventure site.
 
 \subsection*{What are the Northern Reaches?}
 
@@ -148,7 +148,7 @@ Consider a specific region in your taiga region.
 
 Interspersed equally by icebergs and islands, the northern seas see more activity than one would expect, though not all is friendly. \\
 
-Raiders will board the few trade ships around and ransack local villages. There are many fishers at work in the region, both near the shore and farther out, but weather, beast, and cold withholds plentiful bounties on every cast. \\
+Raiders will board the few trade ships around and ransack local villages. There are many fishers at work in the region, both near the shore and farther out, but weather, beast, and cold withhold plentiful bounties on every cast. \\
 
 What activities are present in your northern seas?
 
@@ -170,11 +170,32 @@ There are no known standing structures beyond the northern seas. Only the coldes
 
 \section{Weather and Cold}
 
-Retaining heat is of the utmost importance away \\
+Retaining heat is of the utmost importance in all of the Reaches.
+Some relevant system considerations have been mentioned already, and will be expanded here. \\
 
 {\centering
 \includegraphics[width=\columnwidth]{arctic-sledders}
 }
+
+\subsection*{Weather Generation}
+
+Weather is generated randomly for each period of 2 days. Roll d66 and consult the following table:
+
+\begin{table*}[h]
+  \centering
+  \begin{tabular}{| c || c || c ||}
+    \hline
+    & Precipitation/Condition & Temperature/Air Quality \\ \hline
+    1 & Clear and Bright & Frigid \\
+    2 & Overcast & Cold \\
+    3 & Lightly Snowfall & Humid \\
+    4 & Heavy Snow & Biting Wind \\
+    5 & Freezing Rain & Gale \\
+    6 & Blizzard & Crisp  \\ \hline
+  \end{tabular} \label{tbl:weather}
+  \caption{Weather Generation Table}
+  \label{tbl:weather}
+\end{table*}  
 
 
 \end{multicols}
