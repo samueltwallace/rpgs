@@ -8,7 +8,7 @@
 \usepackage{accanthis}
 
 \usepackage{graphicx}
-
+\linespread{1}
 \usepackage{hyperref}
 
 \usepackage[margin=2cm]{geometry}
@@ -33,7 +33,13 @@
   
 \section{Introduction}
 
-This is a setting zine and toolkit for a far-north biome. This zine contains some basic overview of the setting elements and an example map.
+This is a setting zine and toolkit for a far-north biome.
+This zine contains some basic overview of the setting elements and an example map. \\
+
+Some broad ideas are sketched, while many details are left out.
+Many ideas are brought up and not pursued.
+This allows you to fine--tune the setting as you please.
+You should develop the ideas your find interesting to shape a campaign that is fun and unique to you.
 
 \subsection*{What are the Northern Reaches?}
 
@@ -99,7 +105,6 @@ Consider using the following mechanics for heat, travel, and weather. \\
 
 Track Heat Points in the same way as health (hit dice or hits).
 To calculate heat point loss, subtract the exposure modifier from your heat capacity every hour.
-Roll that many HD and lose that total amount of heat points.
 Being near a source of heat restores all lost heat points.
 If all heat points are lost, lose health points at the same rate as heat points. \\
 
@@ -185,7 +190,7 @@ Some relevant system considerations have been mentioned already, and will be exp
 \subsection*{Weather Generation and Outdoor Survival}
 \label{sec:weather-outdoor}
 
-Weather is generated randomly for each period of 2 days. Roll d66 and consult Table \ref{tbl:weather}: \\
+Weather is generated randomly for each period of 2 days. Roll d66 and consult Table \ref{tbl:weather}. The weather is generated for the local area for the period. \\
 
 Players may consult locals for weather forecasts.
 These forecasts have a chance of being wrong, consult Table \ref{tbl:weather}.
@@ -201,8 +206,12 @@ If critically overexposed, you may apply conditions to the relevant characters.
 For example, frostbite on exposed limbs. \\
 
 Travel is slow or potentially impossible based on weather conditions.
-To calculate travel time, use the current terrain type, recent conditions, and transportation type to modify the base rate of 2 miles/hour.
-You may impose additional travel modifiers situationally: Snow shoes may be necessary for heavily snowed areas, or horse travel may be impossible in mountainous regions.
+To calculate travel time, use the current terrain type, recent conditions, and transportation type to modify the base rate of 12 miles/6 hours.
+You may impose additional travel necessities situationally: Snow shoes may be necessary for heavily snowed areas, or horse travel may be impossible in mountainous regions. \\
+
+At your discretion, you may apply cold weather mishaps to players.
+Consult table \ref{tab:cold-events} for inspiration.
+You may choose a mishap when a character runs out of heat points or due to in-game events.
 
 \end{multicols}
 
@@ -212,13 +221,13 @@ You may impose additional travel modifiers situationally: Snow shoes may be nece
   \centering \large
   \begin{tabular}{| c || c || c ||}
     \hline
-    & Precipitation/Condition & Temperature/Air Quality \\ \hline
-    1 & Clear and Bright & Frigid \\
-    2 & Overcast & Cold \\
-    3 & Lightly Snowfall & Humid \\
-    4 & Heavy Snow & Biting Wind \\
-    5 & Freezing Rain & Gale \\
-    6 & Blizzard & Crisp and Dry  \\ \hline
+    & Snow (in/day) & Wind \\ \hline
+    1 & 4 & Gusty \\
+    2 & 2 & Gust \\
+    3 & 1 & Sustained Winds \\
+    4 & 0 & Sustained Winds \\
+    5 & -1 (melting) & Breezy \\
+    6 & -2 (melting)  & Calm \\ \hline
   \end{tabular} \\
 
   \begin{tabular}{|c||c|}
@@ -236,8 +245,8 @@ You may impose additional travel modifiers situationally: Snow shoes may be nece
   \centering \large
   \begin{tabular}{|c||c|}
     \hline Outdoor Conditions & Exposure Modifier \\ \hline
-    Cold & +1 \\
-    Frigid & +2 \\
+    Windy & +1 \\
+    Gusty & +2 \\
     Light Precipitation & +1 \\
     Heavy Precipitation & +2 \\ \hline
   \end{tabular} \\
@@ -246,22 +255,42 @@ You may impose additional travel modifiers situationally: Snow shoes may be nece
     \hline Clothing Type & Heat Capacity \\ \hline
     Warm Coat & 2 HD \\
     Insulated Inner Layer & 4 HD \\
-    Hats, Gloves, Socks, Boots, etc. & 2 HD \\
+    Insulated Hats, Gloves, Socks, Boots, etc. & 2 HD \\
     Heavy Parka & 8 HD \\ \hline
   \end{tabular} \\
 
-  \begin{tabular}{|c||c||c|}
-    \hline Terrain Type & Recent Weather & Transportation Type \\ \hline
-    Road: +1 mi/hr & Clear: +0 & Walking: -1 mi/hr \\
-    Mountain Path/Game Trail: +0 mi/hr & Light Snow: -1 mi/hr & Sled Dog: +3 mi/hr \\
-    Overland/Wilderness: -1 mi/hr & Heavy Precipitation: -2 mi/hr & Horse: +2 mi/hr \\ \hline
+  \begin{tabular}{|p{0.2\textwidth}|l||p{0.2\textwidth}|l||p{0.1\textwidth}|l|}
+    \hline Terrain Type & & Recent Weather & & Transportation Type & \\ \hline
+    Road & +2 mi/6 hr & Clear& +0 & Walking & -2 mi/6 hr \\
+    Mountain Path/Game Trail & +0 mi/6 hr & Light Snow & -2 mi/6 hr & Sled Dog & +6 mi/6 hr \\
+    Overland/Wilderness & -2 mi/6 hr & Heavy Precipitation & -4 mi/6 hr & Skis & +4 mi/6 hr \\ \hline
   \end{tabular}
   \caption{Outdoor Survival Table}
   \label{tab:outdoor-survival}
 \end{table}
 
+\begin{table}[h]
+  \centering
+  \begin{tabular}{|c|c|}
+    \hline Starts with... & Progresses to... \\ \hline
+    Numbness & Frostbite \\
+    Shivering & Hypothermia \\
+    Itchiness & Trench foot \\
+    Wet Layer & Compromised Clothing \\ 
+    Loss of coordination & Dropped Item \\
+    Chapped Skin & Open Wound \\ \hline
+  \end{tabular}
+  \caption{Cold Weather Events}
+  \label{tab:cold-events}
+\end{table}
+
+
 \begin{multicols}{2}
   \section{Factions and Peoples}
+
+  Table \ref{tab:rumors} has rumors for the more well--known factions.
+  You may choose which are true and which are false.
+
   \subsection*{Nomadic Raiders}
 
   Nomads who live by plundering and pillaging, occupying the shores before the empire moved in.
@@ -276,12 +305,32 @@ You may impose additional travel modifiers situationally: Snow shoes may be nece
 
   Raiders are known to shun some magic, yet may hold practitioners of such in secret. These magics are predominantly divination and rituals for victory.
 
+  When designing adventures around nomadic raiders, you may wish to consider:
+
+  \begin{itemize}
+  \item What powerful enemies have the Raiders angered in their usual raids?
+  \item What highly-sought treasure has just been recovered?
+  \item What areas of the Reaches are most vulnerable to attack?
+  \end{itemize}
+
   \subsection*{The Orelian Church}
 
   The church of the empire is known for its dogmatic stance.
-  In the Reaches, it fights to keep membership strong in order to tithe the locals and to convert any pre-existing native tribes.
+  In the Reaches, it fights to keep membership strong in order to tithe the locals and to convert any pre-existing native tribes. \\
+  
   The church has a wide variety of assets to pull from.
   They have plenty of money, and their well-established position in the empire gives almost undue influence to the leaders of the small towns in the Reaches. \\
+
+  The church is considered out of touch by non-adherents.
+  As the church's focus is elsewhere on more lush lands, the doctrine can seem to allude to promises too outlandish or remote from the average settler's life.
+
+  When designing conflicts of the Church, use the following as inspiration:
+
+  \begin{itemize}
+  \item What controversial action did the Church take recently?
+  \item What local powers pull attention away from the Church's teachings?
+  \item How much political power does the Church have in particular locations?
+  \end{itemize}
 
   \subsection*{Ice Wizards}
 
@@ -289,21 +338,50 @@ You may impose additional travel modifiers situationally: Snow shoes may be nece
   Wizards live in these, completely self-sufficient.
   Most keep themselves warm and alive through ritual magic bonfires, by which they can grow food for themselves.
   Many have greenhouses within their towers, with many skylights.
-  This maintains a delicate balance of heat, light, and nutrients for at most two people.
+  This maintains a delicate balance of heat, light, and nutrients for at most one person.
   Other self-sustainment mechanisms are possible, such as captive dragons. \\
 
-  These Ice Wizards have rumors describing them in most settlements, see Table \ref{tab:rumors}.
+  Answer the following when developing encounters around ice wizards:
+
+  \begin{itemize}
+  \item What useful asset might be held by this wizard?
+  \item How has the wizard protected its abode from intruders?
+  \item What is the wizard's stance towards outsiders?
+  \end{itemize}
+
+  \subsection*{Snow Dwarves}
+
+  These are a mysterious and generally unknown people to the new settlers.
+  Living far beneath mountain ranges, these architects' society is based on rapid consumption of natural resources.
+  They are constantly digging for new building materials, new land to farm moss and fungi on, and precious metals for their scant trade with the surface world. \\
+
+  Here are some hooks for characters to be introduced to Snow Dwarves:
+
+  \begin{itemize}
+  \item An exodus of dwarves to a small settler town due to uncovering a subterranean monster
+  \item Dwarven miners are hiring surveyors and explorers for a recently discovered underground structure
+  \item Dwarven farmers need retrieval of seeds from a vault under the earth.
+  \end{itemize}
 
 \end{multicols}
 
 \begin{table}[h]
   \centering
-  \begin{tabular}{|c|}
-    \hline Rumors of Raiders \\ \hline
-    
-  \end{tabular}
   \begin{tabular}{|p{0.25\textwidth}|}
-    \hline Rumors of Ice Wizards \\ \hline
+    \hline Rumors of Raiders \\ \hline \hline
+    If word of your treasure falls on the wrong ears, the wolves will hunt you down. \\ \hline
+    The leader of the Eagles has a magic spyglass that can see any distance. \\ \hline
+    They are the last survivors of the kingdom that existed before the ice covered all this. \\ \hline
+    There is a group of shunned raiders, The Snakes, that are, literally, snake--people, cursed decades ago. \\ \hline
+    If you see a longship on the waters, stay out of sight or flee. \\ \hline
+    Most valuables raiders take end up at the bottom of the ocean. \\ \hline
+  \end{tabular} \begin{tabular}{|p{0.25\textwidth}|}
+                  \hline Rumors of the Orelian Church \\ \hline \hline
+                  Those who speak against the Church publicly have been known to disappear. \\ \hline
+                  The Church will offer bounty for reclaiming past holy sites. \\ \hline
+                  
+  \end{tabular} \begin{tabular}{|p{0.25\textwidth}|}
+    \hline Rumors of Ice Wizards \\ \hline \hline
     Ice wizards will grant a spell to anyone providing food. \\ \hline
     They retreated into isolation because they were exiled for practicing black magic. \\ \hline
     Wizards keep vast libraries within their towers, you could find any piece of knowledge you seek. \\ \hline
@@ -311,7 +389,7 @@ You may impose additional travel modifiers situationally: Snow shoes may be nece
     If you come across a stream of water under the snow, it might be coming from the warmth of a wizard tower. \\ \hline
     If you smell earth and soil in the permafrost, you can be sure you are near a wizard tower. \\ \hline
    \end{tabular}
-  \caption{Faction Rumors}
+   \caption{Faction Rumors}
   \label{tab:rumors}
 \end{table}
 
