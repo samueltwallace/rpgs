@@ -88,7 +88,7 @@ Such a system might include:
 \end{itemize}
 
 In short, an OSR system should do the job.
-However, you may not be using an OSR system directly, or looking for an alternative.
+However, you may not be using an OSR system, or looking for an alternative.
 In this case, use the following as either a conversion guide or a minimalist system:
 
 \begin{itemize}
@@ -199,8 +199,8 @@ Player characters can forecast 1 day at a Commoner level within the first months
 
 Warm clothing is essential for survival in most regions.
 It increases heat capacity, which in turn allows more survival time without shelter.
-There are four regimes of exposure, which require different levels of preparedness.
-Consult Table \ref{tab:outdoor-survival} for heat capacity. \\
+To calculate full heat capacity, note what cold--weather clothing you have and use the max value of that many hit dice.
+Consult Table \ref{tab:outdoor-survival} for heat capacity for various items of clothing. \\
 
 If critically overexposed, you may apply conditions to the relevant characters.
 For example, frostbite on exposed limbs. \\
@@ -213,17 +213,13 @@ At your discretion, you may apply cold weather mishaps to players.
 Consult table \ref{tab:cold-events} for inspiration.
 You may choose a mishap when a character runs out of heat points or due to in-game events.
 
-\end{multicols}
-
-
-
-\begin{table}[hb]
+\begin{table*}[t]
   \centering \large
   \begin{tabular}{| c || c || c ||}
     \hline
     & Snow (in/day) & Wind \\ \hline
     1 & 4 & Gusty \\
-    2 & 2 & Gust \\
+    2 & 2 & Gusty \\
     3 & 1 & Sustained Winds \\
     4 & 0 & Sustained Winds \\
     5 & -1 (melting) & Breezy \\
@@ -238,10 +234,10 @@ You may choose a mishap when a character runs out of heat points or due to in-ga
   \end{tabular}
   \caption{Weather Generation and Forecast Table}
   \label{tbl:weather}  
-\end{table}  
+\end{table*}  
 
 
-\begin{table}[h]
+\begin{table*}[t]
   \centering \large
   \begin{tabular}{|c||c|}
     \hline Outdoor Conditions & Exposure Modifier \\ \hline
@@ -267,9 +263,9 @@ You may choose a mishap when a character runs out of heat points or due to in-ga
   \end{tabular}
   \caption{Outdoor Survival Table}
   \label{tab:outdoor-survival}
-\end{table}
+\end{table*}
 
-\begin{table}[h]
+\begin{table*}[t]
   \centering
   \begin{tabular}{|c|c|}
     \hline Starts with... & Progresses to... \\ \hline
@@ -282,10 +278,32 @@ You may choose a mishap when a character runs out of heat points or due to in-ga
   \end{tabular}
   \caption{Cold Weather Events}
   \label{tab:cold-events}
-\end{table}
+\end{table*}
 
 
-\begin{multicols}{2}
+\section{Gear and Equipment}
+
+Traveling through the reaches may require some specialized gear.
+Consult Table \ref{tab:gear} for prices.
+
+\begin{table*}[t]
+  \centering
+  \begin{tabular}{|r|l|} \hline
+    Item & Cost (gold)  \\ \hline
+    Coat & 10  \\
+    Insulated Base Layer & 10 \\ 
+    Hat/Gloves/Boots & 5 gold (total) \\
+    Heavy Parka & 30 \\
+    Toboggan Sled & 40 \\
+    Skis & 30 \\
+    Sled Dog Team (10 dogs and harness) & 120 \\
+    Ice Axe & 20 \\
+    Snow Shoes & 2 \\
+ \hline \end{tabular}
+  \caption{Cold-Weather Gear}
+  \label{tab:gear}
+\end{table*}
+
   \section{Factions and Peoples}
 
   Table \ref{tab:rumors} has rumors for the more well--known factions.
@@ -363,9 +381,7 @@ You may choose a mishap when a character runs out of heat points or due to in-ga
   \item Dwarven farmers need retrieval of seeds from a vault under the earth.
   \end{itemize}
 
-\end{multicols}
-
-\begin{table}[h]
+\begin{table*}[t]
   \centering
   \begin{tabular}{|p{0.25\textwidth}|}
     \hline Rumors of Raiders \\ \hline \hline
@@ -379,7 +395,10 @@ You may choose a mishap when a character runs out of heat points or due to in-ga
                   \hline Rumors of the Orelian Church \\ \hline \hline
                   Those who speak against the Church publicly have been known to disappear. \\ \hline
                   The Church will offer bounty for reclaiming past holy sites. \\ \hline
-                  
+                  The Archbishop of the Church can perform holy miracles. \\ \hline
+                  The holy warriors serving the church have blessed weapons and spells. \\ \hline
+                  The library of the Church houses very old historical texts. \\ \hline
+                  Church priests do not allow idolatry within the settlements they have presence. \\ \hline
   \end{tabular} \begin{tabular}{|p{0.25\textwidth}|}
     \hline Rumors of Ice Wizards \\ \hline \hline
     Ice wizards will grant a spell to anyone providing food. \\ \hline
@@ -391,9 +410,41 @@ You may choose a mishap when a character runs out of heat points or due to in-ga
    \end{tabular}
    \caption{Faction Rumors}
   \label{tab:rumors}
-\end{table}
+\end{table*}
 
 
+  \section{Adventures in the Reaches}
+
+  Many pre-written modules can be reskinned for adventuring in the Reaches.
+  Even taking a module without a far-north theme in mind can be made to fit by changing the names of monsters to Scandinavian folkloric names (e.g. zombies are now draugr).
+  That said, some modules are aready perfect for the Reaches:
+
+  \begin{itemize}
+  \item \emph{Cavern of the Creeping Terror} by Kormar Publishing (for a sea-side hamlet)
+  \item \emph{Falkrest Abbey} by Axian Spice (for an abandoned abbey in the mountains)
+  \item \emph{Hel's Crow's Final Rest} by Ratking Productions (for a sea-side moral quandry)
+  \item Any bits of \emph{Wolves Upon the Coast} by Luke Gearing
+  \end{itemize}
+
+  Other popular adventures may be adapted to the setting easily:
+
+  \begin{itemize}
+  \item \emph{The Black Wyrm of Brandonsford} by Chance Dudinack. Change the dragon to be called a Lindworm. Leads nicely into further interactions with dwarves.
+  \item Many elements of \emph{Dolmenwood} by Gavin Norman can be used, e.g. the Abbey of St. Clewyd can have draugr instead of skeletons.
+  \item \emph{Barrow of the Elf King} by Highland Paranormal Society has \'alfr in the tomb now.
+  \end{itemize}
+
+  \subsection*{Monsters in the Reaches}
+
+  While you may pull from classic OSR bestiaries, consider giving the adventure flair based on Scandinavian mythology. Common threats could include Jotunn, trolls, n\"akki, or draugr, all of which you could find bestiary entries for as giants, trolls, nixies, and zombies. Kraken and Sea Serpents also fit nicely for nautical adventures. \\
+
+  \subsection*{Sample Locales and Adventure}
+
+  
+
+
+
+\end{multicols}
 
 
 
