@@ -29,7 +29,7 @@
 \listoftables
 \newpage
 
-\begin{multicols}{2}
+\begin{multicols*}{2}
   
 \section{Introduction}
 
@@ -112,7 +112,7 @@ These rules are expanded in Section \ref{sec:weather-outdoor}.
 
 \section{Geography of the Setting}
 
-In the northern reaches of the world, there are four predominant geographical regions one may find: mountain ranges, taiga forest, polar seas, and the polar caps. \\
+In the Reaches, there are four predominant geographical regions one may find: mountain ranges, taiga forest, polar seas, and the polar caps. \\
 
 {\centering
 \includegraphics[width=\columnwidth]{geography-mountains}
@@ -187,20 +187,31 @@ There are no known standing structures beyond the northern seas. Only the coldes
 Retaining heat is of the utmost importance in all of the Reaches.
 Some relevant system considerations have been mentioned already, and will be expanded here. \\
 
+
+
 \begin{table*}[t]
   \centering \large
-  \begin{tabular}{| c || c || c ||}
+  
+  \begin{tabular}{|c||p{0.25\textwidth}|}
     \hline
-    & Snow (in/day) & Wind \\ \hline
-    1 & 4 & Gusty \\
-    2 & 2 & Gusty \\
-    3 & 1 & Sustained Winds \\
-    4 & 0 & Sustained Winds \\
-    5 & -1 (melting) & Breezy \\
-    6 & -2 (melting)  & Calm \\ \hline
-  \end{tabular} \\
+      & Wind \\ \hline
+    1 & Gusty \\
+    2 & Gusty \\
+    3 & Winds \\
+    4 & Winds \\
+    5 & Calm \\
+    6 & Calm \\ \hline
+  \end{tabular}
+  \begin{tabular}{|p{0.25\textwidth}||c|}
+    \hline Condition & Modifier \\ \hline
+    Summer & +0 \\
+    Spring & +2 \\
+    Fall & +2 \\
+    Winter & +4 \\
+    High Elevation & +4 \\ \hline
+  \end{tabular}  \\
 
-  \begin{tabular}{|c||c|}
+  \begin{tabular}{|p{0.25\textwidth}||c|}
     \hline Personage & Correct Forecast Chance (\%) \\ \hline
     Commoner  & 25 \% \\
     Explorer/Outdoorsman/Sailor & 50 \% \\
@@ -213,15 +224,16 @@ Some relevant system considerations have been mentioned already, and will be exp
 
 \begin{table*}[t]
   \centering \large
-  \begin{tabular}{|c||c|}
+  \begin{tabular}{|p{0.25\textwidth}||p{0.25\textwidth}|}
     \hline Outdoor Conditions & Exposure Modifier \\ \hline
+    Nighttime & +1 \\
     Windy & +1 \\
     Gusty & +2 \\
-    Light Precipitation & +1 \\
-    Heavy Precipitation & +2 \\ \hline
+    Spring/Fall & +1 \\
+    Winter & +2 \\ \hline
   \end{tabular} \\
 
-  \begin{tabular}{|c||c|}
+  \begin{tabular}{|p{0.25\textwidth}||p{0.25\textwidth}|}
     \hline Clothing Type & Heat Capacity \\ \hline
     Warm Coat & 2 HD \\
     Insulated Inner Layer & 4 HD \\
@@ -229,11 +241,12 @@ Some relevant system considerations have been mentioned already, and will be exp
     Heavy Parka & 8 HD \\ \hline
   \end{tabular} \\
 
-  \begin{tabular}{|p{0.2\textwidth}|l||p{0.2\textwidth}|l||p{0.1\textwidth}|l|}
-    \hline Terrain Type & & Recent Weather & & Transportation Type & \\ \hline
-    Road & +2 mi/6 hr & Clear& +0 & Walking & -2 mi/6 hr \\
-    Mountain Path/Game Trail & +0 mi/6 hr & Light Snow & -2 mi/6 hr & Sled Dog & +6 mi/6 hr \\
-    Overland/Wilderness & -2 mi/6 hr & Heavy Precipitation & -4 mi/6 hr & Skis & +4 mi/6 hr \\ \hline
+  \begin{tabular}{|p{0.25\textwidth}||p{0.25\textwidth}|}
+    \hline Travel Conditions & Travel Time Modifier \\ \hline
+    Wilderness Travel & $\times2$ \\
+    Snowy & $\times 1.5$ for each $12''$ \\
+    $>48''$ Snow & Impossible without specialized travel \\
+    \hline
   \end{tabular}
   \caption{Outdoor Survival Table}
   \label{tab:outdoor-survival}
@@ -241,7 +254,7 @@ Some relevant system considerations have been mentioned already, and will be exp
 
 \begin{table*}[t]
   \centering
-  \begin{tabular}{|c|c|}
+  \begin{tabular}{|p{0.25\textwidth}|c|}
     \hline Starts with... & Progresses to... \\ \hline
     Numbness & Frostbite \\
     Shivering & Hypothermia \\
@@ -257,12 +270,30 @@ Some relevant system considerations have been mentioned already, and will be exp
 \subsection*{Weather Generation and Outdoor Survival}
 \label{sec:weather-outdoor}
 
-Weather is generated randomly for each period of 2 days. Roll d66 and consult Table \ref{tbl:weather}. The weather is generated for the local area for the period. \\
+Weather is generated randomly for each period of 2 days. Roll d6 and consult Table \ref{tbl:weather}. The weather is generated for the local area for the period. \\
 
 Players may consult locals for weather forecasts.
 These forecasts have a chance of being wrong, consult Table \ref{tbl:weather}.
 Weather for the next 4 days could be forecast, and should be rolled and played as per the roll, whether or not the forecast is accurate.
 Player characters can forecast 1 day at a Commoner level within the first months of arriving, and better later on, depending on the adventuring done. \\
+
+\begin{table*}
+  \centering
+  \begin{tabular}{|p{0.75\textwidth}|}
+    \hline
+    At the start of a campaign, roll d12 to determine month of the year. Use for weather.
+    \begin{itemize}
+    \item 1-3: Winter (Avg. snow 112'')
+    \item 4-6: Spring (Avg. snow 22'')
+    \item 7-9: Summer (Avg. snow 67'' melted)
+    \item 10-12: Fall (Avg. snow 22'')
+    \end{itemize}
+    To generate snowfall (in inches) over the next two days, roll d12-8 and add modifiers. \\ \hline
+  \end{tabular}
+  \caption{Calendar and Seasonal Snowfall}
+  \label{tab:calendar}
+\end{table*}
+
 
 Warm clothing is essential for survival in most regions.
 It increases heat capacity, which in turn allows more survival time without shelter.
@@ -288,7 +319,7 @@ Consult Table \ref{tab:gear} for prices.
 
 \begin{table*}[t]
   \centering
-  \begin{tabular}{|r|l|} \hline
+  \begin{tabular}{|p{0.25\textwidth}|c|} \hline
     Item & Cost (gold)  \\ \hline
     Coat & 10  \\
     Insulated Base Layer & 10 \\ 
@@ -299,6 +330,7 @@ Consult Table \ref{tab:gear} for prices.
     Sled Dog Team (10 dogs and harness) & 120 \\
     Ice Axe & 20 \\
     Snow Shoes & 2 \\
+    Insulated Tent & 30 \\
  \hline \end{tabular}
   \caption{Cold-Weather Gear}
   \label{tab:gear}
@@ -449,7 +481,7 @@ Consult Table \ref{tab:gear} for prices.
 
 All text here is licensed \href{https://creativecommons.org/licenses/by-sa/4.0/}{CC-BY-SA 4.0}, and all artwork is from the public domain.
 
-\end{multicols}
+\end{multicols*}
 
 
 
