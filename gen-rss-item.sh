@@ -5,6 +5,7 @@ const ChannelElements = $'<title>Sam\'s Fiction Workshop</title>\n<link>https://
 
 const RssItems = "$(git log --tags --no-walk --format='<title>%s</title>%n<link>https://rpgs.quajzen.page/' --name-only)" ++ "</link>"
 
+
 echo $ChannelElements
 
 echo """<rss version=\"2.0\">
