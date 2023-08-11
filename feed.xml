@@ -14,15 +14,15 @@ layout: none
 		<sy:updatePeriod>{{ site.feed_update_period | default: "daily" | xml_escape }}</sy:updatePeriod>
 		<sy:updateFrequency>{{ site.feed_update_frequency | default: 1 | xml_escape }}</sy:updateFrequency>
 		<link>https://rpgs.quajzen.page</link>
-		<atom:link href="https://rpgs.quajzen.pages/feed.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://rpgs.quajzen.page/feed.xml" rel="self" type="application/rss+xml" />
 		<lastBuildDate>{% for file in site.html_files limit:1 %}{{ file.modified_time | date_to_rfc822 }}{% endfor %}</lastBuildDate>
 		{% assign feed_items = site.feed_items | default: 10 %}
-		{% for page in site.html_files limit:feed_items %}
+		{% for file in site.html_files limit:feed_items %}
 			<item>
-				<title>{{ page.basename | xml_escape }}</title>
-				<pubDate>{{ page.modified_time | date_to_rfc822 }}</pubDate>
-				<link>{{ site.url }}/{{ page.path }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
+				<title>{{ file.basename | xml_escape }}</title>
+				<pubDate>{{ file.modified_time | date_to_rfc822 }}</pubDate>
+				<link>{{ site.url }}/{{ file.path }}</link>
+				<guid isPermaLink="true">{{ site.url }}{{ file.path }}</guid>
 			</item>
 		{% endfor %}
 	</channel>
