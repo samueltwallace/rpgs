@@ -6,3 +6,19 @@ title: "Sam's Fiction Workshop"
 description: "Sam's Blog on all things fiction: Books, Movies, and RPGs."
 include: [/posts/]
 source: [/]
+defaults:
+  - scope:
+      path: "*"
+    values:
+      layout: null
+      author: "Sam Wallace"
+  - scope:
+      path: "/about/*"
+    values:
+      layout: null
+      author: "Sam Wallace"
+  - scope:
+      path: "media/*"
+    values:
+      layout: null
+      author: "Sam Wallace"
