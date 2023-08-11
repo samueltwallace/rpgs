@@ -8,6 +8,6 @@ include: [/posts/]
 source: [/]
 defaults:
   - scope:
-     path: "posts/"
-   values:
-   layout: null
+    path: "posts/"
+    values:
+     layout: null
