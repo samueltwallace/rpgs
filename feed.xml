@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: null
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -19,11 +19,14 @@ layout: none
 		{% assign feed_items = site.feed_items | default: 10 %}
 		{% for file in site.html_files limit:feed_items %}
 			<item>
-				<title>{{ file.basename | xml_escape }}</title>
+			  <title>{{ file.basename | xml_escape }}</title>
+			  <dc:creator>{{ file.author }}</dc:creator>
 				<pubDate>{{ file.modified_time | date_to_rfc822 }}</pubDate>
-				<link>{{ site.url }}/{{ file.path }}</link>
+				<link>{{ site.url }}{{ file.path }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ file.path }}</guid>
 			</item>
+			{% else %}
+			No Pages!
 		{% endfor %}
 	</channel>
 </rss>

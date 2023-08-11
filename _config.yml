@@ -8,6 +8,7 @@ include: [/posts/]
 source: [/]
 defaults:
   - scope:
-      path: "posts/"
+      path: ""
     values:
       layout: null
+      author: "Sam Wallace"
