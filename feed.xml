@@ -15,9 +15,10 @@ layout: null
 		<sy:updateFrequency>{{ site.feed_update_frequency | default: 1 | xml_escape }}</sy:updateFrequency>
 		<link>https://rpgs.quajzen.page</link>
 		<atom:link href="https://rpgs.quajzen.page/feed.xml" rel="self" type="application/rss+xml" />
-		<lastBuildDate>{% for file in site.html_files limit:1 %}{{ file.modified_time | date_to_rfc822 }}{% endfor %}</lastBuildDate>
+		<lastBuildDate>{% for file in site.static_files limit:1 %}{{ file.modified_time | date_to_rfc822 }}{% endfor %}</lastBuildDate>
 		{% assign feed_items = site.feed_items | default: 10 %}
 		{% for file in site.html_files limit:feed_items %}
+		{% if file.path contains "posts" %}
 			<item>
 			  <title>{{ file.basename | xml_escape }}</title>
 			  <dc:creator>{{ file.author }}</dc:creator>
@@ -25,6 +26,7 @@ layout: null
 				<link>{{ site.url }}{{ file.path }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ file.path }}</guid>
 			</item>
+			{% endif % }
 			{% else %}
 			No Pages!
 		{% endfor %}
