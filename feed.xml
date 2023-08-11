@@ -15,21 +15,13 @@ layout: none
 		<sy:updateFrequency>{{ site.feed_update_frequency | default: 1 | xml_escape }}</sy:updateFrequency>
 		<link>https://rpgs.quajzen.page</link>
 		<atom:link href="https://rpgs.quajzen.pages/feed.xml" rel="self" type="application/rss+xml" />
-		<lastBuildDate>{% for page in site.pages limit:1 %}{{ page.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
+		<lastBuildDate>{% for file in site.html_files limit:1 %}{{ page.modified_time | date_to_rfc822 }}{% endfor %}</lastBuildDate>
 		{% assign feed_items = site.feed_items | default: 10 %}
 		{% for page in site.html_files limit:feed_items %}
 			<item>
-				<title>{{ page.title | xml_escape }}</title>
-				{% if page.author.name %}
-					<dc:creator>{{ page.author.name | xml_escape }}</dc:creator>
-				{% endif %}
-				{% if page.excerpt %}
-					<description>{{ page.excerpt | xml_escape }}</description>
-				{% else %}
-					<description>{{ page.content | xml_escape }}</description>
-				{% endif %}
-				<pubDate>{{ page.date | date_to_rfc822 }}</pubDate>
-				<link>{{ site.url }}{{ page.url }}</link>
+				<title>{{ page.basename | xml_escape }}</title>
+				<pubDate>{{ page.modified_time | date_to_rfc822 }}</pubDate>
+				<link>{{ site.url }}/{{ page.path }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ page.url }}</guid>
 			</item>
 		{% endfor %}
