@@ -4,5 +4,5 @@ plugins:
   - jekyll-seo-tag
 title: "Sam's Fiction Workshop"
 description: "Sam's Blog on all things fiction: Books, Movies, and RPGs."
-include: [posts/]
-source: [.]
+include: [/posts/]
+source: [/]
