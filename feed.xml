@@ -10,7 +10,7 @@
 		<sy:updatePeriod>{{ site.feed_update_period | default: "daily" | xml_escape }}</sy:updatePeriod>
 		<sy:updateFrequency>{{ site.feed_update_frequency | default: 1 | xml_escape }}</sy:updateFrequency>
 		<link>https://rpgs.quajzen.page</link>
-		<atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
+		<atom:link href="https://rpgs.quajzen.pages/feed.xml" rel="self" type="application/rss+xml" />
 		<lastBuildDate>{% for page in site.pages limit:1 %}{{ page.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
 		{% assign feed_items = site.feed_items | default: 10 %}
 		{% for page in site.html_pages limit:feed_items %}
