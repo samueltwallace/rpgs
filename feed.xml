@@ -27,7 +27,7 @@ layout: null
 			  <dc:creator>{{ file.author }}</dc:creator>
 				<pubDate>{{ file.modified_time | date_to_rfc822 }}</pubDate>
 				<link>{{ site.url }}{{ file.path }}</link>
-				<description>{{ file_content | truncatewords: 30 }}</description>
+				<description>{{ file_content | strip_html | truncatewords: 30 }}</description>
 				<guid isPermaLink="true">{{ site.url }}{{ file.path }}</guid>
 			</item>
 		{% endfor %}
