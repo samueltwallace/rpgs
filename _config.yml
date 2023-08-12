@@ -8,17 +8,7 @@ include: [/posts/]
 source: [/]
 defaults:
   - scope:
-      path: "*"
+      path: "posts/*"
     values:
       layout: null
-      author: "Sam Wallace"
-  - scope:
-      path: "/about/*"
-    values:
-      layout: null
-      author: "Sam Wallace"
-  - scope:
-      path: "media/*"
-    values:
-      layout: null
-      author: "Sam Wallace"
+      type: "blog post"
