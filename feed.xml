@@ -16,8 +16,9 @@ layout: null
 		<link>https://rpgs.quajzen.page</link>
 		<atom:link href="https://rpgs.quajzen.page/feed.xml" rel="self" type="application/rss+xml" />
 		<lastBuildDate>{% for file in site.static_files limit:1 %}{{ file.modified_time | date_to_rfc822 }}{% endfor %}</lastBuildDate>
-		{% assign feed_items = site.feed_items | default: 10 %}
+		{% assign feed_items = site.feed_items | default: 100 %}
 		{% for file in site.static_files limit:feed_items %}
+		{% if file.extname == ".md.html" %}
 			<item>
 			  <title>{{ file.basename | xml_escape }}</title>
 			  <dc:creator>{{ file.author }}</dc:creator>
@@ -25,6 +26,7 @@ layout: null
 				<link>{{ site.url }}{{ file.path }}</link>
 				<guid isPermaLink="true">{{ site.url }}{{ file.path }}</guid>
 			</item>
+			{% endif %} 
 		{% endfor %}
 	</channel>
 </rss>
