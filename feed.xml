@@ -20,7 +20,7 @@ layout: null
 		{% assign site_posts = site.static_files | where: "type", "blog post" %}
 		{% for file in site_posts | limit:feed_items %}
 		{% capture file_content %}
-		{% include file.path %}
+		{% include_relative file.path %}
 		{% endcapture %}
 			<item>
 			  <title>{{ file.basename | xml_escape }}</title>
