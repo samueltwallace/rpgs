@@ -78,3 +78,44 @@ Your victims might be the rich of the rich, or the common man.
 Start with thieves' tools and a fair bit of cash.
 You have skills in acrobatics, evasion, and finding a place to hide away.
 You have a bounty out on your head.
+
+## Monk
+
+You have lived an ascetic life.
+You are intimately familiar with your faith, yourself, and your fellow ascetics.
+You may have under one of the many esoteric traditions of the world.
+
+Start with holy robes and book.
+You are erudite, unshakeably calm, and blessed.
+You are unknowledgeable about the outside world.
+
+
+## Duelist
+
+You are a lithe combatant, skilled in the bluff and dance of one-on-one combat.
+You have earned a reputation through your artistry, and perhaps some wealth as well.
+You must hold yourself with great discipline to be such a dangerous foe.
+
+Start with a weapon of your choice, and a heraldic jewelry piece.
+You are physically quick, mentally sharp, and sensorially perceptive.
+You struggle to care for other people.
+
+## Muscle-bound
+
+Strength is your life.
+You can lift, shove, push, wrench, bend, and break.
+Everyone who sees you knows you can do these things.
+
+Start with tightly-fitting clothes and a steel ball.
+You are stronger than anyone you might meet, ever.
+You cannot fit through most doorways.
+
+## Hunter
+
+You have lived in the woods for a lot of your life.
+You can tread silently through dense underbrush, and spot a flash of movement hundreds of yards away.
+No one can see you when you stand still.
+
+Start with an accurate ranged weapon and a hunting knife.
+You are silent and nearly invisible when still, and never miss a shot.
+You have trouble talking to people.
