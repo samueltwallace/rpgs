@@ -119,3 +119,27 @@ No one can see you when you stand still.
 Start with an accurate ranged weapon and a hunting knife.
 You are silent and nearly invisible when still, and never miss a shot.
 You have trouble talking to people.
+
+# Sci-Fi
+
+## Android
+
+You are a construted being made in the likeness of an organic being.
+You have an advanced intelligence and have no organic physical needs.
+You stick out like a sore thumb in organic crowds.
+
+Start with a built-in weapon and an encyclopedic knowledge of a topic of your choice.
+You can interface with commonplace technology.
+You are susceptible to EMPs.
+
+## Smuggler Pilot
+
+You ran illegal trade routes.
+You know your ship like a lover, and know how to avoid unwanted attention.
+You have made connections to other seedy types, and know how to handle yourself around them.
+
+Start with a laser pistol and a small cargo ship.
+You know a few hidden routes to transport goods.
+You double-crossed someone and should be on the lookout.
+
+
