@@ -20,40 +20,46 @@ are a greedy looter. To shape your game experience, give yourself a name and cho
 
 ![Waiting...](./silently-watching-1600.jpg)
 
-1. Acrobatics
-2. Dueling
-3. Brawling
-4. Sniping
-5. Disguise
-6. Lying
-7. Tracking
-8. Evasion
-9. Magic
-10. Lockpicking
-11. Pickpocketing
-12. Poison Identification
-13. Trap Setting
-14. Trap Disarming
-15. Architectural Eye
-16. Navigation
-17. Climbing
-18. Forgery
-19. Languages
-20. First Aid
-21. Moving Silently
-22. Outdoor Survival
-23. Ambush
-24. Dodging
-25. Beast Identification
-26. Translation (language of your choice)
-27. Reflexes
-28. Mechanical know-how
-29. Driving
-30. Appraisal
+11. Acrobatics
+12. Dueling
+13. Brawling
+14. Sniping
+15. Disguise
+16. Lying
+21. Tracking
+22. Evasion
+23. Magic
+24. Lockpicking
+25. Pickpocketing
+26. Poison Identification
+31. Trap Setting
+32. Trap Disarming
+33. Architectural Eye
+34. Navigation
+35. Climbing
+36. Forgery
+41. Languages
+42. First Aid
+43. Moving Silently
+44. Outdoor Survival
+45. Ambush
+46. Dodging
+51. Beast Identification
+52. Translation (language of your choice)
+53. Reflexes
+54. Mechanical know-how
+55. Driving
+56. Appraisal
+61. 
+62.
+63.
+64.
+65.
+66.
 
-Skills may allow extra capabilities or grant boons in rolling. Come up with some archetype that fits your skills: ninja, boxer, outdoorsman, etc.
+Chosen skills start at score of 5. Come up with some archetype that fits your skills: ninja, boxer, outdoorsman, etc.
 
-Additionally, come up or roll on the following for 3 weapons, tools, or items that you start with (three total). You also may take some initial cash (enough for a few days' living).
+Additionally, come up or roll on the following for weapons, tools, or items that you start with (three total). You also may take some initial cash (enough for a few days' living).
 
 1. Sword
 2. Two-handed Sword
@@ -67,25 +73,28 @@ Additionally, come up or roll on the following for 3 weapons, tools, or items th
 10. Helmet
 11. Gauntlets
 12. Wooden Bucket
+13. Holy Symbol
 
 
 ![the Beast!](./dragon.jpg)
 
 # Looting
 
-The looters describe their actions. If an action is not obviously successful (which is often, as they are competent looters), roll 2d6 and add +1 for each relevant skill and gear. The Referee may then name situational disadvantages that prevent success, subtracting 1 from the roll. High results are unmitigated successes for the roller, and low rolls are disastrous. Middling results add complexities.
-
-Looters have 4 HP, which could be boosted with appropriate gear, such as armor. A weapon usually can deal 1, or maybe 2, HP of damage. Beyond that, powerful weapons can effect the characters in ways beyond just HP. A sacrifice of equipment or a condition may reduce damage.
+The looters describe their intent. The referee states a possible consequence of failure. If an intended action would not obviously be successful (which is rare, as they are competent looters), roll a d20. If a skill applies, the looter succeeds on a roll equal to or under the skill's score. If no skill applies, they must roll a 1 or 2. 
 
 It's fun if you have a reason for looting: owing someone money, or looking to retire early.
 
+# Combat
 
+Actions happen in a chaotic simultaneous round. Every combatant declares an actions. Actions are resolved by individual initiative rolls: every player rolls a d20, and resolve in order of highest roll to lowest roll. Ties are left to Ref discretion. Roll for all NPC combatants at once. If one side is surprised, the other gets a free round. 
+
+Looters start with 1d6 HP, potentially boosted by +1 to +3 with armor or shield. Attacks do 1-2 HP, but more powerful weapons may impact more than just HP. If a shot can be made, it does damage.
 
 # Magic
 
-You can only cast magic innately if you have taken the magic skill. If you cast innately, you can only use the +1 from the magic skill on the roll. Objects with magical power may be used by anybody, but not without a roll. Magic takes time to manifest, and can be interrupted (e.g. by combat). You in general can only have one spell memorized at a time, and it takes time to learn a new spell.
+You can only cast magic innately if you have taken the magic skill. Objects with magical power may be used by anybody, but not without a roll. Magic takes time to manifest, and can be interrupted (e.g. by combat). You in general can only have one spell memorized at a time, and it takes time to learn a new spell.
 
-Choose a spell:
+Choose or roll a spell:
 
 |     |                   |                                                                                                                                                         |
 |-----|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -190,11 +199,15 @@ Choose a spell:
 | 99  | Wizard Mark       | Your finger can shoot a stream of ulfire-colored paint. This paint is only visible to you and can be seen at any distance, even through solid objects.  |
 | 100 | X-Ray Vision      | You can see through walls, dirt, clothing, etc.                                                                                                         |
 
-(Originally in Cairn).
+(Originally in Knave).
 
 ![Be Dramatic!](ritual.jpg)
 
-Describe the effect you would like manifest, and both sides roll. Should the looter fail to manifest their desired effect, it backlashes as the Referee specifies. It may take special ingredients or a ritual depending on the desired effect. 
+# Advancement
+
+Agree on a method to advance levels, be it treasure, downtime, or milestones. Every level up, advance the scores of previously attained skills by a total of 3, or choose a new skill to bring the score up to 5. You may additionally memorize one extra spell per level advanced.
+
+To advance levels during downtime, spend at least a week in a safe settlement practicing your skills. Materials or mentors can speed this up, but cost money. Montage and quickly discuss any details.
 
 # Ref Guidelines
 
