@@ -31,7 +31,7 @@ are a greedy looter. To shape your game experience, give yourself a name and cho
 23. Magic
 24. Lockpicking
 25. Pickpocketing
-26. Poison Identification
+26. Heavy Moving
 31. Trap Setting
 32. Trap Disarming
 33. Architectural Eye
@@ -42,20 +42,20 @@ are a greedy looter. To shape your game experience, give yourself a name and cho
 42. First Aid
 43. Moving Silently
 44. Outdoor Survival
-45. Ambush
+45. Music
 46. Dodging
-51. Beast Identification
+51. Swimming
 52. Translation (language of your choice)
 53. Reflexes
 54. Mechanical know-how
 55. Driving
 56. Appraisal
-61. 
-62.
-63.
-64.
-65.
-66.
+61. Hardy Constitution
+62. Athletic Stamina
+63. Throwing
+64. Magical Identification
+65. Religious Identification
+66. Historical Identification
 
 Chosen skills start at score of 5. Come up with some archetype that fits your skills: ninja, boxer, outdoorsman, etc.
 
@@ -80,7 +80,7 @@ Additionally, come up or roll on the following for weapons, tools, or items that
 
 # Looting
 
-The looters describe their intent. The referee states a possible consequence of failure. If an intended action would not obviously be successful (which is rare, as they are competent looters), roll a d20. If a skill applies, the looter succeeds on a roll equal to or under the skill's score. If no skill applies, they must roll a 1 or 2. 
+The looters describe their intent. The referee states a possible consequence of failure. If an intended action would not obviously be successful (which is rare, as they are competent looters), roll a d20. If a skill applies, the looter succeeds on a roll equal to or under the skill's score. If no skill applies, they must roll a 1 or 2. Situational factors may influence the roll, making an action impossible or trivial.
 
 It's fun if you have a reason for looting: owing someone money, or looking to retire early.
 
@@ -199,7 +199,7 @@ Choose or roll a spell:
 | 99  | Wizard Mark       | Your finger can shoot a stream of ulfire-colored paint. This paint is only visible to you and can be seen at any distance, even through solid objects.  |
 | 100 | X-Ray Vision      | You can see through walls, dirt, clothing, etc.                                                                                                         |
 
-(Originally in Knave).
+(from Cairn).
 
 ![Be Dramatic!](ritual.jpg)
 
@@ -207,10 +207,10 @@ Choose or roll a spell:
 
 Agree on a method to advance levels, be it treasure, downtime, or milestones. Every level up, advance the scores of previously attained skills by a total of 3, or choose a new skill to bring the score up to 5. You may additionally memorize one extra spell per level advanced.
 
-To advance levels during downtime, spend at least a week in a safe settlement practicing your skills. Materials or mentors can speed this up, but cost money. Montage and quickly discuss any details.
+To advance levels during downtime, spend at least a week in a safe settlement practicing your skills. Materials or mentors can speed this up, but cost money. Montage and quickly discuss any relevant details.
 
 # Ref Guidelines
 
-Be permissive in starting gear to allow players to shape their game experience. While playing, be tough but fair in what happens. Be ready to improvise, keep only a loose idea of the world elements in play.
+Be permissive in starting gear to allow players to shape their game experience. While playing, be tough but fair in what happens. Be ready to improvise, keep only a loose idea of the world elements in play. Failure always leads to consequences, keep the story going.
 
 This game licensed CC-BY-SA 4.0.
