@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Sam W" />
+  <title>What Makes a Good Procedure?</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+  <link rel="stylesheet" href="/rpg-styles.css" />
+
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">What Makes a Good Procedure?</h1>
+<p class="author">Sam W</p>
+<center><a href="/">Home</a> | <a href="/subscriptions.opml">Blogroll (opml)</a></center>
+</header>
+<p>I want to propose a set of criteria for good procedures and take a
+look at some procedures. We will look at some good ones, some ones not
+in my favor, and take some conclusions to logical extremes to see why
+they fail. This is mostly going to apply to OSR-style procedures, in
+particular, we are going to look mainly at random generation
+procedures.</p>
+<h1 id="the-criteria">The Criteria</h1>
+<p>The criteria I want to propose for what makes a procedurable
+desireable are:</p>
+<ol type="1">
+<li>The procedure should have a small mental overhead to perform,</li>
+<li>The procedure should reinforce challenges the game sets out to
+perform,</li>
+<li>The procedure should be developable as part of the game world.</li>
+</ol>
+<p>To clarify, ‘mental overhead’ is the amount of thinking required to
+complete the procedure: remembering what to roll, sorting through the
+relevant table, and interpreting the result (if necessary).</p>
+<p>Notice that point 2, for our OSR case, has a substitution that can be
+made: the challenges of the game. OSR challenges are often diegetic
+puzzles and resource management.</p>
+<p>And finally, the results of the procedure should have clear
+in-fiction interpretations that make sense for the game at its current
+state. Moreover, you should be able to develop the results of the
+procedure into further fiction.</p>
+<p>These criteria, when all met, create engaging and streamlined
+procedures that encourage the desired play. It’s a win–win for player
+and referee, as no one has to do the mental heavy lifting and something
+interesting happens in the game.</p>
+<p>Let’s judge some procedures on these criteria.</p>
+<h1 id="combat-procedures-initiative">Combat Procedures: Initiative</h1>
+<p>We are going to look at the default initiative systems of 5e,
+<em>Knave</em>, and OD&amp;D and critique or praise their adherence to
+the principles.</p>
+<h2 id="e">5e</h2>
+<p>If you’re not familiar, 5e runs initiative as follows: everyone rolls
+an ‘initiative check,’ then initiative proceeds by highest scores of
+individuals.</p>
+<p>Mental Overhead: <strong>Poor.</strong> This is a particular
+intensive way to track initiative. It needs a special check (why would a
+simple Dex check not be sufficient?), and keeping track of a random
+order of players. At a big table, this is a disaster to track. Moreover,
+there is mental overhead in planning your turn and not being bored
+between your turns.</p>
+<p>Challenges: <strong>Good.</strong> What are the challenges of 5e? To
+me, 5e challenges players to use their special abilities to act as
+heroes. 5e has a “spotlight” initiative system: everyone gets their
+moment to shine. This is perfect for heroic moments and big moves.</p>
+<p>(You may disagree on the challenge 5e sets out to pose, in which
+case, you can modify this argument as you see fit).</p>
+<p>Developable: <strong>Poor.</strong> I find 5e initiative to be
+immersion breaking. It precludes direct collaboration, and simplifies
+many time–tracking aspects of combat - i.e. why does every action take
+the same time to perform? Moreover, there is no extension to the
+procedure to allow nonstandard actions: teaming up, as mentioned, or
+taking multi–turn actions. There is nothing you can do to extend the
+procedure in a fictional way.</p>
+<h2 id="knave">Knave</h2>
+<p><em>Knave</em> gives a 50-50 chance of all players going first each
+round, rerolled every round.</p>
+<p>Mental Overhead: <strong>Fair.</strong> It’s easy to do but easy to
+forget. I would be too accustomed to alternating turns to remember to
+reroll every round. The side-based initiative is great on every other
+account. Easy to manage who is going when, and easy to come up with
+actions to perform when you can collaborate. Also goes much quicker.</p>
+<p>Challenges: <strong>Excellent.</strong> Luckily with <em>Knave</em>,
+we have designer’s notes. <em>Knave</em> sets out for combat to be easy
+to track and keep ‘players engaged.’ It also looks to make combat more
+dangerous. I think the last two points are well upheld (as is the first
+one, as previously discussed). It is engaging, as you need to be on your
+toes and be reactive to win (since the order is so unpredictable), and
+combat is dangerous, as you can get smacked twice in a row.</p>
+<p>Developable: <strong>Fair.</strong> <em>Knave</em> seems to have one
+kind of fight in mind with this initiative procedure: a head–on melee.
+There are no accomodations in the rules made for suprise attacks of
+various kinds, like an ambush; nor is there accomodations for special
+attacks like a crossbow sniper’s headshot. These things can be figured
+out at the table with a house rule, but the basic mechanic seems to be
+restrictive for those cases.</p>
+<h2 id="odd">OD&amp;D</h2>
+<p>I am going to specifically look at the <em>White Box: Fantastic
+Medieval Adventure Game</em> Alternate combat system, with the 4M phases
+(for contrast with <em>Knave</em>, which is otherwise very similar). You
+roll side based initiative (50-50, rerolled every round). The referee
+may also determine surprise at the beginning, suggsted either with a
+judgement or a roll. Then prepared spells are cast (Magic), followed by
+Missile attacks, Melee combat, and then Movement, all in initiative
+order within each phase.</p>
+<p>Mental Overhead: <strong>Poor.</strong> You need to alternate sides
+in the correct order in each M-phase, and keep track of the four phases.
+For a table of less than 4 players, you’re keeping track of more phases
+than players! This can be a logistical headache.</p>
+<p>Challenges: <strong>Excellent.</strong> OD&amp;D looks to be a
+tactics–based victory in a chaotic battle. The phases keep good track of
+time to allow some planning, but the side–based initiative keeps
+everyone on their toes.</p>
+<p>Developable: <strong>Fair.</strong> This suffers from the same
+drawback as <em>Knave</em>: it has minimal ability to accomodate
+non-melee situations.</p>
+<h2 id="bonus-into-the-odd">Bonus: Into the Odd</h2>
+<p><em>Into the Odd</em> runs side-based initiative, with a first round
+for players if they succeed on a Dex save.</p>
+<p>Mental Overhead: <strong>Excellent.</strong> Uses an existing roll
+for determining surprise, and proceeds side–based.</p>
+<p>Challenges: <strong>Good.</strong> <em>Into the Odd</em>’s likes to
+encourage lateral thinking an unfair fights. The extra first round
+reinforces that well.</p>
+<p>Developable: <strong>Good.</strong> That free round could be
+extended, or eliminated entirely in the right scenario. Headshot? Boom.
+Easy to figure out how to do.</p>
+<h1 id="addendum-intended-goals-vs-achieved-goals">Addendum: Intended
+Goals vs Achieved Goals</h1>
+<p>There’s a saying that goes back in game design: the behavior that you
+reward is the behavior you encourage. When creating a procedure, keep
+this in mind. The challenges posed should give rewards when overcome;
+whether the reward is a level, gold, or an item. How can players act in
+your procedure? What routes do they have to success? Do they reward the
+challenge you intend?</p>
+<p>The Way of Game Design is one of freeing players without leading
+them. They must find a path in the provided structure without it being
+obvious or designed for them.</p>
+</body>
+</html>

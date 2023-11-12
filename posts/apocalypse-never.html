@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Sam W" />
+  <title>Apocalypse Never</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+  <link rel="stylesheet" href="/rpg-styles.css" />
+
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Apocalypse Never</h1>
+<p class="author">Sam W</p>
+<center><a href="/">Home</a> | <a href="/subscriptions.opml">Blogroll (opml)</a></center>
+</header>
+<p>This is system prep for my <em>Apocalypse Never</em> Game. This is a
+combination of several systems: Knave, Maze Rats, Vaults of Vaarn,
+Cairn, and Liminal Horror.</p>
+<h1 id="setting">Setting</h1>
+<p>Something bad happened. Catastrophic. The world seemed like it was
+ending. Things were seen in the confusion; unnatural things that should
+never be able to walk, or crawl, or whatever they were doing.</p>
+<p>That was several years ago now. The world didn’t end, just any
+semblance of a safe and comfortable life. Now refugees from every time
+and place have banded together to survive. Some survivors are from a
+mythic past, with sword and shield, some are from a time like ours, and
+some are from a far distant future where humanity has radically
+changed.</p>
+<p>You have been driving for days, looking for food, gas, and a place to
+rest. You aren’t heroes, just survivors.</p>
+<h1 id="game-style">Game Style</h1>
+<p>This setting and gameplay style will be played OSR/NSR style. That
+means:</p>
+<ul>
+<li>You will be weak if you do your standard attack. This game is not
+about tactical combat, nor does it encourage it.</li>
+<li>You will have to use your gear creatively to stay alive. You will
+get far by thinking about what makes sense in the world, not thinking
+about the game rules.</li>
+<li>This is not a character-focused game. This is more game-y than
+narrative. I didn’t write any sort of plot to follow.</li>
+</ul>
+<p>If you want more explanation, <a
+href="https://lithyscaphe.blogspot.com/p/principia-apocrypha.html">link</a>,
+<a
+href="https://cairnrpg.com/cairn-srd/#principles-for-players">link</a>,
+and <a href="https://www.youtube.com/watch?v=wRVJNkOObIU">link</a>.</p>
+<p>The rules are meant to be light, and your success at an action
+depends on your ability to describe it. Expect dilemmas and hard
+choices, not checks and hard rolls. This should feel more like improv
+than a movie.</p>
+<p>I hope this doesn’t sound like I want to kill you. I don’t. But I
+want a dangerous world with consequences so that you can be pushed to do
+things more interesting than “I swing my sword.”</p>
+<h1 id="character-management">Character Management</h1>
+<p>Your character has 6 abilities: Strength, Dexterity, Constitution,
+Intelligence, Wisdom, and Charisma. Roll 2d6 and take the lower roll for
+each of them to get the scores <em>bonus.</em> Add 10 to the bonus to
+get that stat’s <em>defense</em>. You can then swap two ability bonuses
+and corresponding defenses, or re-roll one ability.</p>
+<p>Roll 1d8 for starting hitpoints and add your constitution bonus.</p>
+<p>Everyone starts with 3 days rations, 3d6 x 20 dollars, and a
+flashlight. Then roll as directed in Section <a
+href="#equipment">Equipment</a>. If the total of your skill bonuses is
+less than 16, you may roll on an additional table of your choice.</p>
+<p>The party also starts with a vehicle of their choice (nothing
+crazy).</p>
+<p>When a new campaign starts, choose an XP method: gold, stunts, or
+artifacts (these methods give XP per PC). For gold, 1000 gold recovered
+gives 1 XP. For stunts, XP is awarded at the end of a session, 1 for
+showing up, 2 for a clever use of tools, and 3 for defying the odds. For
+artifacts, every artifact sold after adventuring gives 1 XP. The XP
+table is shown below:</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Advance to Level</th>
+<th style="text-align: left;">at XP</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">12</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">30</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">84</td>
+</tr>
+</tbody>
+</table>
+<p>When leveling up, roll your new level’s number of d8’s for new HP and
+add your constitution modifier (if you roll below your current HP,
+increase HP by 1). You may also increase the ability bonuses and
+corresponding defenses of three different abilities by 1.</p>
+<p>You have a number of inventory slots equal to your Constitution
+defense. Use them sensibly and wisely.</p>
+<p>You have a number of skill slots equal to your Intelligence bonus.
+You may fill one by memorizing a spell, training a combat or tactical
+skill, or a cybernetics implant.</p>
+<p>You also can have the condition <em>deprived</em>. This may happen by
+not eating or sleeping properly. If you are deprived, you cannot regain
+any HP until you have a good night of sleep or a meal, as needed.</p>
+<p>You also start with a skill. Choose one of the following:</p>
+<ol type="1">
+<li>+1 to any ability bonus and defence</li>
+<li>A spell</li>
+<li>Specialty:
+<ul>
+<li>Natural: excels in foraging, tracking, and navigating</li>
+<li>Dextrous: excels in tinkering, picking locks &amp; pockets</li>
+<li>Nimble: Climbing, leaping, balancing, agility stunts</li>
+<li>Stealthy: moving silently, staying out of sight, covering your
+tracks</li>
+</ul></li>
+</ol>
+<p>Record your character attributes in a manner of your choice.</p>
+<h1 id="saving-throws">Saving Throws</h1>
+<p>There are no ability checks in this system, simply saving throws.
+This is more than a renaming convention; if you aren’t saving against an
+immediate danger, you should not be rolling.</p>
+<p>To roll a save, roll 2d6 plus the relevant ability bonus. If the
+result is greater than 10, you succeed; otherwise you fail.</p>
+<h1 id="magic">Magic</h1>
+<p>Spells are held in skill slots. If you choose not to generate a spell
+a particular day, you lose the ability to generate spells. However, if
+you gain the ability to cast two spells, you may forego generation of
+one spell without losing both.</p>
+<p>If you choose a spell, use <a
+href="https://goblinarchives.github.io/LiminalHorror/Liminal%20Horror%20System/Magic/">Liminal
+Horror</a> to generate it.</p>
+<p>When you cast a spell, roll 2d6. On a 2, you suffer a magical
+catastrophe. Roll from Liminal Horror.</p>
+<p>Spells can only be cast once, and regenerate after a restful night of
+sleep.</p>
+<h1 id="combat">Combat</h1>
+<p>Combat is mostly freeform. There is no fixed initiative order, no
+standard actions, just your descriptions. If there is a competition
+between who does what first, roll a Dexterity Save.</p>
+<p>Roll 2d6 and add strength bonus for melee weapons, wisdom for ranged
+weapons, add the weapon’s attack bonus, and subtract the defender’s
+armor bonus (bottoming out at zero). This is the damage dealt.</p>
+<p>When attacking and doubles are rolled, special effects take place.
+Consult the Following table:</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">Doubles on a Miss</th>
+<th style="text-align: center;">Doubles on a Hit</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">PC</td>
+<td style="text-align: center;">-1 weapon quality</td>
+<td style="text-align: center;">double the roll</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">NPC</td>
+<td style="text-align: center;">automatic miss</td>
+<td style="text-align: center;">-1 armor quality or scar (if no
+armor)</td>
+</tr>
+</tbody>
+</table>
+<p>For a scar, use Section <a href="#scars">Scars</a></p>
+<p>If an item reaches 0 quality, it is unusable. Repairing armor costs
+20% of its store price per quality.</p>
+<p>If you want to attempt a combat maneuver (stunts in Knave) such as
+tripping, disarming, grappling, or stunning, it is resolved with a
+relevant save against the opponent’s relevant Defence. These may not
+directly cause damage.</p>
+<p>You can only use ranged weapons from a distance, and melee weapons up
+close. You may sacrifice a shield to absorb all the damage of one
+hit.</p>
+<h2 id="scars">Scars</h2>
+<p>Compare damage taken on the critical hit to the following table.</p>
+<table>
+<colgroup>
+<col style="width: 1%" />
+<col style="width: 98%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Lasting Scar: Roll 1d6: 1: Neck, 2: Hands,
+3: Eye, 4: Chest, 5: Legs, 6: Ear. Roll (Level)d8. If the total is
+higher than your max HP, take the new result.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Rattling Blow: You’re disoriented and
+shaken. Describe how you refocus. Roll (Level)d8. If the total is higher
+than your max HP, take the new result.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Walloped: You’re sent flying and land flat
+on your face, winded. You are deprived until you rest for a few hours.
+Then, roll 1d6. Add that amount to your max HP.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Broken Limb: Roll 1d6: 1-2: Leg, 3-4: Arm,
+5: Rib, 6: Skull. Once mended, roll (Level)d8. If the total is higher
+than your max HP, take the new result.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Diseased: You’re afflicted with a gross,
+uncomfortable infection. When you get over it, roll (Level)d8. If the
+total is higher than your max HP, take the new result.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Reorienting Head Wound: Roll 1d6: 1-2:
+STR, 3-4: DEX, 5-6: Charisma. Roll 3d6. If the total is higher than your
+current ability score, take the new result.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Hamstrung: You can barely move until you
+get serious help and rest. After recovery, roll 1d6. If the total is
+higher than your max DEX, take the new result.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Deafened: You cannot hear anything until
+you find extraordinary aid. Regardless, make a Charisma save. If you
+pass, increase your max Charisma by 1d4.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Re-brained: Some hidden part of your
+psyche is knocked loose. Roll 1d6. If the total is higher than your max
+Charisma, take the new result.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">Sundered: An appendage is torn off,
+crippled or useless. The Warden will tell you which. Then, make a
+Charisma save. If you pass, increase your max Charisma by 1d6.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">Mortal Wound: You are deprived and out of
+action. You die in one hour unless healed. Upon recovery, roll
+(Level)d8. Take the new result as your max HP.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">Doomed: Death seemed ever so close, but
+somehow you survived. If your next save against a scar is a fail, you
+die horribly. If you pass, roll (Level)d8. If the total is higher than
+your max HP, take the new result.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="equipment">Equipment</h1>
+<h2 id="armor">Armor</h2>
+<p>Armor items have <em>ratings.</em> (r). Use the following
+formulae:</p>
+<p>Armor bonus = r</p>
+<p>Inventory slots = r</p>
+<p>Quality = 1 + r</p>
+<p>Roll 2d6:</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Roll</th>
+<th>Rating</th>
+<th style="text-align: left;">Armor Item</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td>0</td>
+<td style="text-align: left;">No Armor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3-5</td>
+<td>1</td>
+<td style="text-align: left;">Robes/Hoodie</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">6-7</td>
+<td>2</td>
+<td style="text-align: left;">Gambeson/Sturdy Coat</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8-11</td>
+<td>3</td>
+<td style="text-align: left;">Brigandine/leather jacket</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">12</td>
+<td>4</td>
+<td style="text-align: left;">Chain/Kevlar Vest</td>
+</tr>
+</tbody>
+</table>
+<p>Helmet and Shields provide additional armor bonuses (added on top of
+armor).</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Roll</th>
+<th>Rating</th>
+<th style="text-align: left;">Item</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1-7</td>
+<td>0</td>
+<td style="text-align: left;">None</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8-9</td>
+<td>1</td>
+<td style="text-align: left;">Helmet</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">10-11</td>
+<td>1</td>
+<td style="text-align: left;">Shield</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td>2</td>
+<td style="text-align: left;">Helmet &amp; Shield</td>
+</tr>
+</tbody>
+</table>
+<h2 id="weapons">Weapons</h2>
+<p>All weapons have quality 3.</p>
+<p>Choose whether your weapon is ranged or melee.</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Inventory Slots</th>
+<th>Damage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">0</td>
+<td>+0 (unarmed)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1</td>
+<td>+1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">2</td>
+<td>+2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3</td>
+<td>+3</td>
+</tr>
+</tbody>
+</table>
+<p>For the specific form of your weapon, roll from Knave, Liminal
+Horror, or Vaarn equipment lists (or choose).</p>
+<h2 id="items">Items</h2>
+<p>Roll 3d6, then roll for gear on the tables corresponding to your
+individual die rolls.</p>
+<h3 id="table-1">Table 1</h3>
+<table>
+<colgroup>
+<col style="width: 5%" />
+<col style="width: 29%" />
+<col style="width: 5%" />
+<col style="width: 18%" />
+<col style="width: 5%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 14%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Air Bladder</td>
+<td>6</td>
+<td>Fire Oil</td>
+<td>11</td>
+<td>Manacles</td>
+<td>16</td>
+<td>Rope (25ft)</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Antitoxin</td>
+<td>7</td>
+<td>Grappling Hook</td>
+<td>12</td>
+<td>Pick</td>
+<td>17</td>
+<td>Spirit Ward</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Cart (+4 slots, bulky)</td>
+<td>8</td>
+<td>Large Sack</td>
+<td>13</td>
+<td>Pole (10ft)</td>
+<td>18</td>
+<td>Spyglass</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Chain (10ft)</td>
+<td>9</td>
+<td>Large Trap</td>
+<td>14</td>
+<td>Pulley</td>
+<td>19</td>
+<td>Tinderbox</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Dowsing Rod</td>
+<td>10</td>
+<td>Lockpicks</td>
+<td>15</td>
+<td>Repellent</td>
+<td>20</td>
+<td>Wolfsbane</td>
+</tr>
+</tbody>
+</table>
+<h3 id="table-2">Table 2</h3>
+<table>
+<colgroup>
+<col style="width: 7%" />
+<col style="width: 14%" />
+<col style="width: 7%" />
+<col style="width: 25%" />
+<col style="width: 7%" />
+<col style="width: 18%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Bellows</td>
+<td>6</td>
+<td>Cook Pots</td>
+<td>11</td>
+<td>Grease</td>
+<td>16</td>
+<td>Net</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Bucket</td>
+<td>7</td>
+<td>Crowbar</td>
+<td>12</td>
+<td>Hammer</td>
+<td>17</td>
+<td>Saw</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Caltrops</td>
+<td>8</td>
+<td>Drill (Manual)</td>
+<td>13</td>
+<td>Hour Glass</td>
+<td>18</td>
+<td>Sealant</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Chalk</td>
+<td>9</td>
+<td>Fishing Rod</td>
+<td>14</td>
+<td>Metal File</td>
+<td>19</td>
+<td>Shovel</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Chisel</td>
+<td>10</td>
+<td>Glue</td>
+<td>15</td>
+<td>Nails</td>
+<td>20</td>
+<td>Tongs</td>
+</tr>
+</tbody>
+</table>
+<h3 id="table-3">Table 3</h3>
+<table>
+<colgroup>
+<col style="width: 7%" />
+<col style="width: 20%" />
+<col style="width: 7%" />
+<col style="width: 18%" />
+<col style="width: 7%" />
+<col style="width: 20%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Bottle</td>
+<td>6</td>
+<td>Horn</td>
+<td>11</td>
+<td>Mirror</td>
+<td>16</td>
+<td>Soap</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Card Deck</td>
+<td>7</td>
+<td>Incense</td>
+<td>12</td>
+<td>Perfume</td>
+<td>17</td>
+<td>Sponge</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Dice Set</td>
+<td>8</td>
+<td>Instrument</td>
+<td>13</td>
+<td>Quill &amp; Ink</td>
+<td>18</td>
+<td>Tar Pot</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Face Paint</td>
+<td>9</td>
+<td>Lens</td>
+<td>14</td>
+<td>Salt Pack</td>
+<td>19</td>
+<td>Twine</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Fake Jewels</td>
+<td>10</td>
+<td>Marbles</td>
+<td>15</td>
+<td>Small Bell</td>
+<td>20</td>
+<td>Whistle</td>
+</tr>
+</tbody>
+</table>
+<h3 id="table-4">Table 4</h3>
+<table>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 19%" />
+<col style="width: 3%" />
+<col style="width: 29%" />
+<col style="width: 3%" />
+<col style="width: 21%" />
+<col style="width: 3%" />
+<col style="width: 16%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Night Vision Goggles</td>
+<td>6</td>
+<td>Handcuffs</td>
+<td>11</td>
+<td>Flashbang</td>
+<td>16</td>
+<td>Spray paint</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Zip Ties</td>
+<td>7</td>
+<td>Grappling Hook &amp; rope</td>
+<td>12</td>
+<td>Directional Microphone</td>
+<td>17</td>
+<td>Laptop &amp; Printer</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Binoculars</td>
+<td>8</td>
+<td>Body bag</td>
+<td>13</td>
+<td>Glass cutting tools</td>
+<td>18</td>
+<td>Kevlar rope</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Chain &amp; Lock</td>
+<td>9</td>
+<td>Tactical Flashlight</td>
+<td>14</td>
+<td>A box with no seam</td>
+<td>19</td>
+<td>Good Camera</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Ancient Tome</td>
+<td>10</td>
+<td>An ivory necklace (+1 Charisma)</td>
+<td>15</td>
+<td>Lockpicks</td>
+<td>20</td>
+<td>Bolt Cutters</td>
+</tr>
+</tbody>
+</table>
+<h3 id="table-5">Table 5</h3>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Item</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Flashbang (5)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Magnetic Boots</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Grappling Hook &amp; Rope</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Glare (5)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Smoke Bomb (5)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Flask of Oil</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Portable Stove</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;">Caltrops</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Vial of Acid</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">Animal Trap (3)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">Handheld Drill</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">Chain &amp; Manacles</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">Hand Mirror</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">Motion Sensor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">Crowbar</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">EMP Grenade (3)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">Skin of Wine</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">18</td>
+<td style="text-align: left;">Tube of Omni-Glue</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">19</td>
+<td style="text-align: left;">Ball Bearings (LOTS)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">20</td>
+<td style="text-align: left;">Glowstone</td>
+</tr>
+</tbody>
+</table>
+<h3 id="table-6">Table 6</h3>
+<table>
+<colgroup>
+<col style="width: 5%" />
+<col style="width: 94%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">Item</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Sleeping Gas (3)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Oxygen Mask</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Cast Iron Skillet</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Black Clay</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Loaded Dice</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Raucous Whistle</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">7</td>
+<td style="text-align: left;">Luminous Paint</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">8</td>
+<td style="text-align: left;"><a
+href="https://vaarn.github.io/#/content-generators?id=drugs-of-vaarn">Drug</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">9</td>
+<td style="text-align: left;">Poison Pill</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">Autoglot Translator</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">11</td>
+<td style="text-align: left;">Lock Picks</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12</td>
+<td style="text-align: left;">Mortar &amp; Pestle</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13</td>
+<td style="text-align: left;">Strong Liquor</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">Hourglass</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">Chisel</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">Anti-venom</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">Welding Torch</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">18</td>
+<td style="text-align: left;">Thermal Goggles</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">19</td>
+<td style="text-align: left;">Fungicide Bomb</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">20</td>
+<td style="text-align: left;">Canary in Cage</td>
+</tr>
+</tbody>
+</table>
+<h3 id="additional-equipment">Additional Equipment</h3>
+<p>Lists can be found <a
+href="https://goblinarchives.github.io/LiminalHorror/Liminal%20Horror%20System/Equipment%20List/">on
+Liminal Horror site</a>, <a
+href="https://vaarn.github.io/#/equipment">Vaarn site</a>, and <a
+href="https://cairnrpg.com/resources/more-equipment/">Cairn
+site</a>.</p>
+</body>
+</html>

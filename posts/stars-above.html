@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Sam W" />
+  <title>Stars Above</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+  <link rel="stylesheet" href="/rpg-styles.css" />
+
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Stars Above</h1>
+<p class="author">Sam W</p>
+<center><a href="/">Home</a> | <a href="/subscriptions.opml">Blogroll (opml)</a></center>
+</header>
+<p>This is a sandbox toolkit for sci-fi rpgs. Think <a
+href="https://www.drivethrurpg.com/product/197158/Maze-Rats">Maze
+Rats</a>, but in space.</p>
+<p>Appendix N is <em>Dune</em>, Dark Matter (Syfy), <em>Pandora’s
+Star</em> (Hamilton), <em>Hyperion</em>, and the few episodes of Cowboy
+Bebop I’ve seen.</p>
+<p>These toolkit is system-agnostic, but requires less work with a
+minimal ruleset. You may adapt the rules from <em>Maze Rats,</em> use <a
+href="https://jasontocci.itch.io/24xx">24XX</a>, or one of your
+choice.</p>
+<p>These tables can be used with the standard <em>Maze Rats</em> tables.
+You could, for example, use the wilderness tables to generate planet
+biomes, and the city tables for the cities of a planet.</p>
+<h1 id="items-and-possessions">Items and Possessions</h1>
+<p>Any items with limited uses or charges start with 3, or as many as
+make sense.</p>
+<h2 id="bounty-hunter-gear">Bounty Hunter Gear</h2>
+<table>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 13%" />
+<col style="width: 15%" />
+<col style="width: 21%" />
+<col style="width: 15%" />
+<col style="width: 15%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td style="text-align: center;">Electric Tether</td>
+<td style="text-align: center;">Laser Pistol</td>
+<td style="text-align: center;">Fast-acting sedative</td>
+<td style="text-align: center;">Long-range Comm</td>
+<td style="text-align: center;">Forcefield Handcuffs</td>
+<td style="text-align: center;">Respirator</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td style="text-align: center;">Chameleon Coat</td>
+<td style="text-align: center;">Water Cleanser</td>
+<td style="text-align: center;">Assisted locking gloves</td>
+<td style="text-align: center;">Jumpboots</td>
+<td style="text-align: center;">Instant Stitches</td>
+<td style="text-align: center;">Omnicompass</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td style="text-align: center;">Heat Mapper</td>
+<td style="text-align: center;">Skeleton e-Key</td>
+<td style="text-align: center;">Signal Scrambler</td>
+<td style="text-align: center;">Memory Wipe</td>
+<td style="text-align: center;">Pathogen Neutralizer</td>
+<td style="text-align: center;">Pocket Shovel</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td style="text-align: center;">Robotic Snare</td>
+<td style="text-align: center;">Super-Silencer</td>
+<td style="text-align: center;">Concentrated Adrenaline Shot</td>
+<td style="text-align: center;">Remote Ear</td>
+<td style="text-align: center;">Synth Cord</td>
+<td style="text-align: center;">Ultralight Poncho</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td style="text-align: center;">Mattress Pill</td>
+<td style="text-align: center;">Never-perish rations</td>
+<td style="text-align: center;">Holographic Double</td>
+<td style="text-align: center;">Assisted grab gloves</td>
+<td style="text-align: center;">NewSkin</td>
+<td style="text-align: center;">Topographic Mapper</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td style="text-align: center;">Olfactory Booster</td>
+<td style="text-align: center;">Virus drive</td>
+<td style="text-align: center;">Assassin microbot</td>
+<td style="text-align: center;">Ultrathin gloves</td>
+<td style="text-align: center;">General antitoxin</td>
+<td style="text-align: center;">Suspension Tent</td>
+</tr>
+</tbody>
+</table>
+<h2 id="military-gear">Military Gear</h2>
+<table>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 15%" />
+<col style="width: 18%" />
+<col style="width: 16%" />
+<col style="width: 15%" />
+<col style="width: 13%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th>5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Rebreathing suit</td>
+<td style="text-align: center;">Hardened Exoskin</td>
+<td style="text-align: center;">Flashbang</td>
+<td style="text-align: center;">Sniper Rifle</td>
+<td>Stealth Bullets</td>
+<td style="text-align: center;">Geiger Counter</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Solar System Comm</td>
+<td style="text-align: center;">Ultradense sledgehammer</td>
+<td style="text-align: center;">Electric Bayonet</td>
+<td style="text-align: center;">Short-range taser</td>
+<td>Megacandela flare</td>
+<td style="text-align: center;">Retractable boot spikes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Titanium Machete</td>
+<td style="text-align: center;">Force Shield</td>
+<td style="text-align: center;">Truth Serum</td>
+<td style="text-align: center;">Camo digital paint</td>
+<td>Bivuoac tent</td>
+<td style="text-align: center;">Microbladed caltrop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Hazmat waders</td>
+<td style="text-align: center;">Boot knife</td>
+<td style="text-align: center;">Tear gas</td>
+<td style="text-align: center;">Frangible spear</td>
+<td>Landmine</td>
+<td style="text-align: center;">Radiation visor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Armored drone</td>
+<td style="text-align: center;">Condensed energy pill</td>
+<td style="text-align: center;">EMP</td>
+<td style="text-align: center;">Faraday Shield</td>
+<td>Pheromone sensor</td>
+<td style="text-align: center;">Laser Binoculars</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Mini throwing knife</td>
+<td style="text-align: center;">Chest shell</td>
+<td style="text-align: center;">Knockout chemical mix</td>
+<td style="text-align: center;">Dark-vision goggles</td>
+<td>Electric lantern</td>
+<td style="text-align: center;">Noise dampener</td>
+</tr>
+</tbody>
+</table>
+<h2 id="expensive-items">Expensive Items</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th>5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Famous brain in a vat</td>
+<td style="text-align: center;">Extinct fish</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="transportation">Transportation</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 15%" />
+<col style="width: 11%" />
+<col style="width: 13%" />
+<col style="width: 25%" />
+<col style="width: 18%" />
+<col style="width: 13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th>5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Space Freighter</td>
+<td style="text-align: center;">Solar Boat</td>
+<td style="text-align: center;">Fighter ship</td>
+<td style="text-align: center;">Solar Parachute</td>
+<td>Military Submarine</td>
+<td style="text-align: center;">Hyper steamboat</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Biofuel Motorcycle</td>
+<td style="text-align: center;">EM slingshot</td>
+<td style="text-align: center;">Offroad vehicle</td>
+<td style="text-align: center;">Wind Wagon</td>
+<td>Gecko climbing gloves</td>
+<td style="text-align: center;">Legged walker</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Non-combat Mecha</td>
+<td style="text-align: center;">Ornithopter</td>
+<td style="text-align: center;">Jetpack</td>
+<td style="text-align: center;">Omnidirectional jet</td>
+<td>Glide suit</td>
+<td style="text-align: center;">Burrower</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Collapsible Car</td>
+<td style="text-align: center;">Auto zipline</td>
+<td style="text-align: center;">Water Walker</td>
+<td style="text-align: center;">Assisted grasp climbing gloves</td>
+<td>Hoverbike</td>
+<td style="text-align: center;">Trained animal</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Aquatic Propeller</td>
+<td style="text-align: center;">Autofins</td>
+<td style="text-align: center;">Autorickshaw</td>
+<td style="text-align: center;">Insectile wings</td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="characters">Characters</h1>
+<h2 id="how-they-pay-the-bills">How they pay the bills</h2>
+<table>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 15%" />
+<col style="width: 15%" />
+<col style="width: 15%" />
+<col style="width: 21%" />
+<col style="width: 15%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Bartender</td>
+<td style="text-align: center;">Beggar</td>
+<td style="text-align: center;">Socialite</td>
+<td style="text-align: center;">Physicist</td>
+<td style="text-align: center;">Smuggler</td>
+<td style="text-align: center;">Ship Navigator</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Cargo pilot</td>
+<td style="text-align: center;">Political advisor</td>
+<td style="text-align: center;">Contraband dealer</td>
+<td style="text-align: center;">Crime boss</td>
+<td style="text-align: center;">Ex-military</td>
+<td style="text-align: center;">Bodyguard</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">NeoCatholic Priest</td>
+<td style="text-align: center;">Digital Forger</td>
+<td style="text-align: center;">Autominer operator</td>
+<td style="text-align: center;">Earth Classics Scholar</td>
+<td style="text-align: center;">UltraJazz Musician</td>
+<td style="text-align: center;">FORCE officer</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Waitress</td>
+<td style="text-align: center;">Scum Cleaner</td>
+<td style="text-align: center;">Local bureaucrat</td>
+<td style="text-align: center;">Ecologist</td>
+<td style="text-align: center;">Drug Chemist</td>
+<td style="text-align: center;">Translator</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Hired gun</td>
+<td style="text-align: center;">Galactic Economist</td>
+<td style="text-align: center;">Xenohistorian</td>
+<td style="text-align: center;">Plasma drive technician</td>
+<td style="text-align: center;">Shuttle Handyman</td>
+<td style="text-align: center;">AI Trainer</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Genetic Engineer</td>
+<td style="text-align: center;">MegaFarmer</td>
+<td style="text-align: center;">Remote Logger</td>
+<td style="text-align: center;">Missionary of UltraBuddha</td>
+<td style="text-align: center;">Drifter</td>
+<td style="text-align: center;">Bounty Hunter</td>
+</tr>
+</tbody>
+</table>
+<h2 id="future-names">Future Names</h2>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Oord</td>
+<td style="text-align: center;">Zelfu</td>
+<td style="text-align: center;">Argen</td>
+<td style="text-align: center;">Suke</td>
+<td style="text-align: center;">Choe</td>
+<td style="text-align: center;">Liyen</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Vorkenigan</td>
+<td style="text-align: center;">Shoridif</td>
+<td style="text-align: center;">Ulimeet</td>
+<td style="text-align: center;">Quart</td>
+<td style="text-align: center;">Maigo</td>
+<td style="text-align: center;">Tucnor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Yoggi</td>
+<td style="text-align: center;">Zandin</td>
+<td style="text-align: center;">Arz</td>
+<td style="text-align: center;">Sennel</td>
+<td style="text-align: center;">Kotsok</td>
+<td style="text-align: center;">Keevven</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Dorphan</td>
+<td style="text-align: center;">Vhoa</td>
+<td style="text-align: center;">Kubith</td>
+<td style="text-align: center;">Xotha</td>
+<td style="text-align: center;">Vooni</td>
+<td style="text-align: center;">Mitha</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Yathleth</td>
+<td style="text-align: center;">Ugha</td>
+<td style="text-align: center;">Tagua</td>
+<td style="text-align: center;">Ogger</td>
+<td style="text-align: center;">Noshk</td>
+<td style="text-align: center;">Ammeninet</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Vielen</td>
+<td style="text-align: center;">Trubzaw</td>
+<td style="text-align: center;">Helfup</td>
+<td style="text-align: center;">Atzok</td>
+<td style="text-align: center;">Otiat</td>
+<td style="text-align: center;">Dage</td>
+</tr>
+</tbody>
+</table>
+<h1 id="tech">Tech</h1>
+<h2 id="tech-component">Tech Component</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 13%" />
+<col style="width: 17%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 22%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Plasma batteries</td>
+<td style="text-align: center;">Hyperelastic spring</td>
+<td style="text-align: center;">Steam engine</td>
+<td style="text-align: center;">Micronuclear reactor</td>
+<td style="text-align: center;">Antimatter annihilation chamber</td>
+<td style="text-align: center;">Beta radiation tube</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Electroweak Dynamo</td>
+<td style="text-align: center;">Mercury Boiler</td>
+<td style="text-align: center;">Biokinetic sensor</td>
+<td style="text-align: center;">Biofuel engine</td>
+<td style="text-align: center;">Ultraviolet visor</td>
+<td style="text-align: center;">Magnetic levitator</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Titanium crank</td>
+<td style="text-align: center;">Monolayer graphene sheet</td>
+<td style="text-align: center;">Nanobots</td>
+<td style="text-align: center;">AI controller</td>
+<td style="text-align: center;">1 TB data in DNA</td>
+<td style="text-align: center;">Superconducting wire</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Hydrogen cell</td>
+<td style="text-align: center;">Pneumatic actuator</td>
+<td style="text-align: center;">Hydraulic compressor</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="tech-effect">Tech Effect</h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 4%" />
+<col style="width: 24%" />
+<col style="width: 32%" />
+<col style="width: 25%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"></th>
+<th style="text-align: center;">1</th>
+<th style="text-align: center;">2</th>
+<th style="text-align: center;">3</th>
+<th style="text-align: center;">4</th>
+<th style="text-align: center;">5</th>
+<th style="text-align: center;">6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Reverse gravity</td>
+<td style="text-align: center;">Electromagnetic pulse</td>
+<td style="text-align: center;">Become invisible</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

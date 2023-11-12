@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Sam W" />
+  <title>Balance</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+  <link rel="stylesheet" href="/rpg-styles.css" />
+
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Balance</h1>
+<p class="author">Sam W</p>
+<center><a href="/">Home</a> | <a href="/subscriptions.opml">Blogroll (opml)</a></center>
+</header>
+<p>A game of political negotiations, deals, and subterfuge.</p>
+<h1 id="what-is-this">What is this?</h1>
+<p>This is an ultra-light game of politics. This is not an adventure
+game, nor a resource trading game. It is an RPG that involves a lot of
+talk, and not a lot of rolls.</p>
+<p>Players take the roles of leaders of rival factions in a setting of
+your choosing. The traditional game session is replaced with a
+negotiation session between these leaders. The GM resolves actions in
+between sessions, then players meet again.</p>
+<p>This is a fairly free-form game that should be hacked and tweaked for
+your table and situation. Feel free to slot this in as a minigame for
+domain play in a traditional DnD game, perhaps invisibly to the
+players.</p>
+<h1 id="setup-and-setting">Setup and Setting</h1>
+<p>Balance has no canonical setting. You must create one of your own. To
+do so, gather all your players and do the following:</p>
+<ol type="1">
+<li><strong>Give a one-sentence summary of the setting.</strong> It
+could be “Feudal lords in the far future” or “Bandit gangs in ancient
+Mesopotamia.” Something that gives a clear picture of what is expected
+in the world.</li>
+<li><strong>Create a Palette.</strong> Write a lists of includeses and
+excludeses: Typical things you would know of or see in the world, and
+things that don’t exist at all. For a sci-fi game, you could exclude
+magic and dragons, while you would include artificial intelligence and
+interstellar travel.</li>
+<li><strong>Create 5 Resources for each player.</strong> A resource has
+a <em>quality,</em> which cannot be negative, and starts at 3. Resources
+can be anything that sits firmly within the setting. Be creative with
+the typical elements of the setting and combine them in conniving ways
+to make a resource. Resources may be secret, but must be cleared with
+GM.</li>
+<li><strong>Create 2 or more goals for each Leader.</strong> These can
+be secret as well. These can be rewritten and added to as you like.</li>
+<li><strong>Create History between Leaders.</strong> Every leader has at
+least two past conflict with other leaders. Create them and detail them
+as you like.</li>
+</ol>
+<h1 id="playing-the-game">Playing the Game</h1>
+<p>From here on out, the game is entirely conversation and a few
+rolls.</p>
+<p>When resources are traded, exchanged, or put against another’s
+resources, the GM makes <em>quality rolls.</em> The GM rolls as many
+d6’s as the quality of the involved resources. The result depends on the
+type of interaction: symbiotic, neutral, or combative.</p>
+<p>A symbiotic interaction is when both parties would benefit from the
+interaction. On a symbiotic roll, for each 4-6 rolled on each side on
+the quality roll, the resource owner adds 1 to the resource quality.
+Trade deals and treaties fall into this category.</p>
+<p>A combative interaction is when there is competition between two
+leaders. The GM rolls both quality rolls, then count the number of
+4-6’s. Whoever has fewer decreases their quality by the difference
+between the amount. War, assassinations, and rival political campaigns
+fall into this category.</p>
+<p>Trading resources is freely allowed with no rules.</p>
+<p>If a resource is reduced to 0 quality or below, it is gone.</p>
+<p>Game world interaction also falls into these roll categories.
+Harvesting natural resources, for example, is a symbiotic interaction
+with the game world. Fighting NPC leaders is a combative roll.</p>
+<p>If players choose to use a secret resource in an interaction, it must
+be revealed to the other party. They may remain secret otherwise.</p>
+<p>All resource management and quality rolls must be cleared with the GM
+and the other party will be notified. To use a resource in a quality
+roll, it must make in-universe sense for the fiction of the interaction.
+The GM makes the final call on whether a resource is viable in a
+roll.</p>
+<p>There are no other rules or restrictions on your gameplay, as your GM
+allows.</p>
+<h1 id="play-advice-design-notes">Play Advice &amp; Design Notes</h1>
+<p>There is no guidelines for communication in this game. You may run
+this as you like. An open, public table can be useful for some
+occasions, but allowing leaders the ability to secretly communicate with
+other leaders allows for a lot of scheming.</p>
+<p>Resources can be literally anything. The most useful resources are
+the most versatile, like a science research team or a transportation
+fleet.</p>
+<p>Focus on the story and fiction. Every roll must be accompanied by an
+in-universe discussion, and it should go far beyond the roll itself.</p>
+<p>This game has no mechanical slant of collaborative or competitive.
+You could play it either way.</p>
+<p>Having no resources doesn’t mean you’re out of the game. It just
+means you have no power. A generous benefactor could loan you
+resources.</p>
+<p>The GM should run one or more NPC factions, and manage world
+resources. Consider adding a hidden quality to GM resources to make them
+non-renewable.</p>
+<p>There is no system for alliances. These should develop organically
+during play.</p>
+<p>This game could be played GMless. In this case, do more setting work
+so that everyone has a feel for the setting.</p>
+<p>The GM can do a lot to make the world feel dynamic. Send out a
+current events notice every so often of public information, or new
+developments.</p>
+<p>You should run this game with a consistent time scaling. For example,
+every real-time week is a year in-game. With this, you can populate
+natural resources in a real-time compatible sense.</p>
+<h1 id="inspiration">Inspiration</h1>
+<h2 id="settings">Settings</h2>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Refugee bands in a wasteland future
+scramble for survivial.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Leaders of the corporate world finally
+begin colonizing other planets.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Feudal lords in the Dark Ages negotiate
+for land.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Religious leaders meet in peace to discuss
+philosophies.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Superintelligent AI exists, and is
+friendly to humans.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mythic gods war at the cost of
+humans.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A steampunk nation thrives on new
+technology.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Leaders of scientific labs meet at a
+conference.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Governments and their secret agencies wage
+a digital war.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Servants of the supreme God-Emperor vie
+for power.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="resources">Resources</h2>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">A military training ground on a secret
+planet.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">An impenetrable fortress high in the
+mountains.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A supremely powerful wizard soldier.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">An uninhabited jungle planet.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A train network across the Wild West.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A team of AI researchers.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A warehouse of supercomputers mining
+cryptocurrency.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">The favor of an evil god.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A secret twin.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A magical artifact.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="goals">Goals</h2>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Rescue my kidnapped aide.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Overthrow the emperor.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Monopolize the military contracting
+industry</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Develop a superintelligent AI.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Create fusion reactor.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Conquer the galaxy.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Simply survive.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Develop a deterministic model of the
+future.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Become the next department manager.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Reclaim my rightful throne.</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

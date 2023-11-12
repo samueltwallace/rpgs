@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Sam W" />
+  <title>Making Characters and Play Rules</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+  <link rel="stylesheet" href="/rpg-styles.css" />
+
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Making Characters and Play Rules</h1>
+<p class="author">Sam W</p>
+<center><a href="/">Home</a> | <a href="/subscriptions.opml">Blogroll (opml)</a></center>
+</header>
+<p>Here is where I document the base rules for the fantasy adventure
+games I want to run.</p>
+<p>If you like these, just save the webpage. It is standalone (but does
+require an internet connection to render).</p>
+<h1 id="characters">Characters</h1>
+<p>Come up with characters’ personal details, either through a
+preconceived character concept, or rolling on the <a
+href="https://cairnrpg.com/cairn-srd/#name-background--traits">Cairn
+tables</a>. Alternatively, use any other generation of personal details
+(e.g. other games). You may assign specific <strong>traits</strong> that
+describe your character and would be relevant to adventuring.</p>
+<p>Come up with the items and equipment the characters have. They may
+have armor, weapons, exploration gear, or things particular to their
+backgrounds. A usual character can carry around 6 non-worn items in a
+rucksack or similar. You may find lists of gear in many different other
+games and supplements: see Cairn, <a
+href="https://dreamingdragonslayer.itch.io/skorne">Skorne</a>, Maze
+Rats, etc.</p>
+<p>Start your character with 4 hits. Add or reduce this based on
+physique and/or armor. This probably shouldn’t exceed 8.</p>
+<h1 id="rolling">Rolling</h1>
+<p>In general, you should discuss the factors contributing towards and
+hindering success of risky actions. You may consider the particulars of
+the situation at hand, the background and experience of the
+characters.</p>
+<p>If the success of the action is unclear, agree to roll. Before
+rolling, determine what success looks like and what failure would
+entail, if not already clear. Then roll 2d6. A high roll gives an
+astounding success, and a low roll results in dire failure. Between
+these two extremes the referee decides the result.</p>
+<p>If a trait would benefit or hinder an action that is being rolled
+for, use 3d6 and take either the highest or lowest two results.</p>
+<h1 id="hits">Hits</h1>
+<p>Damage is dealt in hits. See Skorne for guidance regarding how many
+hits are dealt and can be taken.</p>
+<p>When a player is reduced to 0 hits, the referee will dictate their
+incapacitation, grave injury, or death. What ultimately happens is
+dependent on the situation and opponents’ intent.</p>
+<h1 id="magic">Magic</h1>
+<p>Magic comes may appear in several forms: innate powers, scrolls and
+spellbooks, magical items, or rituals. These have different abilities
+and restrictions.</p>
+<p>The common feature of using magic is a variant of <a
+href="https://cairnrpg.com/hacks/glog-magic/">GLOG Magic Dice</a>. The
+procedure is as follows:</p>
+<ul>
+<li>The player decides and announces how a spell could be extended or
+improved by extra power. Does it last longer, affect more targets, or
+have a boosted effect?</li>
+<li>The referee decides and announces what magical backlash could occur
+with this magical effect. Does it deal hits to the caster, impose a
+condition, or backfire in a way that helps the target?</li>
+<li>The player and referee agree to go forward with the magic.</li>
+<li>Roll as many d6’s as you have hits.
+<ul>
+<li>sum the total of the dice. Use this sum to determine how much the
+spell is boosted by; a bigger sum is better.</li>
+<li>Count the number of 5’s or 6’s that were rolled. Use this count to
+determine the backlash of the spell; a higher count means a more severe
+backlash.</li>
+</ul></li>
+<li>Play out the consequences.</li>
+</ul>
+<p>Magical effects are generally limited in use: scrolls are depleted,
+and magical items use up charges. Regaining the magical abilities
+requires something extraordinary: a sorceror’s expertise, a ritualistic
+deed, or a divine miracle.</p>
+<h1 id="final-thoughts">Final Thoughts</h1>
+<p>I would recommend many supplemental materials. Lists of spells, lists
+of gear, random encounter tables, etc. The referee should use all tools
+at their disposal to ease the game.</p>
+<p>Plenty of thoughts taken from <a
+href="https://mattjackson.itch.io/arneson-gaming">Arneson
+Gaming</a>.</p>
+</body>
+</html>

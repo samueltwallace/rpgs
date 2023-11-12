@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Sam W" />
+  <title>This is the Dungeon</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+  <link rel="stylesheet" href="/rpg-styles.css" />
+
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">This is the Dungeon</h1>
+<p class="author">Sam W</p>
+<center><a href="/">Home</a> | <a href="/subscriptions.opml">Blogroll (opml)</a></center>
+</header>
+<p>Two heroes are walking along the dirt path one day when an older
+adventurer passes them going the other way. The older adventurer waves
+and says, “Morning boys, how’s the dungeon?”</p>
+<p>A while later the two heroes, still walking, look at each other and
+one of them says, “What the hell is a dungeon?”</p>
+<p>To DnD players who started playing when the fifth edition came out,
+the idea of voluntarily entering some enclosed space where it seems you
+will be in combat all the time, someone is probably going to die, and
+the only reason you’re in there is Plot or Treasure, seems stupid. Yet
+for quite a while, this is how the game was enjoyed. Even though all of
+the amazing DnD stories we hear now make us jump to some grand narrative
+story, the pressure of a dungeon was the original tool for creating
+amazing stories.</p>
+<p>Despite the great leap forward we seem to have taken in gaming from
+the original DnD, the new introductions have given rise to new issues as
+well. Many players want to be the center of attention, want their
+individual needs met, and don’t want to face challenges a good roll
+can’t solve. And if you don’t get a good roll? Well, you get mad but
+justify it to yourself as the way the dice fell.</p>
+<p>But many of these issues stem from some expectation, some assumption,
+on what our gaming experience is going to look like. It could be from a
+friend’s stories, or your favorite actual play series, but at some point
+we made a decision, choice, of what the ideal game looked like. And we
+stuck with it, with some nebulous ideal of what a DnD game should look
+like.</p>
+<p>But this has led us into trouble, as any RPG help forum will reveal.
+So what gives? What went wrong? I can’t speak for your game, but it’s
+clear that something needs to change. You need to make some different
+choices on how to play. You have that freedom, after all, to change your
+idea of what the ideal game looks like. To try something new, and
+perhaps be surprised by liking it.</p>
+<p>This seems almost outright dumb; if I know what I want, why should I
+bother settling for less? Well, who said something different was less?
+Maybe there is something out there you don’t know, and if you tried it
+you would like it better. I’m not saying that you are inexperienced in
+exploring games, I think all of us have seen games we don’t like before.
+But all of the potential rulesets of games are infinite, and you can
+never get through all of them. Can you say what the perfect game is,
+without having seen all possible ways of rolling dice to influence
+actions?</p>
+<p>Now it may seem I’m picking on the Most Popular Roleplaying Game, but
+I’m not. These points equally apply to any game you don’t enjoy. If you
+have issues with a game, explore others. Hell, even make up your own
+rulesets. But don’t be convinced that your chosen game is the best, and
+it has a bunch of issues, so everything else is strictly worse. That’s
+the cardinal sin of taste, in any area.</p>
+<p>What I’m advocating here for is a radically open mind with games and
+fun. After all, these games are just conversation and die rolling at a
+table. As long as you can enjoy your time at the table and keep coming
+back to it, you are doing a good job. As much as big game companies seem
+like they have handed down the best produts, they haven’t. This is not a
+kind and benevolent god handing out favors and manna. It is a band of
+powerful and selfish entities dishing out as they see fit. They fool us
+into thinking their way is the only way. I propose something
+non-radical: no gods, no masters in games. You are just sitting at a
+table with friends, rolling dice and having a conversation. Do as you
+have the most fun.</p>
+</body>
+</html>
