@@ -1,6 +1,5 @@
 timezone: "America/New_York"
-exclude: [., posts/, about/]
-include: [feed.xml, index.html]
+exclude: [posts/*.md, about/*.md]
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
