@@ -1,5 +1,6 @@
 timezone: "America/New_York"
-exclude: [vendor]
+exclude: [.]
+include: [feed.xml, index.html]
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
