@@ -1,6 +1,6 @@
 ---
-title:Sam's Fiction Workshop
-author:Sam W
+title: Sam's Fiction Workshop
+author: Sam W
 ---
 
 [About Me](./about/) [^image-source]
