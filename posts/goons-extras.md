@@ -59,6 +59,5 @@ Feel free to organize these into a hexcrawl or run separately as one-shots.
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

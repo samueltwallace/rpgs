@@ -32,6 +32,5 @@ As a player in a setting like this, you might:
  - seek out a wizard to perform divination magic.
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

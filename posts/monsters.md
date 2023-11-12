@@ -11,5 +11,4 @@ Stat-less monsters.
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 

@@ -123,5 +123,4 @@ Any items with limited uses or charges start with 3, or as many as make sense.
 
 
 
-<link rel="stylesheet" href="../media/starry-styles.css">
 

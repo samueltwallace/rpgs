@@ -85,6 +85,5 @@ You can also make the value more swingy by using bigger dice sizes with lower mo
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

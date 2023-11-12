@@ -52,6 +52,5 @@ Mechanics and systems are players' way of interacting with the world you have cr
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

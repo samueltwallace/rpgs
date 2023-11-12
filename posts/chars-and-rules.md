@@ -56,6 +56,5 @@ Plenty of thoughts taken from [Arneson Gaming](https://mattjackson.itch.io/arnes
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

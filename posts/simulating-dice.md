@@ -158,6 +158,5 @@ I hope this was interesting, if not useful. Happy rolling!
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

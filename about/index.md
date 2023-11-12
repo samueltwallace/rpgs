@@ -47,6 +47,5 @@ Most of this is ambient/dungeon synth
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

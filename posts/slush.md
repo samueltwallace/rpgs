@@ -62,5 +62,4 @@ Next time you're planning a new campaign or one-shot, for DnD or for any RPG, in
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 

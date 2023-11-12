@@ -38,6 +38,5 @@ author: Sam W
  - https://alldeadgenerations.blogspot.com/2021/03/so-you-want-to-build-dungeon.html
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

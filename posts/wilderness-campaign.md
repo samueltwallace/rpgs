@@ -60,6 +60,5 @@ This is Gold for XP, so you need to make money to level up. Expect to dungeon de
 
 
 
-<link rel="stylesheet" href="https://rpgs.quajzen.page/rpg-styles.css">
 
 

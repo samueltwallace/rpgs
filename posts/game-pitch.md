@@ -86,6 +86,5 @@ Players may keep a record of their events that will be found and recorded. All f
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

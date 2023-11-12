@@ -72,6 +72,5 @@ There's another level to 'GM as a player,' beyond the fact that they need to hav
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

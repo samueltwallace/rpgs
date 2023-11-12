@@ -128,5 +128,4 @@ You should run this game with a consistent time scaling. For example, every real
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 

@@ -35,6 +35,5 @@ I plan to work on these for the next year, maybe more. Honestly, these are lesso
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

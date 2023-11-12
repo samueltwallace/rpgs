@@ -40,5 +40,4 @@ Stumbling humanoids are seen in the road ahead, and the driver (NC) attempts to 
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 

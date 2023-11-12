@@ -14,7 +14,6 @@ Don't forget to bring an apple!
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 
 

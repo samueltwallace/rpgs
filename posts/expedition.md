@@ -389,6 +389,5 @@ Snow specific travel may include the following: Snow shoes, toboggan sled (for h
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

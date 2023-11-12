@@ -67,6 +67,5 @@ A way forward is to vary your media diet: instead of seeking out the media you k
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

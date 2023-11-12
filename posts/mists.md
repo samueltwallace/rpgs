@@ -25,6 +25,5 @@ I have not found much in the way of relief from these dreams. I visit doctors wh
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

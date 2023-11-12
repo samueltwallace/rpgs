@@ -41,6 +41,5 @@ This took ~3 hours total, and I find myself surprised of the thing I hear most a
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

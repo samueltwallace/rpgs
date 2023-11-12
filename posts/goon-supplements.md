@@ -74,6 +74,5 @@ Itch and DriveThruRPG, by searching for supplements and/or system--agnostic, can
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

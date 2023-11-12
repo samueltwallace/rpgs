@@ -289,5 +289,4 @@ Lists can be found [on Liminal Horror site](https://goblinarchives.github.io/Lim
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 

@@ -84,6 +84,5 @@ The Way of Game Design is one of freeing players without leading them. They must
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

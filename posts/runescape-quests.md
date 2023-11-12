@@ -76,6 +76,5 @@ I would blend these two quests by having a setting composed of several different
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

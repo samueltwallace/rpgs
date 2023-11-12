@@ -22,6 +22,5 @@ Here are some variations for different versions of [Tunnel Goons](https://tunnel
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

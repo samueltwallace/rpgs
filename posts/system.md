@@ -75,5 +75,4 @@ Inspired by Tunnel Goons, Maze Rats, and 24xx games.
 
 
 
-<link rel="stylesheet" href="../styles.css">
 

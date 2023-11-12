@@ -63,6 +63,5 @@ I think this would be fun to do with the diviner in private. Really enhances the
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
 

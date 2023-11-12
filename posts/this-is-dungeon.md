@@ -27,5 +27,4 @@ What I'm advocating here for is a radically open mind with games and fun. After 
 
 
 
-<link rel="stylesheet" href="../rpg-styles.css">
 
