@@ -1,5 +1,5 @@
 timezone: "America/New_York"
-exclude: [.]
+exclude: [., posts/, about/]
 include: [feed.xml, index.html]
 plugins:
   - jekyll-feed
