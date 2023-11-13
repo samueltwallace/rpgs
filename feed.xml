@@ -18,17 +18,17 @@ layout: null
 		<lastBuildDate>{% for file in site.static_files limit:1 %}{{ file.modified_time | date_to_rfc822 }}{% endfor %}</lastBuildDate>
 		{% assign feed_items = site.feed_items | default: 100 %}
 		{% assign site_posts = site.html_files %}
-		{% for file in site_posts | limit:feed_items %}
+		{% for f in site_posts | limit:feed_items %}
 		{% capture file_content %}
-		{% include_relative {{ file.path }} %}
+		{% include_relative {{ f.path }} %}
 		{% endcapture %}
 			<item>
-			  <title>{{ file.basename | xml_escape }}</title>
-			  <dc:creator>{{ file.author }}</dc:creator>
-				<pubDate>{{ file.modified_time | date_to_rfc822 }}</pubDate>
-				<link>{{ site.url }}{{ file.path }}</link>
+			  <title>{{ f.basename | xml_escape }}</title>
+			  <dc:creator>{{ f.author }}</dc:creator>
+				<pubDate>{{ f.modified_time | date_to_rfc822 }}</pubDate>
+				<link>{{ site.url }}{{ f.path }}</link>
 				<description>{{ file_content | markdownify | strip_html | truncatewords: 100 }}</description>
-				<guid isPermaLink="true">{{ site.url }}{{ file.path }}</guid>
+				<guid isPermaLink="true">{{ site.url }}{{ f.path }}</guid>
 			</item>
 		{% endfor %}
 	</channel>
