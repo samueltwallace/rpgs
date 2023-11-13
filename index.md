@@ -3,12 +3,14 @@ title: Sam's Fiction Workshop
 author: Sam W
 ---
 
+# Sam's Fiction Workshop
+
 [About Me](./about/) [^image-source]
 
-# Webpages Here:
+## Webpages Here:
 
 {% for file in site.html_files %}
-* [file.basename](file.path)
+* [{{ file.basename }}]({{ file.path }})
 {% endfor %}
 
 
