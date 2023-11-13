@@ -9,7 +9,7 @@ author: Sam W
 
 ## Webpages Here:
 
-{% for file in site.html_files %}
+{% for file in site.static_files %}
 * [{{ file.basename }}]({{ file.path }})
 {% endfor %}
 

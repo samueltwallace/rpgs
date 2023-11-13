@@ -91,7 +91,5 @@ Give hard choices and dilemmas, provide maximal information. Play dungeon denize
 
 
 
-[download this page](./cfg.md.html?export)
-
 
 

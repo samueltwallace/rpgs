@@ -4,7 +4,7 @@ author: Sam W
 ---
 
 
-This is Sam's (usual username quajzen) public repository of ideas for reading, tabletop RPGs, and the (few) thoughts I have about writing. I am a 25 year--old math graduate student living in Chicago.
+This is Sam's (usual username quajzen) public repository of ideas for reading, tabletop RPGs, and the (few) thoughts I have about writing. I am a 25 year--old math graduate student living in New Jersey.
 
 I primarily run games in rules--minimal systems, some might call ultralight.
 
