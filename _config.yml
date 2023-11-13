@@ -1,5 +1,5 @@
 timezone: "America/New_York"
-exclude: [posts/*.md, about/*.md]
+exclude: ["posts/*.md", "about/*.md", "commonmark_games/*.md"]
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
