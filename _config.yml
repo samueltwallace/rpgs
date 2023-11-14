@@ -9,5 +9,5 @@ source: [/]
 defaults:
   - scope:
       path: "posts/"
-  - values:
+    values:
       post: true
