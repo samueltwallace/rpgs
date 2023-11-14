@@ -17,7 +17,7 @@ layout: null
 		<atom:link href="https://rpgs.quajzen.page/feed.xml" rel="self" type="application/rss+xml" />
 		<lastBuildDate>{% for file in site.static_files limit:1 %}{{ file.modified_time | date_to_rfc822 }}{% endfor %}</lastBuildDate>
 		{% assign feed_items = site.feed_items | default: 100 %}
-		{% assign site_posts = site.html_files %}
+		{% assign site_posts = site.static_files | where: "post" true %}
 		{% for f in site_posts | limit:feed_items %}
 		{% capture file_content %}
 		{% include_relative {{ f.path }} %}

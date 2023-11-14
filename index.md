@@ -9,7 +9,7 @@ author: Sam W
 
 ## Webpages Here:
 
-{% assign myfiles = site.html_files %}
+{% assign myfiles = site.static_files | where: "post", true %}
 {% for f in myfiles %}
 * [{{ f.basename }}]({{ f.path }})
 {% endfor %}

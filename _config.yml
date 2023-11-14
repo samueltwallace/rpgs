@@ -6,3 +6,8 @@ plugins:
 title: "Sam's Fiction Workshop"
 description: "Sam's Blog on all things fiction: Books, Movies, and RPGs."
 source: [/]
+defaults:
+  - scope:
+      path: "posts/"
+  - values:
+      post: true
