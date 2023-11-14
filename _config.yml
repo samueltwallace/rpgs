@@ -8,6 +8,6 @@ description: "Sam's Blog on all things fiction: Books, Movies, and RPGs."
 source: [/]
 defaults:
   - scope:
-      path: "posts/"
+      path: "posts/*.html"
     values:
       post: true
