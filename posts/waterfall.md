@@ -18,9 +18,11 @@ The pebble opens Glarial's tomb, located not under the falls, but nearby, under 
 
 You return to the falls, armed with weapons, armor, and knowledge. You enter a door in the wall of the falls, and with Glarial's amulet you enter unperturbed. Dungeon rooms lay out before you, with monsters many times your power. Giants of fire and lava roam here. Spiders made of shadow. You find a key and make your way to the backmost room.
 
-Here is a shrine to King Baxtorian. You fill the chalices scattered across the room with magical runestones, as the book you retrieved indicated. You also return Glarial's ashes to the tomb here, reuniting with the dead king. There is a deep grinding, and a treasure is revealed. Diamonds, gold bars, and curious metal seeds that sprout into flowers.
+Here is a shrine to King Baxtorian. You fill the chalices scattered across the room with magical runestones, as the book you retrieved indicated. You also return Glarial's ashes to the tomb here, reuniting with the dead king[^1]. There is a deep grinding, and a treasure is revealed. Diamonds, gold bars, and curious metal seeds that sprout into flowers.
 
 The boy claims you stole his treasure, and will not return home.
+
+[^1]: It is later revealed that Baxtorian is actually trapped in stone as a statue of himself.
 
 # Place in the Game
 
@@ -42,7 +44,9 @@ Waterfall quest uses in-game texts, multiple historical references by NPCs, and 
 
 The Adventure in this quest is also fantastic. There are several types of adventure presented: treasure hunting (throughout), infiltration (as when navigating the hobgoblin-infested gnome home), and something like martyrdom, when you must remove your armor and weapons to descend into Glarial's tomb. Each is a chance of death (especially at low level), and keeps the heart racing.
 
-Many RuneScape players love the epic scale of the recent questlines. I think this old quest has something very appealing about its self-containment. We never learn more about Baxtorian and Glarial, nor the gnome family, nor who the boy grows up to be. They simply exist as a memory, inviting you to wonder what it all meant. Did you do the right thing in taking the treasure? Shorting that boy? What historical role did these people play? Did they go to war? The questions can keep coming. None of them are answered. And that sense of wonder stays alive.
+Many RuneScape players love the epic scale of the recent questlines. I think this old quest has something very appealing about its self-containment. We never learn more about Baxtorian and Glarial, nor the gnome family[^2], nor who the boy grows up to be. They simply exist as a memory, inviting you to wonder what it all meant. Did you do the right thing in taking the treasure? Shorting that boy? What historical role did these people play? Did they go to war? The questions can keep coming. None of them are answered. And that sense of wonder stays alive.
+
+[^2]: There is a bit of other information given about this family in future quests, none of it relevant to the events of Waterfall quest.
 
 # Bringing to the Table
 
