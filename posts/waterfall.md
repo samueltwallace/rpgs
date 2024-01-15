@@ -44,9 +44,9 @@ Waterfall quest uses in-game texts, multiple historical references by NPCs, and 
 
 The Adventure in this quest is also fantastic. There are several types of adventure presented: treasure hunting (throughout), infiltration (as when navigating the hobgoblin-infested gnome home), and something like martyrdom, when you must remove your armor and weapons to descend into Glarial's tomb. Each is a chance of death (especially at low level), and keeps the heart racing.
 
-Many RuneScape players love the epic scale of the recent questlines. I think this old quest has something very appealing about its self-containment. We never learn more about Baxtorian and Glarial, nor the gnome family[^2], nor who the boy grows up to be. They simply exist as a memory, inviting you to wonder what it all meant. Did you do the right thing in taking the treasure? Shorting that boy? What historical role did these people play? Did they go to war? The questions can keep coming. None of them are answered. And that sense of wonder stays alive.
+Many RuneScape players love the epic scale of the recent questlines. I think this old quest has something very appealing about its self-containment. By the end of the quest, we never learn more about Baxtorian and Glarial, nor the gnome family[^2], nor who the boy grows up to be. They simply exist as a memory, inviting you to wonder what it all meant. Did you do the right thing in taking the treasure? Shorting that boy? What historical role did these people play? Did they go to war? The questions can keep coming. None of them are answered. And that sense of wonder stays alive.
 
-[^2]: There is a bit of other information given about this family in future quests, none of it relevant to the events of Waterfall quest.
+[^2]: There is a bit of other information given about this family in subsequent quests, none of it relevant to the events of Waterfall quest.
 
 # Bringing to the Table
 
@@ -57,5 +57,12 @@ I think I can synthesize several strategies for bringing this kind of experience
  - tangible danger to players (easy in OSR)
  - Action-based advancement (there is little NPC dialogue in this quest)
  
+ History delivery is often tricky in TTRPGS. You don't want to have a GM monologue on irrelevant details to sate their desire to show off their worldbuilding. But you still need to deliver that information. I think a good tip is to keep the information itself fairly short, punchy, and maybe include a curious loose end that ties to the present situation. You can also have NPCs deliver history, but have have in-world prompts for the information given. If you can keep the players leading an interview-style dialogue, you have engaged the players well beyond the monologue.
  
+ I think hidden world elements are easy to implement: just always keep in mind the question the players will ask: why wasn't this found before? There are several ways to answer this, and I'll throw out some stock answers: it was locked, guarded, inaccessible due to terrain, visually hidden, magically hidden, or maybe it's known to locals but no one has the means (or desire) to plumb its depths.
+ 
+ Tangible danger is also easy. There is plenty of writing and support for this in OSR games. Just don't be shy to challenge your players!
+ 
+ Action-based advancement: I like this. Again, plenty out there to read this: see [diagetic advancement](https://www.bastionland.com/2016/05/foreground-growth-and-becoming-odd.html) as well. I think this also helps to keep the players "small" in the world: they only briefly touch the powerful forces that set the course of the currents of the world. 
+
 I'm currently running *The Black Wyrm of Brandonsford* for my group. I think I'll incorporate some of the above for them. And most of all, try to keep the wonder alive.
