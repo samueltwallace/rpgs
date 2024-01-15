@@ -4,7 +4,7 @@ author: "Sam W"
 ---
 
 
-I have been thinking what my favorite RuneScape quest is. The answer might be surprising, because it's a small, (more or less) one-off quest known for its rewards more than the quest's events. I'm going to introduce the quest and tell why I love it and how I plan to bring it to the table.
+I have been thinking what my favorite RuneScape quest is. The answer might be surprising, because it's a small, (more or less) one-off quest known for its rewards more than the quest's events. I'm going to introduce the quest, tell why I love it, and how I plan to bring it to the table.
 
 # Waterfall Quest
 
@@ -28,7 +28,7 @@ The boy claims you stole his treasure, and will not return home.
 
 Waterfall quest is a low-level quest, mostly used for its rewards (the skill experience points I didn't mention). It boosts you up many levels, and can be completed early on with some cleverness.
 
-Lorewise, it gives flavour to the region of the world it takes place in, near historically gnomish and elven lands. In RuneScape, these are not mysterious hidden folk, but organized factions with economies, governments, and histories. However, elves have long beengone from the known world for unknown reasons.
+Lorewise, it gives flavour to the region of the world it takes place in, near historically gnomish and elven lands. In RuneScape, these are not mysterious hidden folk, but organized factions with economies, governments, and histories. However, elves have long been gone from the known world for unknown reasons.
 
 Most players might find Waterfall quest kind of charming on a first play, and just complete it afterwards for its rewards. It is required for further quests in the area, but its events and history does not develop beyond those described.
 
@@ -42,9 +42,9 @@ The worldbuilding of this quest is great because it gives an 'impression of dept
 
 Waterfall quest uses in-game texts, multiple historical references by NPCs, and hidden locations for an impression of depth. The book in the visitor center and the text on Glarial's shrine above her tomb both give details about the past, and give interesting details by showing different sides of the historical account. The historical references by NPCs also shade the past, from the boy's scant 'treasure hunt' to the gnome survivor's family history of Glarial's pebble. The hidden locations, both Glarial's and Baxtorian's tombs, provide a sense of wonder at the richness of the history: it's right beside us, all the time.
 
-The Adventure in this quest is also fantastic. There are several types of adventure presented: treasure hunting (throughout), infiltration (as when navigating the hobgoblin-infested gnome home), and something like martyrdom, when you must remove your armor and weapons to descend into Glarial's tomb. Each is a chance of death (especially at low level), and keeps the heart racing.
+The adventure in this quest is also fantastic. There are several types of adventure presented: treasure hunting (throughout), infiltration (as when navigating the hobgoblin-infested gnome home), and something like martyrdom, when you must remove your armor and weapons to descend into Glarial's tomb. Each is a chance of death (especially at low level), and keeps the heart racing.
 
-Many RuneScape players love the epic scale of the recent questlines. I think this old quest has something very appealing about its self-containment. By the end of the quest, we never learn more about Baxtorian and Glarial, nor the gnome family[^2], nor who the boy grows up to be. They simply exist as a memory, inviting you to wonder what it all meant. Did you do the right thing in taking the treasure? Shorting that boy? What historical role did these people play? Did they go to war? The questions can keep coming. None of them are answered. And that sense of wonder stays alive.
+Many RuneScape players love the epic scale of the recent questlines. I think this old quest has something very appealing about its self-containment. By the end of the quest, we never learn more about Baxtorian and Glarial, nor the gnome family[^2], nor who the boy grows up to be. They simply exist as a memory, inviting you to wonder what it all meant. Did you do the right thing in taking the treasure? Shorting that boy? What historical role did these people play? What was the lost kingdom here? The questions can keep coming. None of them are answered. And that sense of wonder stays alive.
 
 [^2]: There is a bit of other information given about this family in subsequent quests, none of it relevant to the events of Waterfall quest.
 
