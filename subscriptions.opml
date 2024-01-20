@@ -2,6 +2,13 @@
 <opml version="1.0">
   <head><title>Yakread RSS subscriptions</title></head>
   <body>
+    <outline type="rss" xmlUrl="https://beast.blot.im/feed.rss"></outline>
+    <outline type="rss" xmlUrl="https://lichvanwinkle.blogspot.com/feeds/posts/default"></outline>
+    <outline type="rss" xmlUrl="https://bonesofcontention.blogspot.com/feeds/posts/default"></outline>
+    <outline type="rss" xmlUrl="https://thecosmicorrery.blogspot.com/feeds/posts/default"></outline>
+    <outline type="rss" xmlUrl="https://wormwoodiana.blogspot.com/feeds/posts/default"></outline>
+    <outline type="rss" xmlUrl="https://rpgs.quajzen.page/feed.xml"></outline>
+    <outline type="rss" xmlUrl="https://adventuresbuffo.blogspot.com/feeds/posts/default"></outline>
     <outline type="rss" xmlUrl="https://zedecksiew.tumblr.com/rss"></outline>
     <outline type="rss" xmlUrl="https://throneofsalt.blogspot.com/feeds/posts/default"></outline>
     <outline type="rss" xmlUrl="https://traversefantasy.blogspot.com/feeds/posts/default"></outline>
@@ -14,7 +21,6 @@
     <outline type="rss" xmlUrl="https://talestoastound.wordpress.com/rss"></outline>
     <outline type="rss" xmlUrl="https://brine.dev/assets/rss/blog.xml"></outline>
     <outline type="rss" xmlUrl="https://undergroundadv.blogspot.com/feeds/posts/default"></outline>
-    <outline type="rss" xmlUrl="https://www.bastionland.com/feeds/posts/default"></outline>
     <outline type="rss" xmlUrl="http://lizardmandiaries.blogspot.com/feeds/posts/default"></outline>
     <outline type="rss" xmlUrl="https://d66kobolds.blogspot.com/feeds/posts/default"></outline>
     <outline type="rss" xmlUrl="https://goblinpunch.blogspot.com/feeds/posts/default"></outline>
@@ -22,5 +28,4 @@
     <outline type="rss" xmlUrl="https://www.prismaticwasteland.com/?format=rss"></outline>
     <outline type="rss" xmlUrl="https://dreamingdragonslayer.com/rss"></outline>
     <outline type="rss" xmlUrl="https://aboleth-overlords.com/rss"></outline>
-    <outline type="rss" xmlUrl="https://thecosmicorrery.blogspot.com/feeds/posts/default"></outline>
 </body></opml>
