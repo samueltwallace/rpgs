@@ -9,9 +9,9 @@ author: Sam W
 
 ## Webpages Here:
 
-{% assign myfiles = site.static_files | where: "post", true %}
+{% assign myfiles = site.pages | where: "post", true %}
 {% for f in myfiles %}
-* [{{ f.basename }}]({{ f.path }})
+* [{{ f.title }}]({{ f.path }})
 {% endfor %}
 
 
