@@ -1,80 +1,80 @@
-Room 0: The dormitory contains monster: rice armadillo with blinding. The room has palm plant spliced with edelweiss.
+Room 0: The seed cryo chamber contains seed capsule. The room has palm plant spliced with sequoia.
 
-Room 1: The germination room contains seed capsule. The room has lichen spliced with rose.
+Room 1: The lounge contains empty. The room has sequoia spliced with marsh grass.
 
-Room 2: The cafeteria contains monster: vines rat with anti-magic. The room has mushroom spliced with kudzu.
+Room 2: The meeting/conference room contains 3d6 seeds. The room has coconut spliced with pine.
 
-Room 3: The dissection lab contains monster: corn ant with vampiric. The room has tropical flower spliced with acorn.
+Room 3: The gym contains empty. The room has orchid spliced with rice.
 
-Room 4: The dormitory contains trap: tombs open. The room has tumbleweed spliced with vines.
+Room 4: The security room contains emtpy. The room has rice spliced with coconut.
 
-Room 5: The personal office contains 6d4 seeds. The room has mushroom spliced with marsh grass.
+Room 5: The gym contains empty. The room has tumbleweed spliced with ivy.
 
-Room 6: The lounge contains stairs down. The room has coconut spliced with coffee.
+Room 6: The walk-in freezer contains trap: spiked pit. The room has rose spliced with ivy.
 
-Room 7: The utilities room contains empty. The room has kudzu spliced with edelweiss.
+Room 7: The germination room contains trap: spiked pit. The room has mangrove spliced with corn.
 
-Room 8: The security room contains monster: rice human with spell-casting. The room has crabgrass spliced with pinecone.
+Room 8: The dissection lab contains empty. The room has bushes/topiary spliced with sunflower.
 
-Room 9: The gym contains 6d4 seeds. The room has vines spliced with rose.
+Room 9: The germination room contains stairs down. The room has tea spliced with ivy.
 
-Room 10: The hydroponic station contains trap: rolling boulder. The room has tea spliced with bamboo.
+Room 10: The dormitory contains trap: quicksand. The room has mushroom spliced with tropical flower.
 
-Room 11: The cafeteria contains empty. The room has mushroom spliced with tea.
+Room 11: The meeting/conference room contains trap: collapsing floor and monster: level 3 AC 12 tea boar with strangling. The room has tumbleweed spliced with corn.
 
-Room 12: The cafeteria contains monster: coconut ant with breath weapon. The room has edelweiss spliced with water lily.
+Room 12: The kitchen contains empty. The room has sunflower spliced with pinecone.
 
-Room 13: The personal office contains empty. The room has tea spliced with acorn.
+Room 13: The germination room contains empty. The room has pine spliced with crabgrass.
 
-Room 14: The lounge contains stairs down. The room has lichen spliced with dandelion.
+Room 14: The dissection lab contains empty. The room has ivy spliced with coconut.
 
-Room 15: The soil storage contains monster: tumbleweed giraffe with exploding. The room has sunflower spliced with kudzu.
+Room 15: The seed storage room contains trap: collapsing floor and monster: level 6 AC 15 lichen spider with reflective. The room has acorn spliced with kudzu.
 
-Room 16: The dissection lab contains seed capsule. The room has lichen spliced with kelp.
+Room 16: The lounge contains 3d6 seeds. The room has mushroom spliced with oak.
 
-Room 17: The walk-in freezer contains trap: poison needle. The room has tea spliced with water lily.
+Room 17: The hydroponic station contains empty. The room has tea spliced with coffee.
 
-Room 18: The soil storage contains empty. The room has bamboo spliced with pinecone.
+Room 18: The seed cryo chamber contains trap: lightning. The room has palm plant spliced with lichen.
 
-Room 19: The dormitory contains trap: room on fire and monster: kudzu wolf with stealthy. The room has tropical flower spliced with rose.
+Room 19: The germination room contains monster: level 3 AC 15 coconut tiger with invisible. The room has sequoia spliced with ivy.
 
-Room 20: The kitchen contains monster: bushes/topiary wolverine with duplicating. The room has pitcher plant spliced with coffee.
+Room 20: The walk-in freezer contains trap: quicksand and monster: level 6 AC 13 pine tiger with exploding. The room has pitcher plant spliced with corn.
 
-Room 21: The security room contains monster: apple ape with phasing. The room has kelp spliced with oak.
+Room 21: The lecture halls contains trap: falling cage. The room has pitcher plant spliced with orchid.
 
-Room 22: The soil storage contains empty. The room has sequoia spliced with coffee.
+Room 22: The soil storage contains trap: fills with sand and monster: level 2 AC 14 lichen spider with paralyzing. The room has lichen spliced with coffee.
 
-Room 23: The dissection lab contains trap: hard vacuum. The room has sunflower spliced with lichen.
+Room 23: The lecture halls contains 3d6 seeds. The room has orchid spliced with vines.
 
-Room 24: The lounge contains trap: hard vacuum and monster: marsh grass raccoon with poisonous. The room has coffee spliced with ivy.
+Room 24: The personal lockers contains empty. The room has coffee spliced with dandelion.
 
-Room 25: The personal lockers contains seed capsule. The room has bushes/topiary spliced with cactus.
+Room 25: The walk-in freezer contains trap: acid pool. The room has sunflower spliced with marsh grass.
 
-Room 26: The security room contains stairs down. The room has sunflower spliced with ivy.
+Room 26: The utilities room contains emtpy. The room has bamboo spliced with lichen.
 
-Room 27: The lab equipment room contains monster: venus fly trap chameleon with mind-reading. The room has wild grass spliced with sunflower.
+Room 27: The cafeteria contains trap: hard vacuum and monster: level 0 AC 13 dandelion giraffe with poisonous. The room has tea spliced with mangrove.
 
-Room 28: The soil storage contains empty. The room has venus fly trap spliced with apple.
+Room 28: The lounge contains trap: collapsing floor. The room has palm plant spliced with palm plant.
 
-Room 29: The dissection lab contains trap: tombs open and monster: pine caterpillar with electric. The room has water lily spliced with vines.
+Room 29: The meeting/conference room contains stairs down. The room has tumbleweed spliced with sequoia.
 
-Room 30: The seed storage room contains trap: blinding spray and monster: pine centipede with life-draining. The room has kudzu spliced with vines.
+Room 30: The walk-in freezer contains monster: level 0 AC 14 venus fly trap wolverine with magnetic. The room has sunflower spliced with mangrove.
 
-Room 31: The soil storage contains trap: deep pit and monster: cactus ostrich with wall-crawling. The room has pine spliced with kelp.
+Room 31: The meeting/conference room contains empty. The room has lichen spliced with crabgrass.
 
-Room 32: The server room contains empty. The room has water lily spliced with corn.
+Room 32: The personal lockers contains empty. The room has pinecone spliced with acorn.
 
-Room 33: The lab equipment room contains trap: falling cage and monster: corn hose with anti-magic. The room has kudzu spliced with pitcher plant.
+Room 33: The lounge contains trap: deep pit. The room has bushes/topiary spliced with coffee.
 
-Room 34: The seed cryo chamber contains empty. The room has cactus spliced with vines.
+Room 34: The seed storage room contains emtpy. The room has pine spliced with dandelion.
 
-Room 35: The hydroponic station contains trap: quicksand. The room has pitcher plant spliced with acorn.
+Room 35: The cafeteria contains trap: armor melts. The room has pine spliced with oak.
 
-Room 36: The server room contains stairs down. The room has dandelion spliced with sequoia.
+Room 36: The germination room contains 3d6 seeds. The room has palm plant spliced with pinecone.
 
-Room 37: The utilities room contains stairs down. The room has kelp spliced with cactus.
+Room 37: The meeting/conference room contains trap: fills with sand and monster: level 4 AC 14 coffee cockroach with telekinetic. The room has tropical flower spliced with oak.
 
-Room 38: The seed cryo chamber contains empty. The room has crabgrass spliced with edelweiss.
+Room 38: The lecture halls contains trap: alarm. The room has sunflower spliced with edelweiss.
 
-Room 39: The hydroponic station contains trap: rage gas. The room has rice spliced with oak.
+Room 39: The security room contains trap: rage gas. The room has rose spliced with dandelion.
 

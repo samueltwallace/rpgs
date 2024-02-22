@@ -328,7 +328,14 @@ def trap():
 def monster():
     bio = rand.choice(plants)
     form = rand.choice(animals)
-    return "monster: " + bio + " " + form + " with " + rand.choice(ability)
+    level = rand.choice(["0", "1", "2", "3", "4", "5", "6"])
+    armor = rand.choice(["12", "13", "14", "15", "16"])
+    ab = rand.choice(ability)
+    if ab == "ethereal effect":
+        ab = random.choice(etheffect)
+    if ab == "physical effect":
+        ab = random.choice(physeffect)
+    return "monster: level " + level + " AC " + armor + " " + bio + " " + form + " with " + ab
 
 def make_room(num):
     for i in range(num):
