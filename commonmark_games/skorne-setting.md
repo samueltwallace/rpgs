@@ -36,7 +36,7 @@ Generate your character as dictated by SKORNE. Keep note of your each result on 
 32. You were an herbalist. Take a small flask. You have a drug addiction.
 33. You were a cutpurse. Take a rusty knife. You have a bounty on your head in human settlements.
 34. You were a torturer. Take a nasty tool. You cannot smile.
-35. You were a burglar. Take d6 more gold crowns. You owe a tremendous debt.
+35. You were a burglar. Take d6 more gold crowns. You owe your boss 200 Gold Crowns.
 36. You were a rat shepherd. Take a crook. You are no friend of cats.
 
 -----
@@ -73,28 +73,45 @@ Use the following for inspiration on human NPCs.
 
 ## Appearance:
 
-|          |               |                |            |                |              |
-|----------|---------------|----------------|------------|----------------|--------------|
-| Aquiline | Boney         | Barrel-Chested | Hideous    | Lanky          | Pudgy        |
-| Scrawny  | Corpulent     | Craggy         | Sinewy     | Slumped        | Square-Jawed |
-| Furrowed | Gaunt         | Grizzled       | Haggard    | Towering       | Weathered    |
-| Wiry     | Wrinkled      | Scars          | Brand mark | Broken Nose    | Missing Ear  |
-| Burns    | Nine fingers  | One-eyed       | Pale       | Ritual tattoos | Piercings    |
-| No hair  | Torn clothing | Mud-spattered  | Bare feet  | Long hair      | Solid        |
+|            |                |                |
+|------------|----------------|----------------|
+| Aquiline   | Boney          | Barrel-Chested |
+| Scrawny    | Corpulent      | Craggy         |
+| Furrowed   | Gaunt          | Grizzled       |
+| Wiry       | Wrinkled       | Scars          |
+| Burns      | Nine fingers   | One-eyed       |
+| No hair    | Torn clothing  | Mud-spattered  |
+|            |                |                |
+| Hideous    | Lanky          | Pudgy          |
+| Sinewy     | Slumped        | Square-Jawed   |
+| Haggard    | Towering       | Weathered      |
+| Brand mark | Broken Nose    | Missing Ear    |
+| Pale       | Ritual tattoos | Piercings      |
+| Bare feet  | Long hair      | Solid          |
 
 
 Age: 10xd6+d6 years old
 
 ## Weird Trinket:
 
-|              |             |                 |              |             |             |
-|--------------|-------------|-----------------|--------------|-------------|-------------|
-| Knuckle bone | Eye of newt | Live salamander | Old talisman | Stone knife | Voodoo Doll |
-|              |             |                 |              |             |             |
-|              |             |                 |              |             |             |
-|              |             |                 |              |             |             |
-|              |             |                 |              |             |             |
-|              |             |                 |              |             |             |
+|                             |                               |                                 |
+|-----------------------------|-------------------------------|---------------------------------|
+| Knuckle bone                | Eye of newt                   | Live salamander                 |
+| Old talisman                | Stone knife                   | Ritual Doll                     |
+| Empty locket                | Crude drawing of a demon      | Executioner's hood              |
+| Small book of lullabies     | Malformed animal horn         | Defaced holy symbol             |
+| White leather gloves        | Sack of small bones           | A key, matching lock unknown    |
+| Broken teacup               | Dead reneagde's dream journal | Coin with a moth imprint        |
+|                             |                               |                                 |
+| Rat skin                    | Miniature scarecrow           | Statuette of SKORNE             |
+| Broken hand mirror          | Jar of pickled goats' eyes    | Gnarled wood cane               |
+| Book bound in human leather | Noose made of hair            | Box glued shut with demon blood |
+| Wooden figurine of a demon  | Black and red candle          | Small bottle of blood           |
+| Fly in amber                | Lump of obsidian              | Arrow with crow fletchings      |
+| Greataxe head               | Bag of rotten meat            | Broken cart wheel               |
+
+# Demons
+
 
 
 
