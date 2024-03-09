@@ -110,10 +110,67 @@ Age: 10xd6+d6 years old
 | Fly in amber                | Lump of obsidian              | Arrow with crow fletchings      |
 | Greataxe head               | Bag of rotten meat            | Broken cart wheel               |
 
-# Demons
+# Supplement: Demons
+
+## Demon's Last Resort
+
+A demon's last offense before death. Happens on a 1-in-6, and always with tyrants. Servants of a Tyrant will have the same last resort.
+
+|                                                  |
+|:------------------------------------------------:|
+| Thick black smoke fills the area for 10 minutes. |
+| Acidic demon blood splatters everywhere.         |
+| Limbs detach and start crawling.                 |
+| SKORNE possesses demon and delivers a message.   |
+| Turn into a swarm of vermin.                     |
+| Pit to underworld opens under body.              |
+
+## Servants of SKORNE ##
+
+More than just demons serve SKORNE.
+
+|         |            |              |
+|:-------:|:----------:|:------------:|
+| Ratfolk |            |              |
+|         |            |              |
+|         |            |              |
+|         | Wereravens |              |
+|         |            |              |
+|         |            |              |
+|         |            | Fallen Human |
+|         |            |              |
+|         |            |              |
+|         |            |              |
+|         |            |              |
+|         |            |              |
+|         |            |              |
+
+# Supplement: Occurrences
+
+## Victims
+
+## Settlement Details
+
+Size (2d6): 2-4 is 100 people, 5-6 is 400 people, 7 is 700 people, 8-9 is 1000 people, 10-12 is 1500 people. 
+
+| Attitude   |            |           |
+|:----------:|:----------:|:---------:|
+| Militant   | False Hope | Fallen    |
+| Xenophobic | Ambivalent | Terrified |
+| Corrupt    |            |           |
+|            |            |           |
+|            |            |           |
+|            |            |           |
+|            |            |           |
+|            |            |           |
+|            |            |           |
+|            |            |           |
+|            |            |           |
+|            |            |           |
+|            |            |           |
 
 
-
+## Sample Factions
 
 # Thanks and Attributions
 
