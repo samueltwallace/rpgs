@@ -4,7 +4,8 @@ author: "Sam W"
 documentclass: book
 fontfamily: courier
 fontsize: 16
-toc: true
+toc: false
+toc-depth: 1
 classoption:
  - a5
 usepackage: graphicx
@@ -36,7 +37,7 @@ There are many broken electrical and mechanical parts scattered about. If player
 
 |       |                                                                                                                                                 |
 |:------|:------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1     | **Remote Eyeball**: Camera live display onto a small tablet. Runs for 3 turns.                                                                  |
+| 1     | **Remote Eyeball**: Camera live display onto a small tablet. Runs for 30 minutes.                                                               |
 | 2     | **Mega Transistor**: Heats up a fist-sized block of alloy enough to melt metal.                                                                 |
 | 3     | **Mini magnet**: A handheld lump of iron with a strong enough magnetic pull to drag 10 pounds across the floor.                                 |
 | 4     | **Discarded arm**: A monk's arm; will flail around for several minutes, likely making noise.                                                    |
@@ -46,7 +47,7 @@ There are many broken electrical and mechanical parts scattered about. If player
 | 8     | **Holograph Generator**: Produces a looping moving image of a walking monk. Projectable up to 20 feet.                                          |
 | 9     | **Motion Sensor**: Sounds an alarm if motion is detected.                                                                                       |
 | 10-12 | **Battery pack** (backpack sized): Can provide 3 short bursts of power. Each burst turns off a green light on the battery, until none are left. |
-| 13-20 | Empty                                                                                                                                           |
+| 13-20 | Empty or trash                                                                                                                                  |
 
 	
 
@@ -58,18 +59,29 @@ This adventure is easily modified if you choose the monks to be android-like, in
 
 
 
-# Level 1
+# Monastery Contents
 
 \begin{figure*}
 \includegraphics[width=1.0\textwidth]{./map.png}
 \end{figure*}
 
+## Encounters
+
+**8 monks** travel like clockwork in a group between rooms, praying **in each room for 30 minutes** before moving on. They take **10 minutes to move**. They traverse the rooms in the following order: **1, 2, 3, 6, 9, 10, 13, 12, 11, 8, 7, 6, 4** then repeating. So when the players enter the dungeon, the monks begin in room 1. However you keep track or mark dungeon turns, make additional notes for the monks' movement.
+
+The monks are intent on reaching their destination to pray. They will not take kindly to intruders, asking them at first not to disturb their prayer, then escalating if the intruders do not leave. 
 
 ## Rooms
 
-### Narthex
+Walls are ultra-hardened plastic material. Can take a beating. All rooms have doors, made of the same material.
 
-An entrance hall to the main rooms of the monastery.
+### 1 Narthex
+
+An entrance hall to the main rooms of the monastery. Several statuettes and sculptures of gears, circuit parts, and electronics schematics, all labeled with names of the monks they came from.
+
+An inscription above the main entrance reads "Investigating the joy of consciousness the precision of mechanism."
+
+Doors to hallways out all walls.
 
 
 ### Cathedral
@@ -85,11 +97,6 @@ A small garden, surrounded by a covered walkway.
 ### Sacristy
 
 A storeroom for all the monastery valuables. Key with the Abbot.
-
-
-### Dormitory
-
-Where they count electric sheep.
 
 
 ### Chapterhouse
@@ -112,11 +119,6 @@ Many pods with charging cables, some occupied.
 Where new processor chips are manufactured for new monks.
 
 
-### Distillery
-
-Where wine is fermented to be sold.
-
-
 ### Bell Tower
 
 Where the daily schedule is kept.
@@ -126,10 +128,6 @@ Where the daily schedule is kept.
 
 A small artificial pond with some live fish, in an open courtyard.
 
-
-### Vineyard
-
-Open air vineyard, rows upon rows of grape vines.
 
 
 ### Storage Cellar
@@ -143,20 +141,9 @@ Some stored stuff. Roll 1d6:
 5. Extra android parts
 
 
-
-### Buttery
-
-Wine racks and storage.
-
-
 ### Infirmary
 
 Where damage is repaired.
-
-
-### Almonry
-
-Where money is given to the poor.
 
 
 ### Solder Workshop
@@ -196,17 +183,7 @@ A mixture of art and science, many inventive designs are created here.
 
 ### Anchorite Chamber
 
-A room with an enclosed and impassable central sub-chamber. Inside is a monk contemplating the nature of computation while its battery dies.
-
-
-### Clean Room
-
-Where monks wash up.
-
-
-### Awakening Room
-
-New monks are initiated here with a consciousness subroutine. This elevates them to the status of Processor.
+A room with an enclosed and impassable central sub-chamber. Inside is a monk contemplating the nature of computation until its battery dies.
 
 
 ### Dissection Chamber
