@@ -1,0 +1,56 @@
+                                                                                                 ROOMS
+ENTRANCE +-----+   +---------->------+               +-------+                  1. NARTHEX: GILDED ENTRANCE HALL
+--------->     |   |          |      |               |       |                  2. REFECTORY: EATING LOCATION
+         |     |   |          |   2  |               |       |                  3. DORMITORY ROOM: RECHARGING PORTS
+         |     |   |          |      <---------------> 3     |                  4. CLOISTER & GARTH: GARDEN & FISH POND
+         |  1  |   |          |      |               |       |         +-----+  5. AVIARY: CLOCKWORK BIRDS IN CAGES
+         |     <---+          +---^--+               |       |         |     |  6. STORAGE ROOM: CRATES OF SPARE PARTS
+         |     |   |              |                  |       |         |     |  7. CIRCUIT STUDIO: DIGITAL ART MURALS
+         +-----+   |        +-----v----+             |       |         |     |  8. CATHEDRAL: CIRCUIT BOARD ALTAR
+        +----------v        |          |             |       <--------->     |  9. ASSEMBLY ROOM: WHERE MONKS ARE MADE
+        |          |        |          |             +-------+         |  6  |  10. ARCHIVES: WHERE MEMORIES ON CHIPS ARE STORED 
+        |    4     |        |    5     |                               |     |  11. CLOCKWORK WORKSHOP: WHERE SIMPLE LIFE IS CREATED
+        |          <-------->          <--------------+---------------->     |  12. FRIED MOTHERBOARD: FORMERLY KEPT ORDER AMONG MONKS, STILL DIRECTS
+        +---^------+        +----------+              |                |     |  13. ANCHORITE: MONK STILL COMPILING THE ULTIMATE ANSWER
+            |                                         |                +-----+  14. SATELLITE RECEIVER: STILL COLLECTING DATA
+            |                                         |                                    ----------------------------
+            |                                         |                         ENCOUNTERS (D6): 1 - 1D6 MONKS, 2 - CLOCKWORK BEING,
+            |                                         |                                          3-6 NULL
+            |                                         |                                        
+        +---v--+            +--------------+          |             +-----------+   +-------+   CLOCKWORK BEINGS       HOOKS
+        |      |            |              |         O|1            |           |   |       |   ----------------      --------
+        |      |            |       8      <----------+------------->           |   |       |  1. BIRD FLOCK         1. RETRIEVE MEMORY CHIP
+        |   7  |            |              |          ^             |      9    |   |       |  2. MINI MONKS         2. FREE ANCHORITE
+        |      <------------>              |     .----------------. |           <--->       |  3. MOBILE FLOWER      3. SEND SATELLITE MESSAGE
+        |      |            |              |     |LOGIC GATE      | |           |   |       |  4. WORKER ANTS        4. RESTART MOTHERBOARD
+        |      |            +--------^-----+     | ONLY L OR R    | |           |   |  10   |  5. BEAR               5. SHUT DOWN MONKS
+        +------+                     |           | IS OPEN, WALL  | +---^-------+   +----^--+  6. HUMANOID           6. DESTROY ARCHIVES
+                                     |           | BUTTON SWITCHES|     |                |
+THE NEOCATHOLIC MONASTERY (SAM W )   |           '----------------'     |                |                              
+----------------------               |                                  |                |                           
+WELCOME TRAVELLER...                 |                              +---v---+            |                           
+                                     |                              |       |            |            
+THIS LONG-FUNCTIONING ANDROID        v-----------+                  |       |            |            
+MONASTERY HAS FINALLY BURNED OUT.    |           |                  | 12    |            |            
+THE MONKS ROAM THE HALLS, BARELY     |           <------------------>       |            |            +----------+
+DOING THEIR DUTIES, BUT THERE IS MUCH| 11        |                  |       |            |            |          |
+WISDOM AND DANGER TO BE DISCOVERED.  |           |                  |       |            |            |          |
+CONSULT THE TABLES BELOW FOR ROOM    |           |                  |       |           1|0           |          |
+CONTENTS.                            |           |                  |       <------------+-----------||      13  |
+------                               +---^-------+                  |       |            ^            |          |
+                                         |                          +-^-----+        .-----------.    |          |
+ROOM TREASURE                            |                            |              |LOGIC GATE |    |          |
+-------------                            |                      +-----+              '-----------'    |          |
+1. REMOTE EYEBALL & DISPLAY              |                      |                                     |          |
+2. OVERHEATING TRANSISITOR               |                      |                                     +----------+
+3. MINI ULTRAMAGNET                      |                  +---v--+                                      -+- <+-------.
+4. DISCARDED ARM: WILL FLOP WITH POWER   |                  |      |                                       |   | SEALED|
+5. STATIC SPEAKER                        +------------------>      |                                       |   | OFF   |
+6. PRINTED PRAYER BOARD: INDUCES REVERENCE WHEN READ        |14    <---------------------------------------+   | ROOM  |
+7. HOLOGRAPH GENERATOR: SHOWS PACING MONK                   |      |                                           '-------'
+8. SOUND ABSORBER                                           +---^--+
+9. MOTION SENSOR & ALARM                                        |
+10-13. BATTERY PACK: PROVIDES POWER TO ANY OF ABOVE             |
+14-20. EMPTY                                                    |
+                                                                |
+                                                          ENTRANCE/EXIT
