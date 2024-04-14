@@ -332,9 +332,9 @@ def monster():
     armor = rand.choice(["12", "13", "14", "15", "16"])
     ab = rand.choice(ability)
     if ab == "ethereal effect":
-        ab = random.choice(etheffect)
+        ab = rand.choice(etheffect)
     if ab == "physical effect":
-        ab = random.choice(physeffect)
+        ab = rand.choice(physeffect)
     return "monster: level " + level + " AC " + armor + " " + bio + " " + form + " with " + ab
 
 def make_room(num):

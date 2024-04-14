@@ -113,15 +113,17 @@ Alice: Time for dynamite, I guess...
 
 Roll 2d6 for each trait. A roll of 2-3 give -2, 4-5 is -1, 6-8 is +0, 9-10 is +1, and 11-12 is +2. 
 
-Total your bonuses across all traits. Roll another die. Cross-reference these two numbers for a gear pack on the following table.
+Choose 4 items off the list below. Everyone also begins with a cold-weather parka, 4 days' food, and the group begins with a mode of transportation of their choice (e.g. snowshoes, dog sled, skis).
 
-
-|          | 1     | 2 | 3 | 4 | 5 | 6 |
-|:--------:|:-----:|:-:|:-:|:-:|:-:|:-:|
-| -6 to -5 | Flare |   |   |   |   |   |
-| -4 to -3 |       |   |   |   |   |   |
-| -2 to -1 |       |   |   |   |   |   |
-| 0        |       |   |   |   |   |   |
-| +1 to +2 |       |   |   |   |   |   |
-| +3 to +4 |       |   |   |   |   |   |
-| +5 to +6 |       |   |   |   |   |   |
+1. Bundle of 20 flares
+2. Tent & Sleeping Bags
+3. Ice Axe
+4. Crampons
+5. 200' rope & ATC
+6. Hatchet
+7. Hammock
+8. Fire starter logs & butane torch
+9. Helmet
+10. Hunting Rifle
+11. Bowie Knife
+12. 
