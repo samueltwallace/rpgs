@@ -23,7 +23,7 @@ This is background list and setting toolbox for a dark surrealist setting. Inspi
 Other media that may be inspirational:
 
  - *SKORNE* by Samuel James
- - *Ravenloft* Adventures
+ - *Mörk Borg* by Pelle Nilsson
 
 
 # Characters
@@ -147,10 +147,27 @@ Born of a holy thing, but then infected with something dark and evil, you are a 
 
 Possessions: Robes, Incense
 
-Special: You can predict the outcome of an action, should it come to pass, on a successfull Divination test.
 
+## Rag and Bone Man
 
++3 Impale
++3 Bear Weight
 
+You have a collection. Your extra bones protrude from every bare inch of skin, shredding any that approach you.
+
+Possessions: Bones, oversized femur club
+
+## Mudstalker
+
++3 Suffocate
++2 Tracking
++1 Squeeze
+
+You are coated with ooze, slime, and sludge of every putrid kind. You are filled with it. You are immensely flexible, and vulnerable to lacerations.
+
+Possessions: Curved knife, loincloth, walking stick
+
+## 
 
 # Locations
 
