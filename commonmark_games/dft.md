@@ -1,5 +1,5 @@
 ---
-title: "An Endless Corpsefield: Dark Surrealism Tables"
+title: "An Endless Corpsefield: Dark Fantasy Tables"
 author: "Sam W"
 numbersections: true
 secnumdepth: 2
@@ -19,12 +19,13 @@ secnumdepth: 2
 
 -----
 
-This is background list and setting toolbox for a dark fantasy setting. Inspired by the desolate spectrum from RuneScape's Morytania to the paintings of Zdzisław Beksiński, these random tables should help you build a setting of any level of structure or detail. 
+This is background set and setting toolbox for a dark fantasy setting. Inspired by the desolate spectrum from RuneScape's Morytania to the paintings of Zdzisław Beksiński, these random tables should help you build a setting of any level of structure or detail. 
 
 Other media that may be inspirational:
 
  - *SKORNE* by Samuel James
  - *Mörk Borg* by Pelle Nilsson
+ - *Ámr*, an album by Ihsahn
 
 
 # Characters
@@ -212,7 +213,57 @@ Flesh collage reanimated, you were brought back to be the ultimate being. It was
 
 Possessions: Bloodstained book of poetry, bone saw, claw hammer
 
-## Ghoul
+## Fallen Paladin
+
++3 Sword
+
++3 Drain Energy
+
+
+You once set out to this land to cleanse it of evil. You were transformed into a vengeful wight for your hubris.
+
+Possessions: Sword, Armor, Holy symbol
+
+## Arachnoid
+
++3 Climb
+
++2 Bite
+
++1 Sense Movement
+
+Too many limbs, too many eyes. You are formed of an experiment, one that met its desired end. 
+
+Special: You can spray silk once per day, restraining or pinning an opponent.
+
+Possessions: bits of leftover prey
+
+
+## Voice Collector
+
++3 Impersonate (by voice)
+
++2 Steal voice
+
+You have taken the voices of many. You use them to your own ends, despite how much the consciousness protests within you.
+
+
+## Dead God's Plaything
+
++3 Entertain
+
++2 Bend Reality
+
+You danced for a now forgotten god. You were given powerful gifts, bringing you further influence and power. You wrested a small fraction of your master's power, giving you unnatural abilities.
+
+Possessions: Vampiric spear, amulet of deception.
+
+
+## Trumpeter of the Outerworld
+
++2 Transform other
+
++2 
 
 
 
